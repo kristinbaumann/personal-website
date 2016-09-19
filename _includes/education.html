@@ -10,13 +10,19 @@
                         <li class="">
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    {{ edu.time }}
+                                  <b><a href={{ edu.link }}>{{ edu.school }}</a></b>
+                                  <br/>in {{ edu.location }}
+                                  </br>{{ edu.time }}
                                 </div>
                             </div>
                             <div class="box-content u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    <b>{{ edu.school }}</b>
-                                    <br/>{{ edu.degree }}
+                                    <br/><b>{{ edu.degree }}</b>
+                                    <ul>
+                                    {% for desc in edu.description %}
+                                      <li>{{ desc }}</li>
+                                    {% endfor %}
+                                    <ul>
                                 </div>
                             </div>
                         </li>

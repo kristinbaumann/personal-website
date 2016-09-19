@@ -10,14 +10,21 @@
                         <li class="">
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    {{ work.time }}
+                                    <b><a href={{ work.link }}>{{ work.company }}</a></b>
+                                    <br/>in {{ work.location }}
+                                    <br/>{{ work.time }}
                                 </div>
                             </div>
                             <div class="box-content u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    <b>{{ work.company }}</b>
-                                    <br/>{{ work.position }}
-                                    <br/>{{ work.description }}
+
+                                    <b>{{ work.position }}</b><br/>
+                                    <ul>
+                                    {% for desc in work.description %}
+                                      <li>{{ desc }}</li>
+                                    {% endfor %}
+                                    <ul>
+                                    Technologies: {{ work.technologies }}
                                 </div>
                             </div>
                         </li>
