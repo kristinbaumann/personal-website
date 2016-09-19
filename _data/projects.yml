@@ -1,0 +1,27 @@
+projectsType:
+- id: company-projects
+  name: Company Projects
+- id: university-projects
+  name: University Projects
+
+projectsList:
+- name: Test Project Name
+  id: project1
+  type: company-projects
+  shortDesc: company project
+  important: false
+  link: https://example.com
+  company: Test Company
+  time: 2015-2016
+  team: 3 developer, 1 designer
+  role: Front-end developer
+  tech: HTML5, SASS
+  description:
+  - sfdsdfafdas dfa sdfas dfasd fasdf sadf
+  - fasfnasj dfasdf asdfsadf sadf asdfasdf asdf
+  cover: /assets/img/projects/onsen-ui-android.png
+  pictures:
+    - url: /assets/img/projects/onsen-ui-android.png
+      caption: caption 1
+    - url: /assets/img/projects/onsen-ui-ios.png
+      caption: caption 2

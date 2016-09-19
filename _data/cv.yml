@@ -1,0 +1,122 @@
+aboutme:
+- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+works:
+- company: 8 Bit Rockstars | Powering NFQ Group
+  link: http://8bitrockr.com/
+  location: Ho Chi Minh City (Vietnam)
+  position: Frontend Developer
+  time: June 2016 - present
+  description:
+  - Realisation of startup projects as frontend tech lead
+  technologies:
+  - React.js, HTML5, CSS3, ES6, SASS, Webpack, Scrum
+
+- company: Small Multiples
+  link: http://small.mu/
+  location: Sydney (Australia)
+  position: Data Visualisation Developer
+  time: September 2015 - January 2016
+  description:
+  - Implementation of single-page applications with feature-rich data visualisations
+  - Attention to mobile optimisation and cross-browser compatibility
+  technologies:
+  - JavaScript, D3.js, CoffeeScript, React, React Native, Leaflet, Mapbox, Gulp
+
+- company: Research Campus STIMULATE
+  link: https://www.forschungscampus-stimulate.de/en/start/index.html
+  location: Magdeburg (Germany)
+  position: Research Assistant
+  time: February 2015 - May 2016
+  description:
+  - Academic research on the visualization of cerebral vessels with focus on the vessel walls
+  - "Goal: improvement of diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)"
+  - "Research results summarized in my bachelor thesis: Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"
+  technologies:
+  - Matlab
+
+- location: Magdeburg (Germany)
+  company: Freelancer (Web Development)
+  time: April 2013 - June 2015
+  description:
+  - Planning, designing and implementation of web sites and online shops
+  - Requirements engineering in close collaboration with clients
+  technologies:
+  - HTML5, CSS3, JavaScript
+
+- company: Marmalade GmbH
+  link: http://www.marmalade.de/
+  location: Magdeburg (Germany)
+  position: Student Trainee (Web Development)
+  time: September 2013 - March 2015
+  description:
+  - Development of static websites and enhancement of web shop systems (Oxid, Magento)
+  technologies:
+  - HTML5, CSS3, JavaScript, PHP, Symfony
+
+- company: Otto-von-Guericke University
+  link: http://www.inf.ovgu.de/inf/en/
+  location: Magdeburg (Germany)
+  position: Graduate Teaching Assistant
+  time: October 2013 - February 2014
+  description:
+  - Tutor for “Introduction to Computer Science” lecture
+  technologies:
+  - Java
+
+
+education:
+- school: Otto-von-Guericke University
+  location: Magdeburg (Germany)
+  degree: Bachelor of Science in Computational Visualistics
+  time: October 2012 - April 2016
+  link: http://www.inf.ovgu.de/inf/en/Study/Study+Courses/Bachelor/Computational+Visualistics.html
+  description:
+  - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
+  - "Courses (excerpt): Mathematics, Algorithms and Data Structures, Databases, Software Engineering, Project Management, Computer Graphics, (Medical) Visualization"
+  - "Technologies: Matlab, Java, C++, MySQL, Scrum"
+  - "Final Score: 1,2 (very good)"
+  - "Scholarship: Friedrich Naumann Foundation for Freedom"
+
+- school: Gymnasium Philanthropinum
+  location: Dessau (Germany)
+  degree: High School Graduation (Abitur)
+  time: August 2005 - June 2012
+  description:
+  - Majors in Mathematics, English and Computer Science
+  - Graduation as best student in year 2012 with overall grade 1,1 (very good)
+
+
+skills:
+- type: Programming
+  details:
+  - 3+ years experience in developing web applications
+  - Advanced Experience in HTML5, CSS3 and JavaScript
+  - Proficient Experience in JavaScript Frameworks React and React Native
+  - Familiar with ECMAScript 6 and CoffeeScript
+  - Knowledge of CSS Frameworks Bootstrap and Foundation
+  - Understanding of CSS Preprocessors (SASS, LESS, Stylus)
+  - Experience in designing and developing data visualisations with D3.js, Leaflet and Mapbox API
+  - Understanding of Java, Matlab, C++, MySQL and PHP
+  - Familiar mit frontend unit tests with Mocha and Karma
+  - Basic understanding of frontend build tools Webpack and Gulp
+  - Familiar with OOP, REST, HTTP, MVC
+
+- type: Software Development
+  details:
+  - Experience with agile software development SCRUM
+  - Understanding of version control system GIT
+  - Familiar with responsive web development, mobile optimisation and cross-browser and cross-device compatibility
+  - Basic knowledge of UI / UX design and general design principles
+
+- type: Soft Skills
+  details:
+  - High level of self-motivation and ambition
+  - Very good communication and presentation skills
+  - Team player with leadership qualities
+
+- type: Languages Skills
+  details:
+  - "German: native"
+  - "English: proficient (IELTS score: 7.5, CEFR C1)"
+  - "French: basic"
