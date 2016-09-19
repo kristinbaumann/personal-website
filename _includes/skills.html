@@ -1,0 +1,21 @@
+<section id="skills" class="section-about-detail">
+    {% assign cv = site.data.cv %}
+    <div class="container animate-opacity opacity-0">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div class="about-block">
+                    <h3>Skills and Techniques</h3> {% for skill in cv.skills %}
+                    <h4>{{ skill.type }}</h4>
+                    <p>{{ skill.description }}</p>
+                    {% if skill.details %}
+                    <ul class="skills">
+                        {% for detail in skill.details %}
+                        <li><b>{{ detail.name }}:</b> {{ detail.description }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %} {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

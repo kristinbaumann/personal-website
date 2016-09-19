@@ -1,0 +1,29 @@
+<section id="education" class="section-about-detail">
+    {% assign cv = site.data.cv %}
+    <div class="container animate-opacity opacity-0">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div class="about-block">
+                    <h3>Education</h3>
+                    <ul class="timeline">
+                        {% for edu in cv.education %}
+                        <li class="">
+                            <div class="year u-table">
+                                <div class="u-tableCell u-verticalAlignMiddle">
+                                    {{ edu.time }}
+                                </div>
+                            </div>
+                            <div class="box-content u-table">
+                                <div class="u-tableCell u-verticalAlignMiddle">
+                                    <b>{{ edu.school }}</b>
+                                    <br/>{{ edu.degree }}
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
