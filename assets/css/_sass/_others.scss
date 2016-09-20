@@ -187,8 +187,7 @@ a[target="_blank"]:not(.no-underline) {
 }
 
 .author-avatar {
-    height: 120px;
-    width: auto;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -464,6 +463,13 @@ a[target="_blank"]:not(.no-underline) {
     }
 }
 
+.section-about-me{
+  background-color: $section-background;
+  .about-me-cta{
+      margin-bottom: 0;
+  }
+}
+
 // about detail
 table.table-aboutme {
     td {
@@ -613,4 +619,8 @@ table.table-aboutme {
             }
         }
     }
+}
+
+.text-center{
+  text-align: center;
 }

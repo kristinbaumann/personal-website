@@ -252,39 +252,28 @@ ul.socialAccountList {
     list-style: none;
     margin: $leading auto;
     padding-left: 0;
-    width: 350px;
+    width: 80%;
     text-align: center;
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+    }
     li {
         display: inline-block;
         text-align: center;
         a {
             margin: 0 5%;
             display: block;
-            // margin: 0;
-            // padding: 0 10px;
             text-decoration: none;
             background-repeat: no-repeat;
             background-position: center center;
             background-size: contain;
             color: $gray;
+            transition: all .2s;
+
             &:hover {
-                opacity: 1;
+                opacity: 0.8;
             }
         }
     }
-    &.icon-large {
-        a {
-            font-size: $font-L;
-        }
-        @media (max-width: $screen-xs-max) {
-            margin: 0;
-            width: 100%;
-            a {
-                margin-top: 20px;
-                margin-bottom: 10px;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-        }
-    }
+    
 }

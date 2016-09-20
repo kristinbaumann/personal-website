@@ -35,6 +35,8 @@ author:
   github:            kristinbaumann
   twitter:           kristin_baumann
   linkedin:          kristinbaumann
+  xing:              Kristin_Baumann9
+  email:             mail@kristin-baumann.com
 
 # Server
 exclude:             [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "haml", "Gemfile", "Gemfile.lock", "gulpfile.js"]
