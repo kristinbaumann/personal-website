@@ -5,26 +5,28 @@
             <div class="col-sm-12 col-md-12">
                 <div class="about-block">
                     <h3>Working Experience</h3>
+                    <hr>
                     <ul class="timeline">
                         {% for work in cv.works %}
-                        <li class="">
+                        <li class="timeline-item">
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    <b><a href={{ work.link }}>{{ work.company }}</a></b>
-                                    <br/>in {{ work.location }}
-                                    <br/>{{ work.time }}
+                                    <h4><a href={{ work.link }}>{{ work.company }}</a></h4>
+                                    <ul>
+                                      <li>in {{ work.location }}</span></li>
+                                      <li>{{ work.time }}</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="box-content u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-
-                                    <b>{{ work.position }}</b><br/>
+                                    <h4>{{ work.position }}</h4>
                                     <ul>
                                     {% for desc in work.description %}
-                                      <li>{{ desc }}</li>
+                                      <li><span>{{ desc }}</span></li>
                                     {% endfor %}
-                                    <ul>
-                                    Technologies: {{ work.technologies }}
+                                      <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span></li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>

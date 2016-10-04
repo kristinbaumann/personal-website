@@ -5,7 +5,7 @@ works:
 - company: 8 Bit Rockstars | Powering NFQ Group
   link: http://8bitrockr.com/
   location: Ho Chi Minh City (Vietnam)
-  position: Frontend Developer
+  position: Senior Frontend Developer
   time: June 2016 - present
   description:
   - Realisation of startup projects as frontend tech lead
@@ -36,7 +36,7 @@ works:
   - Matlab
 
 - location: Magdeburg (Germany)
-  company: Freelancer (Web Development)
+  position: Freelancer (Web Development)
   time: April 2013 - June 2015
   description:
   - Planning, designing and implementation of web sites and online shops
@@ -74,9 +74,9 @@ education:
   description:
   - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
   - "Courses (excerpt): Mathematics, Algorithms and Data Structures, Databases, Software Engineering, Project Management, Computer Graphics, (Medical) Visualization"
-  - "Technologies: Matlab, Java, C++, MySQL, Scrum"
   - "Final Score: 1,2 (very good)"
   - "Scholarship: Friedrich Naumann Foundation for Freedom"
+  technologies: Matlab, Java, C++, MySQL, Scrum
 
 - school: Gymnasium Philanthropinum
   location: Dessau (Germany)

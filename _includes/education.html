@@ -5,24 +5,30 @@
             <div class="col-sm-12 col-md-12">
                 <div class="about-block">
                     <h3>Education</h3>
+                    <hr>
                     <ul class="timeline">
                         {% for edu in cv.education %}
-                        <li class="">
+                        <li class="timeline-item">
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                  <b><a href={{ edu.link }}>{{ edu.school }}</a></b>
-                                  <br/>in {{ edu.location }}
-                                  </br>{{ edu.time }}
+                                  <h4><a href={{ edu.link }}>{{ edu.school }}</a></h4>
+                                  <ul>
+                                    <li>in {{ edu.location }}</li>
+                                    <li>{{ edu.time }}</li>
+                                  </ul>
                                 </div>
                             </div>
                             <div class="box-content u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    <br/><b>{{ edu.degree }}</b>
+                                    <h4>{{ edu.degree }}</h4>
                                     <ul>
                                     {% for desc in edu.description %}
-                                      <li>{{ desc }}</li>
+                                      <li><span>{{ desc }}</span></li>
                                     {% endfor %}
-                                    <ul>
+                                    {% if edu.technologies %}
+                                    <li><span><span class="underline">Technologies:</span> {{ edu.technologies }}</span></li>
+                                    {% endif %}
+                                    </ul>
                                 </div>
                             </div>
                         </li>

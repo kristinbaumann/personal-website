@@ -1,27 +1,32 @@
 <section id="about" class="section--subscribe {% if page.layout == 'home' %} section-about-me {% endif %}">
-    <div class="container-fluid container--content {% if page.layout == 'home' %} animate-opacity opacity-0 {% endif %}">
+    <div class="container {% if page.layout == 'home' %} animate-opacity opacity-0 {% endif %}">
         <div class="section-title">
-            <h2>About me</h2>
+            <h2>About Me</h2>
+            <hr>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-6 u-alignCenter">
-                <img class="author-avatar" src="{{ site.avatar }}" />
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                {{ site.data.cv.aboutme }}
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="col-xs-12 col-sm-6 u-alignCenter u-verticalAlignMiddle">
+                    <img class="author-avatar" src="{{ site.avatar }}" />
+                </div>
+                <div class="col-xs-12 col-sm-6 about-me-text">
+                    {{ site.data.cv.aboutme }}
+                </div>
             </div>
         </div>
         <div class="row text-center">
-          <h3 class="about-me-cta">Get in touch with me:</h3>
+            <h3 class="about-me-cta">Get in touch with me:</h3>
         </div>
         <div class="row">
-            <ul class="socialAccountList icon-large">
-              <li class="col-xs-2 col-sm-2 col-xs-offset-1 col-sm-offset-1"><a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
-              <li class="col-xs-2 col-sm-2"><a href="https://www.xing.com/profile/{{ site.author.xing }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-xing-square"></i></a></li>
-              <li class="col-xs-2 col-sm-2"><a href="mailto:{{ site.author.email }}" class="no-underline"><i class="fa fa-2x fa-envelope"></i></a></li>
-              <li class="col-xs-2 col-sm-2"><a href="https://twitter.com/{{ site.author.twitter }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a></li>
-              <li class="col-xs-2 col-sm-2"><a href="https://github.com/{{ site.author.github }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-github-square"></i></a></li>
-            </ul>
+            <div class="col-sm-8 col-sm-offset-2">
+                <ul class="socialAccountList icon-large">
+                    <li class="col-xs-2 col-sm-2 col-xs-offset-1 col-sm-offset-1"><a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                    <li class="col-xs-2 col-sm-2"><a href="https://www.xing.com/profile/{{ site.author.xing }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-xing-square"></i></a></li>
+                    <li class="col-xs-2 col-sm-2"><a href="mailto:{{ site.author.email }}" class="no-underline"><i class="fa fa-2x fa-envelope"></i></a></li>
+                    <li class="col-xs-2 col-sm-2"><a href="https://twitter.com/{{ site.author.twitter }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+                    <li class="col-xs-2 col-sm-2"><a href="https://github.com/{{ site.author.github }}" class="no-underline" target="_blank"><i class="fa fa-2x fa-github-square"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>

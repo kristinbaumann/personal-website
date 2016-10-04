@@ -5,7 +5,7 @@
 // Credit: Modified based on Typebase.less v0.1.0 | MIT License
 // Typesetting variables.
 $baseFontSize: 18; // in pixels. This would result in 22px on desktop
-$baseLineHeight: 1.5; // how large the line height is as a multiple of font size  
+$baseLineHeight: 1.5; // how large the line height is as a multiple of font size
 $leading: $baseLineHeight * 1rem;
 // Rate of growth for headings
 $scale: 1;
@@ -26,24 +26,28 @@ $body-primary-font: 'Lato', sans-serif;
 $title-primary-font: 'Cabin Sketch', Geneva, sans-serif;
 $title-secondary-font: 'Short Stack', cursive, sans-serif;
 
+$lato: 'Lato', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$roboto-mono: 'Roboto Mono', monospace;
+$roboto-slab: 'Roboto Slab', monospace;
 
-.font-xs { 
-    font-size: $font-XS; 
+.font-xs {
+    font-size: $font-XS;
 }
-.font-xs1 { 
-    font-size: $font-XS1; 
+.font-xs1 {
+    font-size: $font-XS1;
 }
-.font-xs2 { 
-    font-size: $font-XS2; 
+.font-xs2 {
+    font-size: $font-XS2;
 }
-.font-s { 
-    font-size: $font-S; 
+.font-s {
+    font-size: $font-S;
 }
-.font-m { 
-    font-size: $font-M; 
+.font-m {
+    font-size: $font-M;
 }
-.font-l { 
-    font-size: $font-L; 
+.font-l {
+    font-size: $font-L;
 }
 
 
