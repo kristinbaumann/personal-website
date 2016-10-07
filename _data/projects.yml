@@ -5,23 +5,26 @@ projectsType:
   name: University Projects
 
 projectsList:
-- name: Test Project Name
-  id: project1
+- name: Homelessness in Australia
+  id: homelessness
   type: company-projects
-  shortDesc: company project
-  important: false
-  link: https://example.com
-  company: Test Company
-  time: 2015-2016
-  team: 3 developer, 1 designer
-  role: Front-end developer
-  tech: HTML5, SASS
+  important: true
+  link: http://www.abc.net.au/interactives/homeless/
+  company: Small Multiples
+  client: FactFile ABC News (Australia)
+  tech: TODO
   description:
-  - sfdsdfafdas dfa sdfas dfasd fasdf sadf
-  - fasfnasj dfasdf asdfsadf sadf asdfasdf asdf
-  cover: /assets/img/projects/onsen-ui-android.png
+  - desc line 1
+  - desc line 2
+  cover: /assets/img/projects/homelessness/homelessness3.png
   pictures:
-    - url: /assets/img/projects/onsen-ui-android.png
+    - url: /assets/img/projects/homelessness/homelessness1.png
       caption: caption 1
-    - url: /assets/img/projects/onsen-ui-ios.png
+    - url: /assets/img/projects/homelessness/homelessness2.png
       caption: caption 2
+  videos:
+    - mp4: /assets/img/projects/homelessness/Homeless_header_1.155f765b.mp4
+      ogv: /assets/img/projects/homelessness/Homeless_header_1.3067c7e5.ogv
+      webm: /assets/img/projects/homelessness/Homeless_header_1.e73e3c73.webm
+      caption: caption video 1
+      autoplay: autoplay

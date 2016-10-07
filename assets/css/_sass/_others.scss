@@ -68,29 +68,29 @@ a:not(.no-hyphens) {
     @include hyphens();
 }
 
-a[target="_blank"]:not(.no-underline) {
-    position: relative;
-    text-decoration: none;
-
-    &:before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 1px;
-        bottom: 0;
-        left: 0;
-        visibility: hidden;
-        transform: scaleX(0);
-        transition: all 0.2s ease;
-        background-color: $blue;
-    }
-
-    &:hover:before {
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-}
+// a[target="_blank"]:not(.no-underline) {
+//     position: relative;
+//     text-decoration: none;
+//
+//     &:before {
+//         content: "";
+//         position: absolute;
+//         width: 100%;
+//         height: 1px;
+//         bottom: 0;
+//         left: 0;
+//         visibility: hidden;
+//         transform: scaleX(0);
+//         transition: all 0.2s ease;
+//         background-color: $blue;
+//     }
+//
+//     &:hover:before {
+//         visibility: visible;
+//         -webkit-transform: scaleX(1);
+//         transform: scaleX(1);
+//     }
+// }
 
 .content-body {
     h3 {
@@ -150,25 +150,7 @@ a[target="_blank"]:not(.no-underline) {
         box-shadow: 0 4px 10px 1px rgba(0, 0, 0, .2);
     }
 }
-/** cv page **/
-.cv {
-    position: relative;
 
-    table {
-        td,
-        th {
-            border: 0;
-        }
-    }
-
-    #btnDownloadCV {
-        position: fixed;
-        top: 15px;
-        right: 15px;
-        margin: 0;
-        background-color: white;
-    }
-}
 /** homepage **/
 .section-backgroundImage .welcome-img {
     position: fixed;
@@ -228,7 +210,7 @@ a[target="_blank"]:not(.no-underline) {
         text-align: center;
         width: 100%;
         position: absolute;
-        bottom: 27px;
+        bottom: 20px;
         opacity: 0.7;
         height: $font-M;
         line-height: $font-S;
@@ -271,6 +253,7 @@ a[target="_blank"]:not(.no-underline) {
 
     .button {
         margin: 5px;
+        transition: .2s all;
     }
 }
 
@@ -342,10 +325,13 @@ a[target="_blank"]:not(.no-underline) {
 
                 .project-name {
                     font-size: $font-M;
+                    color: $my_green;
+                    margin-bottom: 10px;
+                    font-weight: bold;
                 }
 
                 .project-desc {
-                    font-size: $font-S;
+                    font-size: $font-XS2;
                 }
             }
         }
@@ -381,6 +367,8 @@ a[target="_blank"]:not(.no-underline) {
 
         .remodal-close:before {
             font-size: 35px;
+            right: 0;
+            left: auto;
         }
 
         .content-container {
@@ -410,10 +398,13 @@ a[target="_blank"]:not(.no-underline) {
                 color: $gray;
             }
 
-            p {
+            li {
                 text-align: left;
                 font-size: $font-XS1;
                 line-height: $font-S;
+            }
+            video {
+              width: 100%;
             }
         }
         @media (min-width: $screen-md-min) {
@@ -597,4 +588,8 @@ table.table-aboutme {
 
 .text-center {
     text-align: center;
+}
+
+#portfolio{
+
 }

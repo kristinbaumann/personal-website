@@ -21,7 +21,12 @@
                     <div class="grid-item-cover-content-container">
                         <div class="grid-item-cover-content">
                             <div class="project-name">{{ project.name }}</div>
-                            <div class="project-desc">{{ project.shortDesc }}</div>
+                            {% if project.client %}
+                            <div class="project-desc">{{ project.client }}</div>
+                            {% endif %}
+                            {% if project.topic %}
+                            <div class="project-desc">{{ project.topic }}</div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -46,38 +51,48 @@
                 <div class="content-container">
                     {% if project.link %}
                     <h2><a href="{{project.link}}" target="_blank">{{project.name}}</a></h2> {% else %}
-                    <h2>{{project.name}}</h2> {% endif %} {% if project.time %}
-                    <div class="sub">
-                        <span class="sub-title">Time:</span> {{project.time}}
-                    </div>
-                    {% endif %} {% if project.company %}
+                    <h2>{{project.name}}</h2>
+                    {% endif %}
+
+                     {% if project.company %}
                     <div class="sub">
                         <span class="sub-title">Company:</span> {{project.company}}
                     </div>
-                    {% endif %} {% if project.team %}
-                    <div class="sub">
-                        <span class="sub-title">Team:</span> {{project.team}}
-                    </div>
-                    {% endif %} {% if project.role %}
-                    <div class="sub">
-                        <span class="sub-title">Role:</span> {{project.role}}
-                    </div>
-                    {% endif %} {% if project.tech %}
+                    {% endif %}
+
+                    {% if project.tech %}
                     <div class="sub full-width">
-                        <span class="sub-title">Technology:</span> {{project.tech}}
+                        <span class="sub-title">Technologies:</span> {{project.tech}}
                     </div>
-                    {% endif %} {% if project.source %}
+                    {% endif %}
+
+                    {% if project.source %}
                     <div class="sub full-width">
                         <span class="sub-title">Source code:</span>
                         <a href="{{project.source}}" target="_blank">{{project.source}}</a>
-                    </div>{% endif %} {% for desc in project.description %}
-                    <p>{{desc}}</p>
-                    {% endfor %} {% if project.blog %}
+                    </div>{% endif %}
+
+                    {% for desc in project.description %}
+                    <ul>
+                      <li>{{desc}}</li>
+                    </ul>
+                    {% endfor %}
+
+                    {% if project.blog %}
                     <p>For more information, please read this blog: <a href="project.blog" target="_blank">{{project.blog}}</a></p>
-                    {% endif %} {% if project.videos %} {% if project.type != 'others' %}
-                    <p>Demo video: </p>{% endif %}
-                    <br/>
-                    <iframe width="100%" height="400" style="max-width: 710px" data-aload="https://www.youtube.com/embed/{{project.videos.youtube}}?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>{% endif %}
+                    {% endif %}
+
+
+
+                    {% for video in project.videos %}
+                    <p>{{ video.caption }}</p>
+                    <video autoplay="{{video.autoplay}}" loop="loop" muted="muted">
+                      <source src="{{video.mp4}}" type="video/mp4">
+                      <source src="{{video.ogv}}" type="video/ogv">
+                      <source src="{{video.webm}}" type="video/webm">
+                      Your browser does not support the video tag.
+                    </video>
+                    {% endfor %}
                 </div>
                 <button data-remodal-action="cancel" class="button">close</button>
             </div>
