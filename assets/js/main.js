@@ -119,7 +119,9 @@ function loadFont(fontName) {
 }
 loadFont('Lato');
 loadFont('Cabin Sketch');
-loadFont('Short Stack');
+loadFont('Roboto');
+loadFont('Roboto Slab');
+// loadFont('Roboto Mono');
 
 $(function() {
     // loading indicator

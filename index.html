@@ -3,32 +3,19 @@ layout: home
 title: Kristin Baumann
 ---
 <article class="postWrapper home-page">
-    <section id="welcome" class="section--first section--about section--fullpage u-table">
-        <div class="section-backgroundImage animate-opacity opacity-0">
-            <div class="welcome-img"></div>
-            <div class="welcome-img-overlay"></div>
-        </div>
-        <div class="section-gradient section-gradient--lighter animate-opacity opacity-0"></div>
-        <div id="welcomeContainer" class="section-title u-tableCell u-verticalAlignMiddle typingAnimation animate-color">
-            <div class="container hide" data-delay="500">
-                <h2>Hi, I'm <strong>Kristin Baumann</strong>!</h2>
-                <div class="postMeta-wrapper">Frontend Developer - Travel Addict - DataVis Lover</div>
-            </div>
-            <button class="trigger hide"></button>
-        </div>
-    </section>
+
+    {% include hero.html %}
 
     {% include aboutme.html %}
 
-    {% include experience.html %}
+    {% include resume_experience.html %}
 
-    {% include education.html %}
+    {% include resume_education.html %}
 
-    {% include skills.html %}
+    {% include resume_skills.html %}
 
     {% include portfolio.html %}
 
-    <footer class="section--footer">
-      © 2016 Made by <strong>Kristin Baumann</strong>
-    </footer>
+    {% include footer.html %}
+
 </article>
