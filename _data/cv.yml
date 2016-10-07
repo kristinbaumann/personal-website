@@ -16,9 +16,9 @@ works:
   link: http://small.mu/
   location: Sydney (Australia)
   position: Data Visualisation Developer
-  time: September 2015 - January 2016
+  time: Sept 2015 - Jan 2016
   description:
-  - Implementation of single-page applications with feature-rich data visualisations
+  - Implementation of Single Page Web Applications with feature-rich data visualisations
   - Attention to mobile optimisation and cross-browser compatibility
   technologies:
   - JavaScript, D3.js, CoffeeScript, React, React Native, Leaflet, Mapbox, Gulp
@@ -27,17 +27,16 @@ works:
   link: https://www.forschungscampus-stimulate.de/en/start/index.html
   location: Magdeburg (Germany)
   position: Research Assistant
-  time: February 2015 - May 2016
+  time: Feb 2015 - May 2016
   description:
-  - Academic research on the visualization of cerebral vessels with focus on the vessel walls
-  - "Goal: improvement of diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)"
-  - "Research results summarized in my bachelor thesis: Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"
+  - Academic research on the visualization of cerebral vessels with focus on the vessel walls, for the improvement of diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)
+  - "Research results summarized in my Bachelor Thesis: \"Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall\""
   technologies:
   - Matlab
 
 - location: Magdeburg (Germany)
   position: Freelancer (Web Development)
-  time: April 2013 - June 2015
+  time: Apr 2013 - June 2015
   description:
   - Planning, designing and implementation of web sites and online shops
   - Requirements engineering in close collaboration with clients
@@ -48,7 +47,7 @@ works:
   link: http://www.marmalade.de/
   location: Magdeburg (Germany)
   position: Student Trainee (Web Development)
-  time: September 2013 - March 2015
+  time: Sept 2013 - Mar 2015
   description:
   - Development of static websites and enhancement of web shop systems (Oxid, Magento)
   technologies:
@@ -58,7 +57,7 @@ works:
   link: http://www.inf.ovgu.de/inf/en/
   location: Magdeburg (Germany)
   position: Graduate Teaching Assistant
-  time: October 2013 - February 2014
+  time: Oct 2013 - Feb 2014
   description:
   - Tutor for “Introduction to Computer Science” lecture
   technologies:
@@ -69,7 +68,7 @@ education:
 - school: Otto-von-Guericke University
   location: Magdeburg (Germany)
   degree: Bachelor of Science in Computational Visualistics
-  time: October 2012 - April 2016
+  time: Oct 2012 - Apr 2016
   link: http://www.inf.ovgu.de/inf/en/Study/Study+Courses/Bachelor/Computational+Visualistics.html
   description:
   - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
@@ -81,7 +80,7 @@ education:
 - school: Gymnasium Philanthropinum
   location: Dessau (Germany)
   degree: High School Graduation (Abitur)
-  time: August 2005 - June 2012
+  time: Aug 2005 - June 2012
   description:
   - Majors in Mathematics, English and Computer Science
   - Graduation as best student in year 2012 with overall grade 1,1 (very good)
@@ -91,28 +90,28 @@ skills:
 - type: Programming
   details:
   - 3+ years experience in developing web applications
-  - Advanced Experience in HTML5, CSS3 and JavaScript
-  - Proficient Experience in JavaScript Frameworks React and React Native
-  - Familiar with ECMAScript 6 and CoffeeScript
-  - Knowledge of CSS Frameworks Bootstrap and Foundation
+  - Advanced Experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
+  - Proficient Experience in JavaScript Frameworks <strong>React</strong> & <strong>React Native</strong>
+  - Familiar with <strong>ECMAScript 6</strong> & <strong>CoffeeScript</strong>
+  - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
   - Understanding of CSS Preprocessors (SASS, LESS, Stylus)
-  - Experience in designing and developing data visualisations with D3.js, Leaflet and Mapbox API
-  - Understanding of Java, Matlab, C++, MySQL and PHP
-  - Familiar mit frontend unit tests with Mocha and Karma
-  - Basic understanding of frontend build tools Webpack and Gulp
+  - Experience in designing and developing data visualisations with <strong>D3.js</strong>, <strong>Leaflet</strong> & <strong>Mapbox API</strong>
+  - Understanding of <strong>Java</strong>, <strong>Matlab</strong>, <strong>C++</strong>, <strong>MySQL</strong> & <strong>PHP</strong>
+  - Familiar mit frontend unit tests with <strong>Mocha</strong> & <strong>Karma</strong>
+  - Basic understanding of frontend build tools <strong>Webpack</strong> & <strong>Gulp</strong>
   - Familiar with OOP, REST, HTTP, MVC
 
 - type: Software Development
   details:
-  - Experience with agile software development SCRUM
-  - Understanding of version control system GIT
-  - Familiar with responsive web development, mobile optimisation and cross-browser and cross-device compatibility
-  - Basic knowledge of UI / UX design and general design principles
+  - Experience with agile software development <strong>SCRUM</strong>
+  - Understanding of version control system <strong>GIT</strong>
+  - Familiar with <strong>responsive web development</strong>, mobile optimisation & cross-browser compatibility
+  - Basic knowledge of <strong>UI / UX design</strong> & general design principles
 
 - type: Soft Skills
   details:
-  - High level of self-motivation and ambition
-  - Very good communication and presentation skills
+  - High level of self-motivation & ambition
+  - Very good communication & presentation skills
   - Team player with leadership qualities
 
 - type: Languages Skills
