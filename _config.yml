@@ -19,7 +19,7 @@ url_public:          https://www.kristin-baumann.com
 baseurl:             /
 baseurl_js:          /assets/js/
 avatar:              /assets/img/profile_photo.jpg
-icon:                /assets/img/logo-150.png
+icon:                /assets/img/icons/logo-150.png
 gems:
   - jemoji
 
