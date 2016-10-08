@@ -1,12 +1,12 @@
 <section id="experience" class="section-about-detail">
     {% assign cv = site.data.cv %}
-    <div class="container animate-opacity opacity-0">
+    <div class="container animate-opacity opacity-0 ">
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <div class="about-block">
                     <h3>Working Experience</h3>
                     <hr>
-                    <ul class="timeline">
+                    <ul class="timeline hide-on-mobile">
                         {% for work in cv.works %}
                         <li class="timeline-item">
                             <div class="year u-table">
@@ -31,6 +31,26 @@
                             </div>
                         </li>
                         {% endfor %}
+                    </ul>
+
+                    <ul class="timeline-mobile hide-not-mobile">
+                      {% for work in cv.works %}
+                      <li class="timeline-mobile-item">
+                        <h4>{{ work.position }}</h4>
+                        {% if work.company %}
+                        <h4><a href={{ work.link }} target="_blank">@ {{ work.company }}</a></h4>
+                        {% endif %}
+
+                        <p>in {{ work.location }}</span></p>
+                        <p>{{ work.time }}</p>
+                        <ul>
+                        {% for desc in work.description %}
+                          <li><span>{{ desc }}</span></li>
+                        {% endfor %}
+                          <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span></li>
+                        </ul>
+                      </li>
+                      {% endfor %}
                     </ul>
                 </div>
             </div>

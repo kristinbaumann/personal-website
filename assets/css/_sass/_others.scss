@@ -117,14 +117,28 @@ a:not(.no-hyphens) {
 .author-avatar {
     width: 90%;
     border-radius: 50%;
-    border: 3px solid $my_dark-gray;
+    border: 2px solid $my_dark-gray;
+    @media (max-width: $screen-sm-min) {
+        width: 60%;
+    }
+    @media (max-width: $screen-xs-min) {
+        width: 100%;
+    }
 }
 
 .hide-on-mobile {
     @media (max-width: $screen-xs-max) {
-        // display: none;
-        position: absolute;
+        display: none;
+        //position: absolute;
     }
+}
+.hide-not-mobile{
+  @media (max-width: $screen-xs-max) {
+      display: block;
+  }
+  @media (min-width: $screen-xs-max) {
+      display: none;
+  }
 }
 
 .opacity-0 {
@@ -448,6 +462,9 @@ a:not(.no-hyphens) {
 
     .about-me-text {
         font-family: $lato;
+        @media (max-width: $screen-sm-min) {
+            margin-top: 20px;
+        }
     }
 }
 // about detail
@@ -462,6 +479,9 @@ table.table-aboutme {
 
 #experience {
     padding-top: 3.5rem;
+    @media (max-width: $screen-sm-min) {
+      padding-top: 1rem;
+    }
 }
 
 .section-about-detail {
@@ -469,6 +489,10 @@ table.table-aboutme {
     padding: 0 0 3.5rem;
     position: relative;
     z-index: $zIndex-4--posts-wrapper;
+    @media (max-width: $screen-sm-min) {
+      padding-bottom: 0;
+    }
+
 
     .container {
         .about-block {
@@ -573,7 +597,26 @@ table.table-aboutme {
                         }
                     }
                 }
+                &.timeline-mobile{
+                  font-family: $lato;
+                  list-style: none;
 
+                  .timeline-mobile-item{
+                    margin: 30px 0;
+                    border-left: 1px solid white;
+                    padding-left: 10px;
+
+                    ul{
+                      list-style-type: disc;
+                      margin-left: 15px;
+                      margin-top: 10px;
+                      font-size: 14px;
+                      .underline {
+                          text-decoration: underline;
+                      }
+                    }
+                  }
+                }
                 &.skills {
                     font-family: $lato;
                     padding-left: 30px;
