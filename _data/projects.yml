@@ -1,8 +1,8 @@
 projectsType:
 - id: company-projects
   name: Company Projects
-- id: university-projects
-  name: University Projects
+# - id: university-projects
+#   name: University Projects
 
 projectsList:
 - name: Homelessness in Australia
@@ -28,6 +28,7 @@ projectsList:
       webm: /assets/img/projects/homelessness/Homeless_header_1.e73e3c73.webm
       caption: caption video 1
       autoplay: autoplay
+  visible: no
 
 - name: Green Grid
   id: greengrid
@@ -56,3 +57,4 @@ projectsList:
       caption: Walking directions.
     - url: mockups/gg6.png
       caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
+  visible: yes

@@ -14,6 +14,7 @@
         </div>
         <div id="listProjects">
             {% for project in projects %}
+            {% if project.visible %}
             <a href="#popup-{{project.id}}" class="grid-item {{ project.type }}">
                 <img class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                 <div class="grid-item-cover">
@@ -105,6 +106,7 @@
                 {% endif %}
                 <button data-remodal-action="cancel" class="button">close</button>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>

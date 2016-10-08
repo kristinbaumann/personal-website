@@ -170,16 +170,16 @@
 // Footer
 .section--footer {
     width: 100%;
-    background: $white;
+    background: $my_dark-gray;
+    color: $white;
     position: relative;
     z-index: $zIndex-4--posts-wrapper;
-    font-size: $font-XS;
+    font-size: $font-S;
     line-height: 1.5rem;
     text-align: center;
     padding: 0 15px;
     border-top: 1px solid $gray-lighter;
-    height: 40px;
-    line-height: 40px;
+    //line-height: 40px;
     &.footer-transparent {
         background: transparent;
         color: white;
@@ -275,5 +275,13 @@ ul.socialAccountList {
             }
         }
     }
-    
+}
+
+ul.socialAccountsFooter {
+    list-style: none;
+    display: inline-block;
+    li{
+      display: inline-block;
+      margin: 0 10px;
+    }
 }
