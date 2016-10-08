@@ -15,7 +15,7 @@
         <div id="listProjects">
             {% for project in projects %}
             <a href="#popup-{{project.id}}" class="grid-item {{ project.type }}">
-                <img class="card-shadow" data-aload="{{ project.cover }}" alt="{{ project.name }}" />
+                <img class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                 <div class="grid-item-cover">
                     <div class="grid-item-cover-bg"></div>
                     <div class="grid-item-cover-content-container">
@@ -38,7 +38,7 @@
                     <div class="swiper-wrapper">
                         {% for pic in project.pictures %}
                         <div class="swiper-slide">
-                            <div class="swiper-slide-bg swiper-lazy" data-background="{{ pic.url }}">
+                            <div class="swiper-slide-bg swiper-lazy" data-background="/assets/img/projects/{{project.id}}/{{ pic.url }}">
                                 <div class="swiper-lazy-preloader"></div>
                             </div>
                             <div class="caption">{{ pic.caption }}</div>
@@ -50,13 +50,20 @@
                 {% endif %}
                 <div class="content-container">
                     {% if project.link %}
-                    <h2><a href="{{project.link}}" target="_blank">{{project.name}}</a></h2> {% else %}
+                    <h2><a href="{{project.link}}" target="_blank">{{project.name}}</a></h2>
+                    {% else %}
                     <h2>{{project.name}}</h2>
                     {% endif %}
 
-                     {% if project.company %}
-                    <div class="sub">
+                    {% if project.company %}
+                    <div class="sub full-width">
                         <span class="sub-title">Company:</span> {{project.company}}
+                    </div>
+                    {% endif %}
+
+                    {% if project.client %}
+                    <div class="sub full-width">
+                        <span class="sub-title">Client:</span> {{project.client}}
                     </div>
                     {% endif %}
 
@@ -82,8 +89,6 @@
                     <p>For more information, please read this blog: <a href="project.blog" target="_blank">{{project.blog}}</a></p>
                     {% endif %}
 
-
-
                     {% for video in project.videos %}
                     <p>{{ video.caption }}</p>
                     <video autoplay="{{video.autoplay}}" loop="loop" muted="muted">
@@ -94,6 +99,10 @@
                     </video>
                     {% endfor %}
                 </div>
+
+                {% if project.link %}
+                <a href="{{project.link}}" target="_blank" class="button project-try-button">Try Out</a>
+                {% endif %}
                 <button data-remodal-action="cancel" class="button">close</button>
             </div>
             {% endfor %}

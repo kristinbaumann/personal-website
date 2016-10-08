@@ -333,12 +333,13 @@ a:not(.no-hyphens) {
                 .project-desc {
                     font-size: $font-XS2;
                 }
+
             }
         }
 
         &:hover {
             .grid-item-cover-bg {
-                opacity: 0.8;
+                opacity: .9;
             }
 
             .grid-item-cover-content {
@@ -389,7 +390,8 @@ a:not(.no-hyphens) {
 
                 &.full-width {
                     width: 100%;
-                    text-align: center;
+                    text-align: left;
+                    padding-left: 20px;
                 }
             }
 
@@ -407,6 +409,12 @@ a:not(.no-hyphens) {
               width: 100%;
             }
         }
+
+        .project-try-button {
+          color: $my_green;
+          border-color: #4ABDAC;
+        }
+
         @media (min-width: $screen-md-min) {
             max-width: 768px;
         }

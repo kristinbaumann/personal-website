@@ -16,11 +16,11 @@ projectsList:
   description:
   - desc line 1
   - desc line 2
-  cover: /assets/img/projects/homelessness/homelessness3.png
+  cover: homelessness3.png
   pictures:
-    - url: /assets/img/projects/homelessness/homelessness1.png
+    - url: homelessness1.png
       caption: caption 1
-    - url: /assets/img/projects/homelessness/homelessness2.png
+    - url: homelessness2.png
       caption: caption 2
   videos:
     - mp4: /assets/img/projects/homelessness/Homeless_header_1.155f765b.mp4
@@ -28,3 +28,31 @@ projectsList:
       webm: /assets/img/projects/homelessness/Homeless_header_1.e73e3c73.webm
       caption: caption video 1
       autoplay: autoplay
+
+- name: Green Grid
+  id: greengrid
+  type: company-projects
+  important: true
+  link: http://static-greengrid.visualise.today/stage/webapp/
+  company: Small Multiples
+  client: NSW Goverment Architect's Office (Australia)
+  tech: CoffeeScript, Jade/Pug, Stylus, Gulp, Mapbox
+  description:
+  - Mobile web application allowing users to plan their pedestrian way through Sydney by crossing parks and green spaces
+  - "Goal: help Sydneysiders to improve their quality of life by walking through park areas instead of taking the big main roads"
+  - User selects start and end location, then receives way suggestions with parks on the route
+  - Includes a map with information like tree canopy, play grounds and fitness stations
+  cover: mockups/gg1.png
+  pictures:
+    - url: mockups/gg1.png
+      caption: User selects start and end location with auto suggestions.
+    - url: mockups/gg2.png
+      caption: Initial route suggestion.
+    - url: mockups/gg3.png
+      caption: User can add and remove parks from route to change detour duration.
+    - url: mockups/gg4.png
+      caption: Final walking route with directions, map and extra information like distance, steps and CO<sub>2</sub> savings.
+    - url: mockups/gg5.png
+      caption: Walking directions.
+    - url: mockups/gg6.png
+      caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
