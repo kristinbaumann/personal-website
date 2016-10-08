@@ -2,19 +2,21 @@
     {% assign cv = site.data.cv %}
     <div class="container animate-opacity opacity-0">
         <div class="row">
-            <div class="about-block about-block-skills">
-                <h3>Skills and Techniques</h3>
-                <hr>
-                <div class="col-sm-12 col-md-8 col-md-offset-2 skill-block">
-                  {% for skill in cv.skills %}
-                    <h4>{{ skill.type }}</h4>
-                    <ul class="skills">
-                        {% for detail in skill.details %}
-                          <li>{{ detail }}</li>
+            <div class="col-sm-12 col-md-12">
+                <div class="about-block about-block-skills">
+                    <h3>Skills and Techniques</h3>
+                    <hr>
+                    <div class="col-sm-12 col-md-8 col-md-offset-2 skill-block">
+                        {% for skill in cv.skills %}
+                        <h4>{{ skill.type }}</h4>
+                        <ul class="skills">
+                            {% for detail in skill.details %}
+                            <li>{{ detail }}</li>
+                            {% endfor %}
+                        </ul>
                         {% endfor %}
-                    </ul>
-                  {% endfor %}
-              </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

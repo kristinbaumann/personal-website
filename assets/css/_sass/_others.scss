@@ -173,6 +173,9 @@ a:not(.no-hyphens) {
     background: url("/assets/img/rice_paddies.jpg") no-repeat center center;
     background-size: cover;
     @media (max-width: $screen-sm-min) {
+        background-position: center right;
+    }
+    @media (max-width: $screen-xs-min) {
         background: transparent;
     }
 }
@@ -183,7 +186,7 @@ a:not(.no-hyphens) {
     height: 100%;
     background: #71fbe6;
     opacity: 0.6;
-    @media (max-width: $screen-sm-min) {
+    @media (max-width: $screen-xs-min) {
         opacity: 1;
     }
 }
@@ -489,7 +492,7 @@ table.table-aboutme {
     padding: 0 0 3.5rem;
     position: relative;
     z-index: $zIndex-4--posts-wrapper;
-    @media (max-width: $screen-sm-min) {
+    @media (max-width: $screen-xs-min) {
       padding-bottom: 0;
     }
 
