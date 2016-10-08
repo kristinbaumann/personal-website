@@ -52,7 +52,7 @@ projectsList:
     - url: mockups/gg3.png
       caption: User can add and remove parks from route to change detour duration.
     - url: mockups/gg4.png
-      caption: Final walking route with directions, map and extra information like distance, steps and CO<sub>2</sub> savings.
+      caption: Walking route with directions, map and info like distance, steps and CO<sub>2</sub> savings.
     - url: mockups/gg5.png
       caption: Walking directions.
     - url: mockups/gg6.png

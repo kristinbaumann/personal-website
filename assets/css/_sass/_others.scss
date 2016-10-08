@@ -620,9 +620,13 @@ table.table-aboutme {
                     }
                   }
                 }
+
+
                 &.skills {
                     font-family: $lato;
-                    padding-left: 30px;
+                    padding-left: 25px;
+                    margin-bottom: 40px;
+                    border-left: 1px solid white;
 
                     strong{
                       color: $my_green;
@@ -630,6 +634,8 @@ table.table-aboutme {
                       letter-spacing: 1px;
                       font-weight: regular;
                     }
+
+
                 }
             }
 
@@ -637,6 +643,9 @@ table.table-aboutme {
                 h4 {
                     margin-top: 20px;
                     font-size: 24px;
+                }
+                .skill-block{
+                  padding: 0;
                 }
             }
         }
