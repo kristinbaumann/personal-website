@@ -70,12 +70,13 @@ education:
   degree: Bachelor of Science in Computational Visualistics
   time: Oct 2012 - Apr 2016
   link: http://www.inf.ovgu.de/inf/en/Study/Study+Courses/Bachelor/Computational+Visualistics.html
+  technologies: Matlab, Java, C++, MySQL, Scrum
   description:
   - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
   - "Courses (excerpt): Mathematics, Algorithms and Data Structures, Databases, Software Engineering, Project Management, Computer Graphics, (Medical) Visualization"
   - "Final Score: 1,2 (very good)"
   - "Scholarship: Friedrich Naumann Foundation for Freedom"
-  technologies: Matlab, Java, C++, MySQL, Scrum
+
 
 - school: Gymnasium Philanthropinum
   location: Dessau (Germany)

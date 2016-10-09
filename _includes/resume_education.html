@@ -24,9 +24,9 @@
                                     <ul>
                                         {% for desc in edu.description %}
                                         <li><span>{{ desc }}</span></li>
-                                        {% endfor %} {% if edu.technologies %}
-                                        <li><span><span class="underline">Technologies:</span> {{ edu.technologies }}</span>
-                                        </li>
+                                        {% endfor %}
+                                        {% if edu.technologies %}
+                                        <li><span><span class="underline">Technologies:</span>{{ edu.technologies }}</span></li>
                                         {% endif %}
                                     </ul>
                                 </div>
@@ -45,8 +45,9 @@
                                 {% for desc in edu.description %}
                                 <li><span>{{ desc }}</span></li>
                                 {% endfor %}
-                                <li><span><span class="underline">Technologies:</span> {{ edu.technologies }}</span>
-                                </li>
+                                {% if edu.technologies %}
+                                <li><span><span class="underline">Technologies:</span> {{ edu.technologies }}</span></li>
+                                {% endif %}
                             </ul>
                         </li>
                         {% endfor %}
