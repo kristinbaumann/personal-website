@@ -25,6 +25,10 @@ projectsList:
       caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region. Built with D3.js and Mapbox.
     - url: hexagon2_mac_cut.png
       caption: Popup of a region in the hexagon map.
+    - url: dot1_mac_cut.png
+      caption: Dot density map showing the geographical distribution of homeless people.
+    - url: text_mac_cut.png
+      caption: Data Story Telling.
   videos:
     - mp4: video_homelessness_512k.mp4
       caption: Explanations of the maps and visualisations on the website
