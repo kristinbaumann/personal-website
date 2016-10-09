@@ -12,7 +12,7 @@ timezone:            asia/hanoi # eg. Asia/Kathmandu
 locale:              vi_VN # eg. en_us
 name:                Kristin Baumann
 title:               mytitle1
-tagline:             Frontend Developer - Travel Addict - DataVis Lover
+tagline:             Frontend Developer - DataVis Lover - Travel Addict
 description:         Personal website of Kristin Baumann
 url:
 url_public:          https://www.kristin-baumann.com

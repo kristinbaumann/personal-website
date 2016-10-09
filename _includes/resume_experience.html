@@ -11,10 +11,14 @@
                         <li class="timeline-item">
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    <h4><a href={{ work.link }} target="_blank">{{ work.company }}</a></h4>
+                                    {% if work.company %}
+                                    <h4><a href="{{ work.link }}" target="_blank">{{ work.company }}</a></h4>
+                                    {% else %}
+                                    <span class="heading-replacement"></span>
+                                    {% endif %}
                                     <ul>
-                                      <li>in {{ work.location }}</span></li>
-                                      <li>{{ work.time }}</li>
+                                        <li>in {{ work.location }}</li>
+                                        <li>{{ work.time }}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -22,10 +26,11 @@
                                 <div class="u-tableCell u-verticalAlignMiddle">
                                     <h4>{{ work.position }}</h4>
                                     <ul>
-                                    {% for desc in work.description %}
-                                      <li><span>{{ desc }}</span></li>
-                                    {% endfor %}
-                                      <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span></li>
+                                        {% for desc in work.description %}
+                                        <li><span>{{ desc }}</span></li>
+                                        {% endfor %}
+                                        <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -34,23 +39,23 @@
                     </ul>
 
                     <ul class="timeline-mobile hide-not-mobile">
-                      {% for work in cv.works %}
-                      <li class="timeline-mobile-item">
-                        <h4>{{ work.position }}</h4>
-                        {% if work.company %}
-                        <h4><a href={{ work.link }} target="_blank">@ {{ work.company }}</a></h4>
-                        {% endif %}
+                        {% for work in cv.works %}
+                        <li class="timeline-mobile-item">
+                            <h4>{{ work.position }}</h4>
+                            {% if work.company %}
+                            <h4><a href="{{ work.link }}" target="_blank">@ {{ work.company }}</a></h4>{% endif %}
 
-                        <p>in {{ work.location }}</span></p>
-                        <p>{{ work.time }}</p>
-                        <ul>
-                        {% for desc in work.description %}
-                          <li><span>{{ desc }}</span></li>
+                            <p>in {{ work.location }}</p>
+                            <p>{{ work.time }}</p>
+                            <ul>
+                                {% for desc in work.description %}
+                                <li><span>{{ desc }}</span></li>
+                                {% endfor %}
+                                <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span>
+                                </li>
+                            </ul>
+                        </li>
                         {% endfor %}
-                          <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span></li>
-                        </ul>
-                      </li>
-                      {% endfor %}
                     </ul>
                 </div>
             </div>

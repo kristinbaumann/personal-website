@@ -7,7 +7,7 @@
             </div>
         </div>
         <!-- <div class="filter-projects">
-            <button id="btnAll" class="button button--primary" data-filter="all">All</button>
+            <button id="btnAll" class="button " data-filter="all">All</button>
             {% for type in site.data.projects.projectsType %}
             <button class="button" data-filter="{{ type.id }}">{{ type.name }}</button>
             {% endfor %}
@@ -16,7 +16,7 @@
             {% for project in projects %}
             {% if project.visible %}
             <a href="#popup-{{project.id}}" class="grid-item {{ project.type }}">
-                <img class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
+                <img src="/assets/img/projects/{{project.id}}/{{ project.cover }}" class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                 <div class="grid-item-cover">
                     <div class="grid-item-cover-bg"></div>
                     <div class="grid-item-cover-content-container">

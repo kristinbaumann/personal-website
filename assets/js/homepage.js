@@ -65,11 +65,11 @@ $(function() {
 
             // filter projects
             $('.filter-projects button').click(function() {
-                if ($(this).hasClass('button--primary')) {
+                if ($(this).hasClass('button-primary')) {
                     return;
                 }
-                $(this).siblings().removeClass('button--primary');
-                $(this).addClass('button--primary');
+                $(this).siblings().removeClass('button-primary');
+                $(this).addClass('button-primary');
 
                 var filter = $(this).data('filter');
                 if (filter === 'all') {

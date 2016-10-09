@@ -116,6 +116,7 @@ a:not(.no-hyphens) {
 
 .author-avatar {
     width: 90%;
+    height: auto;
     border-radius: 50%;
     border: 2px solid $my_dark-gray;
     @media (max-width: $screen-sm-min) {
@@ -563,6 +564,11 @@ table.table-aboutme {
                     .timeline-item {
                         margin-bottom: 20px;
                     }
+                    .heading-replacement{
+                      height: 27px;
+                      margin: 10px 0;
+                      display: block;
+                    }
 
                     li {
                         width: 100%;
@@ -678,6 +684,6 @@ table.table-aboutme {
     text-align: center;
 }
 
-#portfolio{
-
+.not-visible{
+  display: none;
 }
