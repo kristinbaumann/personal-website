@@ -17,17 +17,17 @@ projectsList:
   - Visualisation and explanation of research results about homelessness in Australia
   - Showing the geographical and demographical distribution and increasing factors
   - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
-  cover: header_mac.png
+  cover: header_mac_compress.png
   pictures:
-    - url: header_mac_cut.png
+    - url: header_mac_cut_compress.png
       caption: Hero Image "Without A Home".
-    - url: hexagon1_mac_cut.png
+    - url: hexagon1_mac_cut_compress.png
       caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region. Built with D3.js and Mapbox.
-    - url: hexagon2_mac_cut.png
+    - url: hexagon2_mac_cut_compress.png
       caption: Popup of a region in the hexagon map.
-    - url: dot1_mac_cut.png
+    - url: dot1_mac_cut_compress.png
       caption: Dot density map showing the geographical distribution of homeless people.
-    - url: text_mac_cut.png
+    - url: text_mac_cut_compress.png
       caption: Data Story Telling.
   videos:
     - mp4: video_homelessness_512k.mp4
@@ -49,18 +49,18 @@ projectsList:
   - "Goal: help Sydneysiders to improve their quality of life by walking through park areas instead of taking the big main roads"
   - User selects start and end location, then receives way suggestions with parks on the route
   - Includes a map with information like tree canopy, play grounds and fitness stations
-  cover: mockups/gg1.png
+  cover: gg1_compress.png
   pictures:
-    - url: mockups/gg1.png
+    - url: gg1_compress.png
       caption: User selects start and end location with auto suggestions.
-    - url: mockups/gg2.png
+    - url: gg2_compress.png
       caption: Initial route suggestion.
-    - url: mockups/gg3.png
+    - url: gg3_compress.png
       caption: User can add and remove parks from route to change detour duration.
-    - url: mockups/gg4.png
+    - url: gg4_compress.png
       caption: Walking route with directions, map and info like distance, steps and CO<sub>2</sub> savings.
-    - url: mockups/gg5.png
+    - url: gg5_compress.png
       caption: Walking directions.
-    - url: mockups/gg6.png
+    - url: gg6_compress.png
       caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
   visible: yes
