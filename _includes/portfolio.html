@@ -91,13 +91,16 @@
                     {% endif %}
 
                     {% for video in project.videos %}
-                    <p>{{ video.caption }}</p>
-                    <video autoplay="{{video.autoplay}}" loop="loop" muted="muted">
-                      <source src="{{video.mp4}}" type="video/mp4">
-                      <source src="{{video.ogv}}" type="video/ogv">
-                      <source src="{{video.webm}}" type="video/webm">
+                    <hr>
+                    <video class="video_{{project.id}}" autoplay="{{video.autoplay}}" controls>
+                      <source src="/assets/img/projects/{{project.id}}/{{video.mp4}}" type="video/mp4">
+                      <source src="/assets/img/projects/{{project.id}}/{{video.ogv}}" type="video/ogv">
+                      <source src="/assets/img/projects/{{project.id}}/{{video.webm}}" type="video/webm">
                       Your browser does not support the video tag.
                     </video>
+                    <p class="video_caption">{{ video.caption }}</p>
+                    <p class="video_caption">Source: <a href="{{video.source_link}}" target="_blank">{{ video.source_text }}</a></p>
+                    <hr>
                     {% endfor %}
                 </div>
 

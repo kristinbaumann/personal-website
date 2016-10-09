@@ -12,23 +12,25 @@ projectsList:
   link: http://www.abc.net.au/interactives/homeless/
   company: Small Multiples
   client: FactFile ABC News (Australia)
-  tech: TODO
+  tech:  CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, D3.js, Mapbox
   description:
-  - desc line 1
-  - desc line 2
-  cover: homelessness3.png
+  - Visualisation and explanation of research results about homelessness in Australia
+  - Showing the geographical and demographical distribution and increasing factors
+  - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
+  cover: header_mac.png
   pictures:
-    - url: homelessness1.png
-      caption: caption 1
-    - url: homelessness2.png
-      caption: caption 2
+    - url: header_mac_cut.png
+      caption: Hero Image "Without A Home".
+    - url: hexagon1_mac_cut.png
+      caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region. Built with D3.js and Mapbox.
+    - url: hexagon2_mac_cut.png
+      caption: Popup of a region in the hexagon map.
   videos:
-    - mp4: /assets/img/projects/homelessness/Homeless_header_1.155f765b.mp4
-      ogv: /assets/img/projects/homelessness/Homeless_header_1.3067c7e5.ogv
-      webm: /assets/img/projects/homelessness/Homeless_header_1.e73e3c73.webm
-      caption: caption video 1
-      autoplay: autoplay
-  visible: no
+    - mp4: video_homelessness_512k.mp4
+      caption: Explanations of the maps and visualisations on the website
+      source_text: ABC FactCheck (John Barren)
+      source_link: http://www.abc.net.au/news/2016-02-10/fact-file:-an-interactive-snapshot-of-australia's/7156044
+  visible: zes
 
 - name: Green Grid
   id: greengrid
@@ -37,7 +39,7 @@ projectsList:
   link: http://static-greengrid.visualise.today/stage/webapp/
   company: Small Multiples
   client: NSW Goverment Architect's Office (Australia)
-  tech: CoffeeScript, Jade/Pug, Stylus, Gulp, Mapbox
+  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, Mapbox
   description:
   - Mobile web application allowing users to plan their pedestrian way through Sydney by crossing parks and green spaces
   - "Goal: help Sydneysiders to improve their quality of life by walking through park areas instead of taking the big main roads"

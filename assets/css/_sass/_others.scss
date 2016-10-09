@@ -427,7 +427,29 @@ a:not(.no-hyphens) {
             }
             video {
               width: 100%;
+
+              @media (min-width: $screen-sm-min) {
+                &.video_homelessness{
+                  width: 70%;
+                }
+              }
+              @media (max-width: $screen-sm-min) {
+                &.video_homelessness{
+                  width: 100%;
+                }
+              }
+
             }
+            .video_caption {
+                text-align: center;
+                width: 100%;
+                opacity: 0.7;
+                line-height: $font-S;
+                font-size: $font-XS;
+                padding: 0 10px;
+                margin-top: 0;
+            }
+
         }
 
         .project-try-button {
