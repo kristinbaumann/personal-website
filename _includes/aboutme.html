@@ -5,17 +5,19 @@
             <hr>
         </div>
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-10 col-sm-offset-1">
                 <div class="col-xs-12 col-sm-12 col-md-6 u-alignCenter u-verticalAlignMiddle">
                     <img class="author-avatar" src="{{ site.avatar }}" height="1434" width="1434" alt="Kristin Baumann Profile Picture"/>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 about-me-text">
-                    {{ site.data.cv.aboutme }}
+                    {% for aboutme_item in site.data.cv.aboutme %}
+                      <span class="aboutme_item">{{ aboutme_item }}</span>
+                    {% endfor %}
                 </div>
             </div>
         </div>
         <div class="row text-center">
-            <h3 class="about-me-cta">Get in touch with me:</h3>
+            <span class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 about-me-cta">Get to know more about me by browsing through my <a class="triggerResume"><strong class="aboutme-link">resume</strong></a>, checking out the projects in my <a class="triggerPortfolio"><strong class="aboutme-link">portfolio</strong></a> and contacting me here:</span>
         </div>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">

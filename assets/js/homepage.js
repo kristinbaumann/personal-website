@@ -19,6 +19,20 @@ $(function() {
             scrollTop: offset
         }, 700, 'easeOutQuint');
     });
+    $('.home-page').on('click', '.triggerResume', function() {
+        console.log('click');
+        var offset = $(layoutContent).scrollTop() + $('#experience').offset().top;
+        $('html, body').animate({
+            scrollTop: offset
+        }, 700, 'easeOutQuint');
+    });
+    $('.home-page').on('click', '.triggerPortfolio', function() {
+        console.log('click');
+        var offset = $(layoutContent).scrollTop() + $('#portfolio').offset().top;
+        $('html, body').animate({
+            scrollTop: offset
+        }, 700, 'easeOutQuint');
+    });
 
 
     function loadSection(sectionId, nextSectionId) {
@@ -93,7 +107,7 @@ $(function() {
         }
     }
 
-    // scroll to top after reload/go back 
+    // scroll to top after reload/go back
     window.onbeforeunload = function() {
         document.body.style.opacity = 0;
         window.scrollTo(0, 0);

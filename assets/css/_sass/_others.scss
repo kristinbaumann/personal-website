@@ -67,7 +67,6 @@ a:not(.no-hyphens) {
     // no-hyphens: dont use word-wrap: break-word;
     @include hyphens();
 }
-
 // a[target="_blank"]:not(.no-underline) {
 //     position: relative;
 //     text-decoration: none;
@@ -133,13 +132,14 @@ a:not(.no-hyphens) {
         //position: absolute;
     }
 }
-.hide-not-mobile{
-  @media (max-width: $screen-xs-max) {
-      display: block;
-  }
-  @media (min-width: $screen-xs-max) {
-      display: none;
-  }
+
+.hide-not-mobile {
+    @media (max-width: $screen-xs-max) {
+        display: block;
+    }
+    @media (min-width: $screen-xs-max) {
+        display: none;
+    }
 }
 
 .opacity-0 {
@@ -165,7 +165,6 @@ a:not(.no-hyphens) {
         box-shadow: 0 4px 10px 1px rgba(0, 0, 0, .2);
     }
 }
-
 /** homepage **/
 .section-backgroundImage .welcome-img {
     position: fixed;
@@ -198,7 +197,7 @@ a:not(.no-hyphens) {
 
     h2 {
         font-weight: normal;
-        padding: 0;
+        padding: 0 15px;
         margin: 0;
     }
 
@@ -236,7 +235,12 @@ a:not(.no-hyphens) {
         height: $font-M;
         line-height: $font-S;
         font-size: $font-XS;
-        padding: 0 10px;
+        padding: 0 15px;
+
+        @media (max-width: $screen-xs-min) {
+            bottom: 60px;
+            padding: 0 10px;
+        }
     }
 
     .swiper-pagination {
@@ -274,7 +278,7 @@ a:not(.no-hyphens) {
 
     .button {
         margin: 5px;
-        transition: .2s all;
+        transition: 0.2s all;
     }
 }
 
@@ -354,13 +358,12 @@ a:not(.no-hyphens) {
                 .project-desc {
                     font-size: $font-XS2;
                 }
-
             }
         }
 
         &:hover {
             .grid-item-cover-bg {
-                opacity: .9;
+                opacity: 0.9;
             }
 
             .grid-item-cover-content {
@@ -426,21 +429,21 @@ a:not(.no-hyphens) {
                 font-size: $font-XS1;
                 line-height: $font-S;
             }
+
             video {
-              width: 100%;
-
-              @media (min-width: $screen-sm-min) {
-                &.video_homelessness{
-                  width: 70%;
+                width: 100%;
+                @media (min-width: $screen-sm-min) {
+                    &.video_homelessness {
+                        width: 70%;
+                    }
                 }
-              }
-              @media (max-width: $screen-sm-min) {
-                &.video_homelessness{
-                  width: 100%;
+                @media (max-width: $screen-sm-min) {
+                    &.video_homelessness {
+                        width: 100%;
+                    }
                 }
-              }
-
             }
+
             .video_caption {
                 text-align: center;
                 width: 100%;
@@ -450,14 +453,12 @@ a:not(.no-hyphens) {
                 padding: 0 10px;
                 margin-top: 0;
             }
-
         }
 
         .project-try-button {
-          color: $my_green;
-          border-color: #4ABDAC;
+            color: $my_green;
+            border-color: #4ABDAC;
         }
-
         @media (min-width: $screen-md-min) {
             max-width: 768px;
         }
@@ -483,13 +484,27 @@ a:not(.no-hyphens) {
     }
 
     .about-me-cta {
-        margin-bottom: 0;
+        margin-top: 30px;
+        font-family: $lato;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .aboutme-link{
+        color: $my_dark-gray;
+        cursor: pointer;
+        text-decoration: underline;
     }
 
     .about-me-text {
         font-family: $lato;
         @media (max-width: $screen-sm-min) {
             margin-top: 20px;
+        }
+
+        .aboutme_item {
+            text-align: justify;
+            display: block;
+            padding: 5px 0;
         }
     }
 }
@@ -506,7 +521,7 @@ table.table-aboutme {
 #experience {
     padding-top: 3.5rem;
     @media (max-width: $screen-sm-min) {
-      padding-top: 1rem;
+        padding-top: 1rem;
     }
 }
 
@@ -516,9 +531,8 @@ table.table-aboutme {
     position: relative;
     z-index: $zIndex-4--posts-wrapper;
     @media (max-width: $screen-xs-min) {
-      padding-bottom: 0;
+        padding-bottom: 0;
     }
-
 
     .container {
         .about-block {
@@ -564,10 +578,11 @@ table.table-aboutme {
                     .timeline-item {
                         margin-bottom: 20px;
                     }
-                    .heading-replacement{
-                      height: 27px;
-                      margin: 10px 0;
-                      display: block;
+
+                    .heading-replacement {
+                        height: 27px;
+                        margin: 10px 0;
+                        display: block;
                     }
 
                     li {
@@ -628,27 +643,28 @@ table.table-aboutme {
                         }
                     }
                 }
-                &.timeline-mobile{
-                  font-family: $lato;
-                  list-style: none;
 
-                  .timeline-mobile-item{
-                    margin: 30px 0;
-                    border-left: 1px solid white;
-                    padding-left: 10px;
+                &.timeline-mobile {
+                    font-family: $lato;
+                    list-style: none;
 
-                    ul{
-                      list-style-type: disc;
-                      margin-left: 15px;
-                      margin-top: 10px;
-                      font-size: 14px;
-                      .underline {
-                          text-decoration: underline;
-                      }
+                    .timeline-mobile-item {
+                        margin: 30px 0;
+                        border-left: 1px solid white;
+                        padding-left: 10px;
+
+                        ul {
+                            list-style-type: disc;
+                            margin-left: 15px;
+                            margin-top: 10px;
+                            font-size: 14px;
+
+                            .underline {
+                                text-decoration: underline;
+                            }
+                        }
                     }
-                  }
                 }
-
 
                 &.skills {
                     font-family: $lato;
@@ -656,14 +672,12 @@ table.table-aboutme {
                     margin-bottom: 40px;
                     border-left: 1px solid white;
 
-                    strong{
-                      color: $my_green;
-                      padding: 0 4px;
-                      letter-spacing: 1px;
-                      font-weight: regular;
+                    strong {
+                        color: $my_green;
+                        padding: 0 4px;
+                        letter-spacing: 1px;
+                        font-weight: regular;
                     }
-
-
                 }
             }
 
@@ -672,8 +686,9 @@ table.table-aboutme {
                     margin-top: 20px;
                     font-size: 24px;
                 }
-                .skill-block{
-                  padding: 0;
+
+                .skill-block {
+                    padding: 0;
                 }
             }
         }
@@ -684,6 +699,6 @@ table.table-aboutme {
     text-align: center;
 }
 
-.not-visible{
-  display: none;
+.not-visible {
+    display: none;
 }

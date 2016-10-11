@@ -11,7 +11,11 @@
                         <li class="timeline-item">
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
+                                    {% if edu.link %}
                                     <h4><a href="{{ edu.link }}">{{ edu.school }}</a></h4>
+                                    {% else %}
+                                    <h4>{{ edu.school }}</h4>
+                                    {% endif %}
                                     <ul>
                                         <li>in {{ edu.location }}</li>
                                         <li>{{ edu.time }}</li>
