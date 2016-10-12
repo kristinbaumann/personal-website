@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <div class="about-block">
-                    <h3>Education</h3>
+                    <h3 tabindex=0>Education</h3>
                     <hr>
                     <ul class="timeline hide-on-mobile">
                         {% for edu in cv.education %}
@@ -24,7 +24,7 @@
                             </div>
                             <div class="box-content u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
-                                    <h4>{{ edu.degree }}</h4>
+                                    <h4 tabindex=0>{{ edu.degree }}</h4>
                                     <ul>
                                         {% for desc in edu.description %}
                                         <li><span>{{ desc }}</span></li>

@@ -3,7 +3,7 @@
     <div class="wraper remodal-bg animate-opacity opacity-0">
         <div class="blockGroup">
             <div class="section-title">
-                <h2>Portfolio</h2>
+                <h2 tabindex=0>Portfolio</h2>
             </div>
         </div>
         <!-- <div class="filter-projects">
@@ -15,7 +15,7 @@
         <div id="listProjects">
             {% for project in projects %}
             {% if project.visible %}
-            <a href="#popup-{{project.id}}" class="grid-item {{ project.type }}">
+            <a tabindex=0 href="#popup-{{project.id}}" class="grid-item {{ project.type }}">
                 <img src="/assets/img/projects/{{project.id}}/{{ project.cover }}" class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                 <div class="grid-item-cover">
                     <div class="grid-item-cover-bg"></div>
@@ -47,13 +47,15 @@
                         {% endfor %}
                     </div>
                     <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
                 {% endif %}
                 <div class="content-container">
                     {% if project.link %}
-                    <h2><a href="{{project.link}}" target="_blank">{{project.name}}</a></h2>
+                    <h2 tabindex=0><a href="{{project.link}}" target="_blank">{{project.name}}</a></h2>
                     {% else %}
-                    <h2>{{project.name}}</h2>
+                    <h2 tabindex=0>{{project.name}}</h2>
                     {% endif %}
 
                     {% if project.company %}
@@ -67,6 +69,13 @@
                         <span class="sub-title">Client:</span> {{project.client}}
                     </div>
                     {% endif %}
+
+                    {% if project.role %}
+                    <div class="sub full-width">
+                        <span class="sub-title">Role:</span> {{project.role}}
+                    </div>
+                    {% endif %}
+
 
                     {% if project.tech %}
                     <div class="sub full-width">
@@ -105,9 +114,9 @@
                 </div>
 
                 {% if project.link %}
-                <a href="{{project.link}}" target="_blank" class="button project-try-button">Try Out</a>
+                <a tabindex=0 href="{{project.link}}" target="_blank" class="button project-try-button">Try Out</a>
                 {% endif %}
-                <button data-remodal-action="cancel" class="button">close</button>
+                <button tabindex=0 data-remodal-action="cancel" class="button">close</button>
             </div>
             {% endif %}
             {% endfor %}

@@ -13,6 +13,7 @@ projectsList:
   company: Small Multiples
   client: FactFile ABC News (Australia)
   tech:  CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, D3.js, Mapbox
+  role: Frontend / Datavis Developer (Implementation)
   description:
   - Visualisation and explanation of research results about homelessness in Australia
   - Showing the geographical and demographical distribution and increasing factors
@@ -22,7 +23,7 @@ projectsList:
     - url: header_mac_cut_compress.png
       caption: Hero Image "Without A Home".
     - url: hexagon1_mac_cut_compress.png
-      caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region. Built with D3.js and Mapbox.
+      caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region.
     - url: hexagon2_mac_cut_compress.png
       caption: Popup of a region in the hexagon map.
     - url: dot1_mac_cut_compress.png
@@ -44,6 +45,7 @@ projectsList:
   company: Small Multiples
   client: NSW Goverment Architect's Office (Australia)
   tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, Mapbox
+  role: Frontend Developer (Implementation)
   description:
   - Mobile web application allowing users to plan their pedestrian way through Sydney by crossing parks and green spaces
   - "Goal: help Sydneysiders to improve their quality of life by walking through park areas instead of taking the big main roads"

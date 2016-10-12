@@ -238,7 +238,7 @@ a:not(.no-hyphens) {
         padding: 0 15px;
 
         @media (max-width: $screen-xs-min) {
-            bottom: 60px;
+            bottom: 40px;
             padding: 0 10px;
         }
     }
@@ -249,6 +249,13 @@ a:not(.no-hyphens) {
         .swiper-pagination-bullet-active {
             background-color: $green;
         }
+    }
+
+    .swiper-button-next{
+      background-image: url('/assets/img/others/swiper_next_green.svg');
+    }
+    .swiper-button-prev{
+      background-image: url('/assets/img/others/swiper_before_green.svg');
     }
     @media (min-width: $screen-sm-min) {
         height: 500px;
