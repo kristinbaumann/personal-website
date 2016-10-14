@@ -22,14 +22,12 @@ $(document).ready(function() {
             }, 700, 'easeOutQuint');
         });
         $('#about_me_cta').on('click', '.triggerExperience', function() {
-            console.log('click experience');
             var offset = $(layoutContent).scrollTop() + $('#experience').offset().top;
             $('html, body').animate({
                 scrollTop: offset
             }, 700, 'easeOutQuint');
         });
         $('.home-page').on('click', '.triggerPortfolio', function() {
-            console.log('click portfolio');
             var offset = $(layoutContent).scrollTop() + $('#portfolio').offset().top;
             $('html, body').animate({
                 scrollTop: offset
@@ -38,7 +36,6 @@ $(document).ready(function() {
 
 
         function loadSection(sectionId, nextSectionId) {
-            console.info('load section: ' + sectionId);
             var $section = $('#' + sectionId);
             var $nextSection = $('#' + nextSectionId);
             $section.children('.opacity-0').removeClass('opacity-0');

@@ -5,3 +5,5 @@ Gemfile.lock
 
 # node
 node_modules
+
+google*
