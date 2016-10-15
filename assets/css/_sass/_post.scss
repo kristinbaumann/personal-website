@@ -68,10 +68,13 @@ body {
     > div {
         display: table-cell;
         vertical-align: middle;
-        .subline-2 {
+        .subline{
             color: white;
             font-size: $font-XS1;
             margin-top: 30px;
+        }
+        .subline-desc{
+          font-size: $font-L;
         }
     }
 }
@@ -91,7 +94,11 @@ body {
 
 .title h1,
 .title h3 {
+    margin: 0 50px;
     line-height: 1;
+    @media (max-width: $screen-xs-max) {
+        margin: 0 10px;
+    }
 }
 
 
@@ -167,7 +174,7 @@ button.trigger:focus {
         }
         .header {
             h1,
-            .subline-2 {
+            .subline{
                 color: $text-color;
             }
         }
@@ -175,8 +182,11 @@ button.trigger:focus {
             transform: translateY(0);
             opacity: 1;
             margin-top: -200px;
+            @media (max-width: $screen-sm-max) {
+                margin-top: -390px;
+            }
             @media (max-width: $screen-xs-max) {
-                margin-top: -150px;
+              margin-top: -200px;
             }
             @media (max-height: 500px) {
                 margin-top: -100px;

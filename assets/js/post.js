@@ -109,10 +109,10 @@
     });
 
     $(document).scroll(function() {
-        // Show modal toggle after scrolling 300px and hide it when nearly scroll to the end
+        // Show modal toggle after scrolling 200px and hide it when nearly scroll to the end
         var docScrollTop = $(document).scrollTop();
-        $('.modal-toggle-group').toggleClass('active', (docScrollTop >= 300 && docScrollTop <= $('.section--subscribe').offset().top - 300));
-        if ((docScrollTop < 300 || docScrollTop > $('.section--subscribe').offset().top - 300) && $('.modal-toggle-bubble').hasClass('active')) {
+        $('.modal-toggle-group').toggleClass('active', (docScrollTop >= 200));
+        if ((docScrollTop < 200) && $('.modal-toggle-bubble').hasClass('active')) {
             $('.modal-toggle-wrapper').click();
         }
     });
