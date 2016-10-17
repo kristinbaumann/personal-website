@@ -78,10 +78,10 @@
     $('.modal-toggle-wrapper').click(function() {
         $(this).toggleClass('active');
         if ($(this).hasClass('active')) {
-            disable_scroll();
+            // disable_scroll();
             $('#menu-button-container').fadeOut();
         } else {
-            enable_scroll();
+            // enable_scroll();
             $('#menu-button-container').fadeIn();
         }
         $('.modal-toggle-bubble').toggleClass('active');

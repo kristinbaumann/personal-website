@@ -8,10 +8,10 @@ google_verify:
 bing_verify:
 
 # Setup
-timezone:            asia/hanoi # eg. Asia/Kathmandu
-locale:              vi_VN # eg. en_us
+timezone:            europe/berlin
+locale:              de_DE
 name:                Kristin Baumann
-title:               mytitle1
+title:               Kristin Baumann
 tagline:             Frontend Developer - DataVis Lover - Travel Addict
 description:         Personal website of Kristin Baumann
 url:

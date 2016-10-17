@@ -33,6 +33,12 @@ layout: default
       {{ content }}
 
     </div>
+    <ul class="shareWrapper">
+      <li><a class="shareButton no-underline" href="https://twitter.com/intent/tweet?text={{ page.title | append: ' by @kristin_baumann' }}&url={{ page.url | prepend: site.url_public | url_encode }}" target="_blank"><span class="icon-twitter"></span></a></li>
+      <li><a class="shareButton no-underline" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url_public | url_encode }}" target="_blank"><span class="icon-facebook"></span></a></li>
+      <li><a class="shareButton no-underline" href="https://www.linkedin.com/shareArticle
+?mini=true&url={{ page.url | prepend: site.url_public | url_encode }}&title={{ page.title }}"  target="_blank"><span class="icon-linkedin"></span></a></li>
+    </ul>
   </div>
   <hr/>
   <div class="container">
