@@ -1,8 +1,10 @@
-<section id="about" class="section--subscribe {% if page.layout == 'home' %} section-about-me {% endif %}">
+<section id="about" class="section--subscribe section-about-me">
     <div class="container {% if page.layout == 'home' %} animate-opacity opacity-0 {% endif %}">
         <div class="section-title">
             <h2  tabindex=0>About Me</h2>
+            {% if page.layout == 'home' %}
             <hr>
+            {% endif %}
         </div>
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
@@ -17,8 +19,12 @@
             </div>
         </div>
         <div id="about_me_cta" class="row text-center">
-            <span class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 about-me-cta hide-on-mobile">Get to know more about me by browsing through my <a  tabindex=0 class="triggerExperience"><strong class="aboutme-link">resume</strong></a>, checking out the projects in my <a  tabindex=0 class="triggerPortfolio"><strong class="aboutme-link">portfolio</strong></a> and contacting me here:</span>
-            <span class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 about-me-cta hide-not-mobile">Get to know more about me by browsing through my <a  tabindex=0 href="#experience"><strong class="aboutme-link">resume</strong></a>, checking out the projects in my <a  tabindex=0 href="#portfolio"><strong class="aboutme-link">portfolio</strong></a> and contacting me here:</span>
+          {% if page.layout == 'home' %}
+            <span class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 about-me-cta hide-on-mobile">Get to know more about me by browsing through my <a  tabindex=0 class="triggerExperience"><strong class="aboutme-link">resume</strong></a>, checking out the projects in my <a tabindex=0 class="triggerPortfolio"><strong class="aboutme-link">portfolio</strong></a> and contacting me here:</span>
+            <span class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 about-me-cta hide-not-mobile">Get to know more about me by browsing through my <a  tabindex=0 href="#experience"><strong class="aboutme-link">resume</strong></a>, checking out the projects in my <a tabindex=0 href="#portfolio"><strong class="aboutme-link">portfolio</strong></a> and contacting me here:</span>
+          {% else %}
+            <span class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 about-me-cta">Get to know more about me by browsing through my <a tabindex=0 href="/#experience" target="_blank"><strong class="aboutme-link">resume</strong></a>, checking out the projects in my <a tabindex=0 href="/#portfolio" target="_blank"><strong class="aboutme-link">portfolio</strong></a> and contacting me here:</span>
+          {% endif %}
         </div>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">

@@ -106,6 +106,23 @@ a:not(.no-hyphens) {
     }
 }
 
+.content-body-about-me{
+  margin-top: 0;
+  .section-about-me{
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+.blog-article{
+  .container--content{
+    padding-bottom: 80px;
+  }
+  hr{
+    border-color: $my_dark-gray;
+  }
+}
+
 .top-0 {
     top: 0;
 }
