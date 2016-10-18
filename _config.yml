@@ -10,7 +10,7 @@ bing_verify:
 # Setup
 timezone:            europe/berlin
 locale:              de_DE
-name:                Kristin Baumann
+name:                Personal Website of Kristin Baumann
 title:               Kristin Baumann
 tagline:             Frontend Developer - DataVis Lover - Travel Addict
 description:         Personal website of Kristin Baumann
@@ -20,6 +20,7 @@ baseurl:             /
 baseurl_js:          /assets/js/
 avatar:              /assets/img/profile_photo_compress.jpg
 icon:                /assets/img/icons/logo-150.png
+disqus:              kristin-baumann
 gems:
   - jemoji
 

@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div id="container" class="intro-effect-fadeout content">
-
+  <a href="{{ site.baseurl }}" class="brandLogo brandLogo--small
+  {% if page.bgContrast == "light" %}
+    brandLogo--black
+  {% endif %}
+  ">{{ site.name }}</a>
 <header class="header">
     <div class="bg-img
               {% if page.bgGradientOpacity == "darker" %}
@@ -39,6 +43,9 @@ layout: default
       <li><a class="shareButton no-underline" href="https://www.linkedin.com/shareArticle
 ?mini=true&url={{ page.url | prepend: site.url_public | url_encode }}&title={{ page.title }}"  target="_blank"><span class="icon-linkedin"></span></a></li>
     </ul>
+
+    {% include comments.html %}
+
   </div>
   <hr/>
   <div class="container">

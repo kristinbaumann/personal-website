@@ -750,3 +750,22 @@ table.table-aboutme {
 .not-visible {
     display: none;
 }
+
+.brandLogo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background-image: url('/assets/img/others/logo-white.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 0;
+  text-indent: -100em;
+  overflow: hidden;
+}
+
+.brandLogo--small {
+  width: 44px;
+  height: 44px;
+}
