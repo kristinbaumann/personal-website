@@ -99,3 +99,26 @@ projectsList:
     - url: oct2_compressed.png
       caption: Optical Coherence Tomography slice with highlighted inner and outer vessel wall.
   visible: yes
+
+- name: The Sleep Factor
+  id: sleep
+  type: company-projects
+  important: true
+  link: https://www.theguardian.com/philips-healthier-brighter-future/2015/nov/23/the-sleep-factor-setting-the-clock-for-performance
+  company: Small Multiples
+  client: The Guardian & Philips
+  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
+  role: Frontend Developer (Implementation)
+  description:
+  - desc
+  cover: guardian_calc_perfect_processed.png
+  pictures:
+    - url: guardian_calc_question_processed.png
+      caption: captian
+    - url: guardian_calc_perfect_small_processed.png
+      caption: captian
+    - url: guardian_calc_bad_processed.png
+      caption: captian
+    - url: guardian_clock_processed.png
+      caption: captian
+  visible: yes
