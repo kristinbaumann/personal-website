@@ -70,12 +70,23 @@
                     </div>
                     {% endif %}
 
+                    {% if project.title %}
+                    <div class="sub full-width">
+                        <span class="sub-title">Title:</span> {{project.title}}
+                    </div>
+                    {% endif %}
+
                     {% if project.role %}
                     <div class="sub full-width">
                         <span class="sub-title">Role:</span> {{project.role}}
                     </div>
                     {% endif %}
 
+                    {% if project.responsibility %}
+                    <div class="sub full-width">
+                        <span class="sub-title">Responsibility:</span> {{project.responsibility}}
+                    </div>
+                    {% endif %}
 
                     {% if project.tech %}
                     <div class="sub full-width">
@@ -114,7 +125,13 @@
                 </div>
 
                 {% if project.link %}
-                <a tabindex=0 href="{{project.link}}" target="_blank" class="button project-try-button">Try Out</a>
+                <a tabindex=0 href="{{project.link}}" target="_blank" class="button project-try-button">
+                  {% if project.buttonText %}
+                    {{ project.buttonText }}
+                  {% else %}
+                    Try Out
+                  {% endif %}
+                </a>
                 {% endif %}
                 <button tabindex=0 data-remodal-action="cancel" class="button">close</button>
             </div>
