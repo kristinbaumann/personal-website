@@ -33,6 +33,12 @@ $(document).ready(function() {
                 scrollTop: offset
             }, 700, 'easeOutQuint');
         });
+        $('.home-page').on('click', '.triggerBlog', function() {
+            var offset = $(layoutContent).scrollTop() + $('#blogs').offset().top;
+            $('html, body').animate({
+                scrollTop: offset
+            }, 700, 'easeOutQuint');
+        });
 
 
         function loadSection(sectionId, nextSectionId) {

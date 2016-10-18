@@ -13,17 +13,17 @@
                             <div class="postArticle-wrapper card-shadow">
                                 <article class="postArticle postArticle--short">
                                     {% if post.image.hero %}
-                                    <a href="{{ post.url }}">
+                                    <a href="{{ post.url }}" target="_blank">
                                         <div class="postArticle-image desaturate" data-aload style="background-image:url('{{ post.image.hero }}')">
                                         </div>
                                     </a>
                                     {% else %}
-                                    <a href="{{ post.url }}">
+                                    <a href="{{ post.url }}" target="_blank">
                                         <div class="postArticle-image" data-aload style="background-image:url('{{site.baseurl}} assets/img/icons/logo-150.png')">
                                         </div>
                                     </a>
                                     {% endif %}
-                                    <a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a>
+                                    <a class="postArticle-title" href="{{ post.url }}" target="_blank">{{ post.title }}</a>
                                 </article>
                                 <div class="block-tag">
                                     {% if post.excerpt %} {{ post.excerpt }} {% endif %}
