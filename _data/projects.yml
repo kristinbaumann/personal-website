@@ -108,17 +108,20 @@ projectsList:
   company: Small Multiples
   client: The Guardian & Philips
   tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
-  role: Frontend Developer (Implementation)
+  role: Frontend / Datavis Developer (Implementation)
   description:
-  - desc
+  - Two interactive applications that provide information and tips for a better sleeping behaviour
+  - "Visualisations as part of the article \"The Sleep Factor: Setting the Clock for Performance\" by The Guardian"
+  - "Visualisation 1: Evaluation of the restfulness of sleep by duration, time distribution (sleep during day or night) and completed sleep cycles"
+  - "Visualisation 2: Clock showing the body temperature and the melatonin and cortisol level per hour and the consequences for a good sleep"
   cover: guardian_calc_perfect_processed.png
   pictures:
     - url: guardian_calc_question_processed.png
-      caption: captian
+      caption: "Vis 1: Start the sleep evaluation"
     - url: guardian_calc_perfect_small_processed.png
-      caption: captian
+      caption: "Vis 1: Positive result of the sleep evaluation"
     - url: guardian_calc_bad_processed.png
-      caption: captian
+      caption: "Vis 1: Negative result of the sleep evaluation"
     - url: guardian_clock_processed.png
-      caption: captian
+      caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
   visible: yes
