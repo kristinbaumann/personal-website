@@ -1,6 +1,8 @@
 projectsType:
 - id: company-projects
   name: Company Projects
+- id: other-projects
+  name: Other Projects
 # - id: university-projects
 #   name: University Projects
 
@@ -65,4 +67,61 @@ projectsList:
       caption: Walking directions.
     - url: gg6_compress.png
       caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
+  visible: yes
+
+- name: Bachelor Thesis
+  id: thesis
+  type: other-projects
+  important: false
+  buttonText: Read thesis
+  link: /assets/files/thesis.pdf
+  tech: Matlab & Math, Math, Math
+  topic: Research Project
+  title: "Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"
+  responsibility: Research, Data Processing, Algorithm Development, UI Design, Implementation, Evaluation
+  description:
+  - Bachelor Thesis written during my time as research assistant at the Research Campus STIMULATE & Department of Simulaton and Graphics at University Magdeburg, Germany
+  - Academic research on the visualization of cerebral vessels with focus on the vessel walls
+  - "Result: Interactive 3D visualization of a major component of the cerebral circulation to evaluate vessel radius and vessel wall thickness "
+  - "Purpose: Improvement of the diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)"
+  - "Background: recently enhanced imaging method Optical Coherence Tomography allows acquisition of the brain vessels, first project with this data visualised in 3D with meaningful parameters"
+  - "Steps: <ol><li>Data Processing from OCT images</li><li>Building of a 3D model of the Circle of Willis (Major component of the cerebral circulation)</li><li>Color-coded mapping of evaluation parameters on model</li><li>Evaluation</li></ol>"
+  cover: gui_mac_compressed.png
+  pictures:
+    - url: gui_mac_cut2_compressed.png
+      caption: VesselWallExplorer GUI with 3D vessel visualisation & associated OCT slice.
+    - url: brain2_compressed.png
+      caption: Anatomy overview of the Circle of Willis (main part of the cerebral circulation).
+    - url: meshes2_compressed.png
+      caption: 3D visualisation of the Circle of Willis.
+    - url: mesh_cut2_compressed.png
+      caption: Color coding of evaluation parameters on the 3D vessel model.
+    - url: oct2_compressed.png
+      caption: Optical Coherence Tomography slice with highlighted inner and outer vessel wall.
+  visible: yes
+
+- name: The Sleep Factor
+  id: sleep
+  type: company-projects
+  important: true
+  link: https://www.theguardian.com/philips-healthier-brighter-future/2015/nov/23/the-sleep-factor-setting-the-clock-for-performance
+  company: Small Multiples
+  client: The Guardian & Philips
+  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
+  role: Frontend / Datavis Developer (Implementation)
+  description:
+  - Two interactive applications that provide information and tips for a better sleeping behaviour
+  - "Visualisations as part of the article \"The Sleep Factor: Setting the Clock for Performance\" by The Guardian"
+  - "Visualisation 1: Evaluation of the restfulness of sleep by duration, time distribution (sleep during day or night) and completed sleep cycles"
+  - "Visualisation 2: Clock showing the body temperature and the melatonin and cortisol level per hour and the consequences for a good sleep"
+  cover: guardian_calc_perfect_processed.png
+  pictures:
+    - url: guardian_calc_question_processed.png
+      caption: "Vis 1: Start the sleep evaluation"
+    - url: guardian_calc_perfect_small_processed.png
+      caption: "Vis 1: Positive result of the sleep evaluation"
+    - url: guardian_calc_bad_processed.png
+      caption: "Vis 1: Negative result of the sleep evaluation"
+    - url: guardian_clock_processed.png
+      caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
   visible: yes
