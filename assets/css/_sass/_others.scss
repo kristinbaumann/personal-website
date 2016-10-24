@@ -117,9 +117,19 @@ a:not(.no-hyphens) {
 .blog-article{
   .container--content{
     padding-bottom: 80px;
+    font-family: $lato;
+    text-align: justify;
   }
   hr{
     border-color: $my_dark-gray;
+  }
+  .dotSeparator{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    &:before{
+      content: ". . .";
+    }
   }
   .shareWrapper {
       @include clearfix();
