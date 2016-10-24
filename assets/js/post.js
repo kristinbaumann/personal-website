@@ -116,4 +116,6 @@
             $('.modal-toggle-wrapper').click();
         }
     });
+
+    $('p').has('img').addClass('hasImage');
 })();

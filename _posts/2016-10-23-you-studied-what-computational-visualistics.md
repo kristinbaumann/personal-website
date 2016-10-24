@@ -4,7 +4,7 @@ title:  "You studied what...?"
 excerpt: "An answer to my most frequently asked question"
 categories: personal
 image:
-  hero: /assets/img/blog/study.jpeg
+  hero: /assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/study.jpeg
   heroStyle: center
 bgGradientOpacity: darker
 ---
@@ -35,25 +35,39 @@ Here come a few examples from my 7 semesters of study:
 
 **General computer science topics:**
 
-images
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/aud.png)
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/logik.png)
 
-caption
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/mathe3_cut.png)
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/theoinf.png)
 
-**Image-related Fields:**
+<span class="caption">Maths, Logic, Algorithms and Data Structures & Theoretical Computer Science</span>
 
-images
 
-caption
+**Image-related fields:**
 
-**Bachelor Thesis**: “Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall” (More info in my [portfolio](http://www.kristin-baumann.com/#popup-thesis){:target="_blank"}).
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/algoGeo3.png)
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/cg.jpg)
 
-image
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/infovis2.png)
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/Vis.png)
+
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/medBV.png)
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/CAGD.png)
+
+<span class="caption">Computer Graphics, Visualisation, Information Visualisation, Algorithmic Geometry, Computer Aided Geometric Design & Medical Image Processing</span>
+
+**Bachelor Thesis**: “Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall” (Read more in my [Portfolio](http://www.kristin-baumann.com/#popup-thesis){:target="_blank"}).
+
+![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/gui.png)
+
+<span class="caption">GUI for the evaluation of brain vessels</span>
 
 (All credits for the shown lecture slides go to the professors and lecturers.)
 
 <span class="dotSeparator"></span>
 
-Bottom line:
+**Bottom line**:
 
 Of course I learned how to code and how to code good during my studies. But none of the examples above I have ever applied in any real life projects (yet). Seems like a waste of time, effort and brain activity. But in fact studying Computational Visualistics taught me personally a lot more. 
 

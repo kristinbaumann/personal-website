@@ -104,6 +104,39 @@ a:not(.no-hyphens) {
         padding: 5px 0;
         width: 100%;
     }
+    // image gallery
+    p {
+    	max-width: 50rem;
+    	margin-bottom: 1rem;
+      font-size: .9rem;
+    	line-height: 1.45;
+    }
+
+    .hasImage {
+    	display: flex;
+    	width: 100%;
+    	margin-bottom: 0;
+    }
+
+    img {
+    	display: block;
+    	flex-shrink: 1;
+    	min-width: 0;
+    	height: auto;
+    	width: 100%;
+    	align-self: flex-start;
+    	margin-right: .5rem;
+    }
+
+    .caption {
+      text-align: center;
+      font-style: italic;
+    	font-size: .9rem;
+    	display: block;
+    	line-height: 1.25;
+      margin-top: -0.5rem;
+      padding-bottom: 15px;
+    }
 }
 
 .content-body-about-me{
@@ -116,7 +149,7 @@ a:not(.no-hyphens) {
 
 .blog-article{
   .container--content{
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     font-family: $lato;
     text-align: justify;
   }
