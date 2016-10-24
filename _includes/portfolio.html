@@ -15,7 +15,7 @@
                 </div> -->
                 <div id="listProjects">
                     {% for project in projects %}
-                    <a tabindex=0 href="#popup-{{project.id}}" class="grid-item {{ project.type }}">
+                    <a tabindex=0 href="#project-{{project.id}}" class="grid-item {{ project.type }}">
                         <img src="/assets/img/projects/{{project.id}}/{{ project.cover }}" class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                         <div class="grid-item-cover">
                             <div class="grid-item-cover-bg"></div>
@@ -31,8 +31,8 @@
                             </div>
                         </div>
                     </a>
-                    {% endfor %}
-                    <div data-remodal-id="popup-{{project.id}}" class="remodal">
+
+                    <div data-remodal-id="project-{{project.id}}" class="remodal">
                         <button data-remodal-action="close" class="remodal-close"></button>
                         {% if project.pictures %}
                         <div class="swiper-container">
@@ -134,7 +134,8 @@
                           </a>
                           {% endif %}
                           <button tabindex=0 data-remodal-action="cancel" class="button">close</button>
-            </div>
+                      </div>
+                    {% endfor %}
         </div>
     </div>
 </section>

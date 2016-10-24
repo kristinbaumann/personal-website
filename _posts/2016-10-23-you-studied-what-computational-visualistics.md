@@ -57,7 +57,7 @@ A few examples from my seven semesters of study:
 
 <span class="caption">Computer Graphics, Visualisation, Information Visualisation, Algorithmic Geometry, Computer Aided Geometric Design & Medical Image Processing</span>
 
-**Bachelor Thesis**: “Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall” (Read more in my [Portfolio](http://www.kristin-baumann.com/#popup-thesis){:target="_blank"}).
+**Bachelor Thesis**: “Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall” (Read more in my [Portfolio](/#project-thesis){:target="_blank"}).
 
 ![](/assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/gui.png)
 
