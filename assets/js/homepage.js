@@ -21,19 +21,22 @@ $(document).ready(function() {
                 scrollTop: offset
             }, 700, 'easeOutQuint');
         });
-        $('#about_me_cta').on('click', '.triggerExperience', function() {
+        $('.home-page').on('click', '.triggerExperience', function() {
+            ga('send', 'event', 'Navigation', 'click', 'Experience');
             var offset = $(layoutContent).scrollTop() + $('#experience').offset().top;
             $('html, body').animate({
                 scrollTop: offset
             }, 700, 'easeOutQuint');
         });
         $('.home-page').on('click', '.triggerPortfolio', function() {
+            ga('send', 'event', 'Navigation', 'click', 'Portfolio');
             var offset = $(layoutContent).scrollTop() + $('#portfolio').offset().top;
             $('html, body').animate({
                 scrollTop: offset
             }, 700, 'easeOutQuint');
         });
         $('.home-page').on('click', '.triggerBlog', function() {
+            ga('send', 'event', 'Navigation', 'click', 'Blog');
             var offset = $(layoutContent).scrollTop() + $('#blogs').offset().top;
             $('html, body').animate({
                 scrollTop: offset
@@ -133,6 +136,7 @@ $(document).ready(function() {
                 var docScrollTop = $(document).scrollTop();
                 var nextOffset = $('#' + sectionId).offset().top - window.innerHeight / 2;
                 if (docScrollTop > nextOffset) {
+                    ga('send', 'event', 'Loading', 'scroll', sectionId);
                     loadSection(sectionId, nextSectionId);
                     arrSections.splice(0, 1); // remove loaded section ID
                 }
@@ -144,6 +148,7 @@ $(document).ready(function() {
         $(document).on('opened', '.remodal', function() {
             // init swiper in project popup
             var remodalId = $(this).data('remodal-id');
+            ga('send', 'event', 'Portfolio', 'open', remodalId);
             if (!listSwiper[remodalId]) {
                 new Swiper($(this).children('.swiper-container')[0], {
                     // autoplay: 5000,
