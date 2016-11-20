@@ -5,7 +5,8 @@ excerpt: "An answer to my most frequently asked question"
 categories: personal
 image:
   hero: /assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/study.jpeg
-  heroStyle: center
+  thumbnail: /assets/img/blog/2016-10-23-you-studied-what-computational-visualistics/study.jpeg
+  heroStyle: right
 bgGradientOpacity: darker
 ---
 
