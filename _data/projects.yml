@@ -125,3 +125,31 @@ projectsList:
     - url: guardian_clock_processed.png
       caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
   visible: yes
+
+- name: EveryStay
+  id: everystay
+  type: company-projects
+  important: true
+  link: https://www.everystay.com/
+  company: 8 Bit Rockstars | Powering NFQ Group
+  tech: React JS (Universal Rendering), Redux, NodeJS, Sass,  Bootstrap, Webpack, Karma, Mocha
+  role: Frontend Tech Lead
+  topic: Vacation Rental Listing & Booking Website
+  description:
+  - Vacation rental listing and booking website
+  - User can search for a location & filter the results
+  - Details of properties are displayed with images and maps
+  - Property owner can be contacted by submitting booking requests
+  - Fully responsive with a desktop, tablet and mobile version
+  - Implemented as server-side rendered React Single Page Application
+  - start seite --> MacBook, check in check out eng
+  - search + filter -> Tablet
+  - detail Page --> Mac
+  - booking request --> Phone
+  cover: multiple_square.png
+  pictures:
+    - url: multiple_rectangle.png
+      caption: Fully responsive React Single Page Application
+    - url: every_1920 _1080_macbookgrey_front.png
+      caption: "caption1"
+  visible: yes
