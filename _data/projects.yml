@@ -132,7 +132,7 @@ projectsList:
   important: true
   link: https://www.everystay.com/
   company: 8 Bit Rockstars | Powering NFQ Group
-  tech: React JS (Universal Rendering), Redux, NodeJS, Sass,  Bootstrap, Webpack, Karma, Mocha
+  tech: React JS (Universal Rendering), Redux, NodeJS, Sass, Bootstrap, Webpack, Karma, Mocha
   role: Frontend Tech Lead
   topic: Vacation Rental Listing & Booking Website
   description:
@@ -156,4 +156,25 @@ projectsList:
       caption: Searching and filtering on mobile
     - url: mobile_request.png
       caption: Let's book a house for the next holiday
+  visible: yes
+
+- name: Reackathon
+  id: reackathon
+  type: other-projects
+  important: false
+  link: https://reackathon.8bitrockr.com
+  company: 8 Bit Rockstars | Powering NFQ Group
+  tech: React JS, Sass, Webpack
+  topic: React Hackathon Landing Page
+  role: Design & Implementation
+  description:
+  - Landing Page for the first React Hackathon in Vietnam
+  - Fast development using React Landing Page Components from <a href='https://github.com/dennybritz/neal-react'>neal-react</a>
+  - Created fully responsive design
+  cover: desktop_start_mac_square.png
+  pictures:
+    - url: desktop_start_mac_rectangle.png
+      caption: Fullscreen jumbotron as eye catcher at the top
+    - url: mobile_about.png
+      caption: More information about the event with text, countdown component and image slider
   visible: yes
