@@ -167,6 +167,7 @@ projectsList:
   tech: React JS, Sass, Webpack
   topic: React Hackathon Landing Page
   role: Design & Implementation
+  source: https://github.com/kristinbaumann/reackathon
   description:
   - Landing Page for the first React Hackathon in Vietnam
   - Fast development using React Landing Page Components from <a href='https://github.com/dennybritz/neal-react'>neal-react</a>
