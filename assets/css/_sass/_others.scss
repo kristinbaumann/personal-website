@@ -545,8 +545,13 @@ a:not(.no-hyphens) {
         }
 
         .project-try-button {
-            color: $my_green;
-            border-color: #4ABDAC;
+            color: white;
+            border-color: $my_green;
+            background-color: $my_green;
+            transition: .4 all;
+            &:hover{
+              background-color: rgba($my_green, .8);
+            }
         }
         @media (min-width: $screen-md-min) {
             max-width: 768px;
