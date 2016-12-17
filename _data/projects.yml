@@ -141,15 +141,19 @@ projectsList:
   - Details of properties are displayed with images and maps
   - Property owner can be contacted by submitting booking requests
   - Fully responsive with a desktop, tablet and mobile version
-  - Implemented as server-side rendered React Single Page Application
-  - start seite --> MacBook, check in check out eng
-  - search + filter -> Tablet
-  - detail Page --> Mac
-  - booking request --> Phone
+  - Implemented as a server-side rendered React Single Page Application
   cover: multiple_square.png
   pictures:
     - url: multiple_rectangle.png
       caption: Fully responsive React Single Page Application
-    - url: every_1920 _1080_macbookgrey_front.png
-      caption: "caption1"
+    - url: desktop_home.png
+      caption: Start page - let's search for a location or property name
+    - url: desktop_detail.png
+      caption: Detail page - find all information about a property
+    - url: tablet_search.png
+      caption: Searching and filtering on tablet
+    - url: mobile_search.png
+      caption: Searching and filtering on mobile
+    - url: mobile_request.png
+      caption: Let's book a house for the next holiday
   visible: yes
