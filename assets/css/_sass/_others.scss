@@ -126,7 +126,11 @@ a:not(.no-hyphens) {
     	width: 100%;
     	align-self: flex-start;
     	// margin-right: .5rem;
+      &.imageWithBorder{
+        border: 1px solid $gray !important;
+      }
     }
+
 
     .caption {
       text-align: center;
@@ -814,4 +818,12 @@ table.table-aboutme {
 .brandLogo--small {
   width: 44px;
   height: 44px;
+}
+
+.gist{
+  table{
+    td{
+      border: none;
+    }
+  }
 }

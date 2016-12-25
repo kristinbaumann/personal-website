@@ -10,14 +10,29 @@ layout: default
   {% endif %}
   ">{{ site.name }}</a>
 <header class="header">
+    {% if page.image.header %}
     <div class="bg-img
               {% if page.bgGradientOpacity == "darker" %}
                 gradient-darker
               {% elsif page.bgGradientOpacity == "lighter" %}
                 gradient-lighter
+              {% elsif page.bgGradientOpacity == "black" %}
+                gradient-black
+              {% endif %}
+      " style="background-image: url({{ page.image.header }});{% if page.image.heroStyle %}{{ page.image.heroStyle }}{% endif %}">
+    </div>
+    {% else %}
+    <div class="bg-img
+              {% if page.bgGradientOpacity == "darker" %}
+                gradient-darker
+              {% elsif page.bgGradientOpacity == "lighter" %}
+                gradient-lighter
+              {% elsif page.bgGradientOpacity == "black" %}
+                gradient-black
               {% endif %}
       " style="background-image: url({{ page.image.hero }});{% if page.image.heroStyle %}{{ page.image.heroStyle }}{% endif %}">
     </div>
+    {% endif %}
     <div class="title">
       <div>
           <h1>{{ page.title }}</h1>
