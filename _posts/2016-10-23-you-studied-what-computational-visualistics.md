@@ -76,4 +76,4 @@ It trained me to think abstractly and to solve algorithmic problems —  the
 
 <span class="dotSeparator">.&#12288;.&#12288;.</span>
 
-*How did you find your field of work? What made you study your subject? Post a comment below or share this article.*
+*How did you find your field of work? What made you study your subject?*
