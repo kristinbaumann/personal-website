@@ -19,6 +19,8 @@ While I was building a [landing page for an event](http://www.kristin-baumann.co
 
 <br />
 
+Update 28.12.2016: This countdown component is now also part of [neal-react](https://github.com/dennybritz/neal-react){:target="_blank"}, a collection of react components to easily build landing pages.
+
 **Github:** [https://github.com/kristinbaumann/react-countdown](https://github.com/kristinbaumann/react-countdown){:target="_blank"}
 
 <script src="https://gist.github.com/kristinbaumann/a15c130142f3a5f8a8900c19805e128a.js"></script>
