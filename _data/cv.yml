@@ -1,7 +1,7 @@
 aboutme:
 - Hi, my name is Kristin Baumann! I am a <strong>Frontend Developer</strong> with 3+ years practical experience in developing web applications.
 - I successfully studied <strong>Computational Visualistics</strong>, which provided me with a profound computer science background and let me discover my passion for any kind of visual presentation, like building <strong>beautiful modern web applications</strong> or code complex <strong>data visualisations</strong>.
-- I am a <strong>highly ambitious</strong> person, which motivates me to constantly <strong>improve my skills</strong>. Code-wise this means I am currently deep diving into the JavaScript Framework <strong>React</strong>.
+- I am a <strong>highly ambitious</strong> person, which motivates me to constantly <strong>improve my skills</strong>. Code-wise this means I am currently deep diving into the JavaScript Framework <strong>ReactJS</strong>.
 - I try to see as much as possible of the world behind my computer screen, so I worked abroad in Australia and am right now <strong>living in Ho Chi Minh City, Vietnam</strong>.
 
 
@@ -14,7 +14,7 @@ works:
   description:
   - Realisation of startup projects as frontend tech lead
   technologies:
-  - React.js, HTML5, CSS3, ES6, SASS, Webpack, Scrum
+  - ReactJS, HTML5, CSS3, ES6, SASS, Webpack, Scrum
 
 - company: Small Multiples
   link: http://small.mu/
@@ -25,7 +25,7 @@ works:
   - Implementation of Single Page Web Applications with feature-rich data visualisations
   - Attention to mobile optimisation and cross-browser compatibility
   technologies:
-  - JavaScript, D3.js, CoffeeScript, React, React Native, Leaflet, Mapbox, Gulp
+  - JavaScript, D3.js, CoffeeScript, ReactJS, React Native, Leaflet, Mapbox, Gulp
 
 - company: Research Campus STIMULATE
   link: https://www.forschungscampus-stimulate.de/en/start/index.html
@@ -97,7 +97,7 @@ skills:
   - 3+ years experience in developing web applications
   - Advanced Experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
   - Proficient Experience in JavaScript Frameworks <strong>React</strong> & <strong>React Native</strong>
-  - Familiar with <strong>ECMAScript 6</strong> & <strong>CoffeeScript</strong>
+  - Familiar with <strong>ECMAScript 6</strong>, <strong>Node.js</strong> & <strong>CoffeeScript</strong>
   - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
   - Understanding of CSS Preprocessors (SASS, LESS, Stylus)
   - Experience in designing and developing data visualisations with <strong>D3.js</strong>, <strong>Leaflet</strong> & <strong>Mapbox API</strong>
