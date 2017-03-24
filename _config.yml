@@ -11,9 +11,9 @@ bing_verify:
 timezone:            europe/berlin
 locale:              de_DE
 name:                Personal Website of Kristin Baumann
-title:               Kristin Baumann
+title:               Personal Website of Kristin Baumann
 tagline:             Frontend Developer - DataVis Lover - Travel Addict
-description:         Personal website of Kristin Baumann
+description:         Frontend Developer - DataVis Lover - Travel Addict
 url:
 url_public:          http://www.kristin-baumann.com
 baseurl:             /
