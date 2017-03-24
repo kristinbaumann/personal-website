@@ -6,13 +6,20 @@ aboutme:
 
 
 works:
+- company: HomeToGo GmbH
+  link: http://www.hometogo.de/
+  location: Berlin (Germany)
+  position: Product Design & Prototyping Manager
+  time: May 2017 - present
+
 - company: 8 Bit Rockstars | Powering NFQ Group
   link: http://8bitrockr.com/
   location: Ho Chi Minh City (Vietnam)
   position: Senior Frontend Developer
-  time: June 2016 - present
+  time: June 2016 - January 2017
   description:
   - Realisation of startup projects as frontend tech lead
+  - Implementation of universal / isomorphic React web application
   technologies:
   - ReactJS, HTML5, CSS3, ES6, SASS, Webpack, Scrum
 

@@ -29,8 +29,9 @@
                                         {% for desc in work.description %}
                                         <li><span>{{ desc }}</span></li>
                                         {% endfor %}
-                                        <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span>
-                                        </li>
+                                        {% if work.technologies %}
+                                        <li><span><span class="underline">Technologies:</span> {{ work.technologies }}</span></li>
+                                        {% endif %}
                                     </ul>
                                 </div>
                             </div>
