@@ -280,10 +280,11 @@ a:not(.no-hyphens) {
     font-family: $title-primary-font;
     background-color: transparent;
 
-    h2 {
+    h1 {
         font-weight: normal;
         padding: 0 15px;
         margin: 0;
+        font-size: 1.5em;
     }
 
     .trigger {

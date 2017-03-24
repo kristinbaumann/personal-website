@@ -18,7 +18,7 @@ projectsList:
   role: Frontend / Datavis Developer (Implementation)
   description:
   - Visualisation and explanation of research results about homelessness in Australia
-  - Showing the geographical and demographical distribution and increasing factors
+  - Showing the geographical and demographic distribution and increasing factors
   - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
   cover: header_mac_compress.png
   pictures:
@@ -45,7 +45,7 @@ projectsList:
   important: true
   link: http://static-greengrid.visualise.today/stage/webapp/
   company: Small Multiples
-  client: NSW Goverment Architect's Office (Australia)
+  client: NSW Government Architect's Office (Australia)
   tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, Mapbox
   role: Frontend Developer (Implementation)
   description:
