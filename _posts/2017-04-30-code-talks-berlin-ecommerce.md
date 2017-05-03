@@ -24,11 +24,9 @@ The code.talks smaller sister in Berlin mainly addresses developers from the eco
 
 <span class="caption">Code talks...</span>
 
-// allgemeine Talk Einschätzung
+As predestinated for an ecommerce conference a few big players in this domain presented talks to current or permanent topics, e.g. Zalando, ProjectA, Otto, shopping24, Spryker, AboutYou. For example, like in the year before the subject of Microservices was popular. A panel discussion tried to find out what's beyond traditional ecommerce plattforms. Furthermore topics like machine learning and artificial intelligence opened up another perspective of the ecommerce area. 
 
-TODO
-
-![](/assets/img/blog//2017-04-30-code-talks-berlin-ecommerce/iso_talk.jpeg)
+![](/assets/img/blog//2017-04-30-code-talks-berlin-ecommerce/iso_talk_slide.JPG)
 
 <span class="caption">Isomorphic JavaScript - Why & How</span>
 
