@@ -39,3 +39,5 @@ You can check out the [view layer code example](https://github.com/kristinbauman
 
 
 In summary, I enjoyed the code.talks commercespecial very much. I met a bunch of new people from my new home Berlin and gained a few new insights, especially in architecture and the design to development process that I will follow up now. But since this conference is aiming at developers, there should be more developers in relation to business and sales people. So guys, if you are a dev: get out there, talk and share your knowledge! 
+
+Update 10.5.2017: The sponsor AboutYou published an interview with me about the code.talks <a href="https://medium.com/about-developer-blog/code-talks-commerce-special-2017-exclusive-cef964a08e47" rel="nofollow" target="_blank">here</a>.

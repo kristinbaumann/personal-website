@@ -7,7 +7,7 @@ Based on https://github.com/leetrunghoo/leetrunghoo.github.io.
 
 ## How to run
 
-__Requirement:__ installed ruby, gem, nodejs & npm
+__Requirement:__ installed ruby, gem, jekyll, nodejs & npm
 
 1. Install all gulp dependencies
 	```
