@@ -4,14 +4,14 @@ title:  enterJS conference 2017
 excerpt: Running my full-day "Intro to React" Workshop
 categories: talks
 image:
-  hero: /assets/img/blog/2017-06-24-enterjs-conference-darmstadt-2017/group.jpg
-  thumbnail: /assets/img/blog/2017-06-24-enterjs-conference-darmstadt-2017/group.jpg
+  hero: /assets/img/blog/2017-06-24-enterjs-conference-react-workshop/group.jpg
+  thumbnail: /assets/img/blog/2017-06-24-enterjs-conference-react-workshop/group.jpg
 bgGradientOpacity: darker
 ---
 
 In mid-June I attended and spoke at the 4th [enterJS](http://www.enterjs.de){:target="_blank"} conference in Darmstadt, Germany.
 
-![](/assets/img/blog/2017-06-24-enterjs-conference-darmstadt-2017/opener.png)
+![](/assets/img/blog/2017-06-24-enterjs-conference-react-workshop/opener.png)
 
 <span class="caption">Website <a href="http://www.enterjs.de" alt="Website EnterJS Conference Darmstadt">enterjs.de</a></span>
 
@@ -22,7 +22,7 @@ In about six hours we dived deep into React concepts. The goal was to implement 
 
 All workshop materials can be found on [reactworkshop.kristin-baumann.com](http://reactworkshop.kristin-baumann.com/){:target="_blank"} and the example code on [https://github.com/kristinbaumann/react-workshop](https://github.com/kristinbaumann/react-workshop){:target="_blank"}.
 
-![](/assets/img/blog/2017-06-24-enterjs-conference-darmstadt-2017/workshop_slide.png)
+![](/assets/img/blog/2017-06-24-enterjs-conference-react-workshop/workshop_slide.png)
 
 <span class="caption">Sorry, German slides ;)</span>
 
@@ -52,7 +52,7 @@ Fortunately we finished this tight schedule quite on time, so we could start the
 
 As a preparation step before the actual coding session, we discussed in the group how we can break up the application in React components and which components can be reused with certain props and state:
 
-![](/assets/img/blog/2017-06-24-enterjs-conference-darmstadt-2017/component_hierarchy.png)
+![](/assets/img/blog/2017-06-24-enterjs-conference-react-workshop/component_hierarchy.png)
 
 <span class="caption">Composition of React components for the conference application</span>
 
