@@ -108,7 +108,7 @@ a:not(.no-hyphens) {
     p {
     	max-width: 50rem;
     	margin-bottom: 1rem;
-      font-size: .9rem;
+        font-size: .9rem;
     	line-height: 1.45;
     }
 
@@ -129,6 +129,11 @@ a:not(.no-hyphens) {
       &.imageWithBorder{
         border: 1px solid $gray !important;
       }
+    }
+
+    ul li{
+        font-size: .9rem;
+    	line-height: 1.45;
     }
 
 
