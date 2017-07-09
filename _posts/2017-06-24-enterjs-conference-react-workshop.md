@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  enterJS conference 2017
-excerpt: Running my full-day "Intro to React" Workshop
+title:  My full-day React Workshop 
+excerpt: At enterJS conference 2017
 categories: talks
 image:
   hero: /assets/img/blog/2017-06-24-enterjs-conference-react-workshop/group.jpg
