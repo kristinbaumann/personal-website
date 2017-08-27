@@ -329,5 +329,8 @@ ul.socialAccountsFooter {
       @media (max-width: $screen-xs-max) {
         margin: 0 5px;
       }
+      a{
+          color: #fff;
+      }
     }
 }
