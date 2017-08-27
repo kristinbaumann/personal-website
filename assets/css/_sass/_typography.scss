@@ -23,12 +23,9 @@ $font-XXXL: 4.209rem;
 $font-XXXXL: 5.61rem;
 // Font type
 $body-primary-font: 'Lato', sans-serif;
-$title-primary-font: 'Cabin Sketch', Geneva, sans-serif;
 
 $lato: 'Lato', sans-serif;
-$roboto: 'Roboto', sans-serif;
 $roboto-slab: 'Roboto Slab', monospace;
-// $roboto-mono: 'Roboto Mono', monospace;
 
 .font-xs {
     font-size: $font-XS;
@@ -128,12 +125,6 @@ dl {
 // h5,
 // h6 {
 //   /* Change heading typefaces here */
-//   font-family: $title-primary-font;
-//   margin-top: $leading;
-//   margin-bottom: 0;
-//   line-height: $leading;
-//   letter-spacing: -0.02em;
-// }
 h1 {
     font-size: 2.5 * $scale * 1rem;
     line-height: 3 * $leading;

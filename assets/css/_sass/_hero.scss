@@ -162,6 +162,12 @@
   width: 100%;
   font-size: $font-S;
   text-transform: uppercase;
+  @media (max-width: $screen-xs-max) {
+    display: block;
+    padding: 0 20px;
+    margin-top: 5.5rem;
+    line-height: 30px;
+  }
 }
 
 .postMeta-wrapper--frontpage {

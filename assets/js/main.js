@@ -119,10 +119,7 @@ $(document).ready(function() {
         document.getElementsByTagName('head')[0].appendChild(linkFont);
     }
     loadFont('Lato');
-    loadFont('Cabin Sketch');
-    loadFont('Roboto');
     loadFont('Roboto Slab');
-    // loadFont('Roboto Mono');
 
     $(function() {
         // loading indicator
