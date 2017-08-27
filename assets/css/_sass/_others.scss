@@ -240,9 +240,6 @@ a:not(.no-hyphens) {
     height: 100%;
     background: url("/assets/img/Baumann_big.jpg") no-repeat center center;
     background-size: cover;
-    @media (max-width: $screen-sm-min) {
-         display: none;
-    }
 }
 
 .section-backgroundImage .welcome-img-overlay {
@@ -251,9 +248,9 @@ a:not(.no-hyphens) {
     height: 100%;
     background: black;
     opacity: .1;
-    @media (max-width: $screen-xs-min) {
-       display: none;
-    }
+    // @media (max-width: $screen-xs-min) {
+    //    display: none;
+    // }
 }
 
 #welcomeContainer {
