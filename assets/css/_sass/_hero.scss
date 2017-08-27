@@ -66,8 +66,6 @@
   &.section-backgroundImage--nextPage {
     background: url() no-repeat center center;
     background-size: cover;
-    @media (max-width: $screen-xs-max) {
-    }
   }
 
   .post-featuredImage {

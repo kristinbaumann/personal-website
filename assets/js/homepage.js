@@ -1,15 +1,15 @@
 $(document).ready(function() {
     // add typing animation for home page
-    var $typingElement = $('#welcomeContainer .container');
-    $typingElement.typingAnimation(function() {
-        setTimeout(function() {
-            $typingElement.addClass('color-white');
-            var $section = $('#welcome');
-            $section.find('.section-backgroundImage').removeClass('opacity-0');
-            $section.find('.section-gradient').removeClass('opacity-0');
-            $('#welcomeContainer .trigger').removeClass('hide');
-        }, 1000);
-    });
+    // var $typingElement = $('#welcomeContainer .container');
+    // $typingElement.typingAnimation(function() {
+    //     setTimeout(function() {
+    //         $typingElement.addClass('color-white');
+    //         var $section = $('#welcome');
+    //         $section.find('.section-backgroundImage').removeClass('opacity-0');
+    //         $section.find('.section-gradient').removeClass('opacity-0');
+    //         $('#welcomeContainer .trigger').removeClass('hide');
+    //     }, 1000);
+    // });
 
     // bind event to trigger of Welcome section
     var layoutContent = document.querySelector('article');
