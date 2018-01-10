@@ -1,5 +1,5 @@
 aboutme:
-- Hi, my name is Kristin Baumann! I am a <strong>Frontend Developer</strong> with 4+ years practical experience in creating web applications.
+- Hi, I am a <strong>Senior Frontend Developer</strong> with 4+ years practical experience in creating web applications.
 - I successfully studied <strong>Computational Visualistics</strong>, which provided me with a profound computer science background and let me discover my passion for any kind of visual presentation, like building <strong>beautiful modern web applications</strong> or code complex <strong>data visualisations</strong>.
 - I am a <strong>highly ambitious</strong> person, which motivates me to constantly <strong>improve my skills</strong>. While I am currently deep diving into the JavaScript UI Library <strong>React</strong> from tech side, I am also broadening my horizon by working in the field of <strong>design and user experience</strong>.
 - I love travelling around the world, so I worked abroad in Australia and Vietnam. I am currently <strong>living in Berlin, Germany</strong>.
@@ -87,23 +87,13 @@ education:
   - "Final Score: 1,2 (very good)"
   - "Scholarship: Friedrich Naumann Foundation for Freedom"
 
-
-- school: Gymnasium Philanthropinum
-  location: Dessau (Germany)
-  degree: High School Graduation (Abitur)
-  time: Aug 2005 - June 2012
-  description:
-  - Majors in Mathematics, English and Computer Science
-  - Graduation as best student in year 2012 with overall grade 1,1 (very good)
-
-
 skills:
 - type: Programming
   details:
-  - 3+ years experience in developing web applications
+  - 4+ years experience in developing web applications
   - Advanced Experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
   - Proficient Experience in JavaScript Frameworks <strong>React</strong> & <strong>React Native</strong>
-  - Familiar with <strong>ECMAScript 6</strong>, <strong>Node.js</strong> & <strong>CoffeeScript</strong>
+  - Familiar with <strong>ECMAScript 6</strong> & <strong>Node.js</strong>
   - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
   - Understanding of CSS Preprocessors (SASS, LESS, Stylus)
   - Experience in designing and developing data visualisations with <strong>D3.js</strong>, <strong>Leaflet</strong> & <strong>Mapbox API</strong>
@@ -114,10 +104,10 @@ skills:
 
 - type: Software Development
   details:
+  - Advanced knowledge of <strong>UI / UX design</strong> & general design principles
+  - Familiar with <strong>responsive web development</strong>, mobile optimisation & cross-browser compatibility
   - Experience with agile software development <strong>SCRUM</strong>
   - Understanding of version control system <strong>GIT</strong>
-  - Familiar with <strong>responsive web development</strong>, mobile optimisation & cross-browser compatibility
-  - Basic knowledge of <strong>UI / UX design</strong> & general design principles
 
 - type: Soft Skills
   details:

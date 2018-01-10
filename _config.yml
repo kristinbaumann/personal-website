@@ -21,8 +21,6 @@ baseurl_js:          /assets/js/
 avatar:              /assets/img/Baumann_touched_square.jpg
 icon:                /assets/img/icons/logo-150.png
 disqus:              kristin-baumann
-gems:
-  - jemoji
 
 future:              true
 highlighter:         rouge
