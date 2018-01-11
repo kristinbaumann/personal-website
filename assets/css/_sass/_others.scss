@@ -363,11 +363,11 @@ a:not(.no-hyphens) {
 
 /** Masonry **/
 .grid-item {
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
     max-height: 500px;
     background: $gray-lightest no-repeat center center;
     background-size: contain;
-    margin: 10px;
+    margin: 20px;
     transition: box-shadow 0.25s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
 
@@ -386,12 +386,15 @@ a:not(.no-hyphens) {
     }
     @media (min-width: $screen-sm-min) {
         width: calc(50% - 20px);
+        margin: 10px;
     }
     @media (min-width: $screen-md-min) {
         width: calc(33.33% - 20px);
+        margin: 10px;
     }
     @media (min-width: $screen-lg-min) {
-        width: calc(25% - 20px);
+        width: calc(33.33% - 40px);
+        margin: 20px;
     }
 
     .grid-item-cover {
@@ -423,7 +426,7 @@ a:not(.no-hyphens) {
                 display: none;
                 vertical-align: middle;
                 color: white;
-                padding: 0 5px;
+                padding: 0 15px;
 
                 .project-name {
                     font-size: $font-M;
