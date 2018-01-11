@@ -1,135 +1,26 @@
-projectsType:
-- id: company-projects
-  name: Company Projects
-- id: other-projects
-  name: Other Projects
-# - id: university-projects
-#   name: University Projects
-
 projectsList:
-- name: Homelessness in Australia
-  id: homelessness
-  type: company-projects
-  important: true
-  link: http://www.abc.net.au/interactives/homeless/
-  company: Small Multiples
-  client: FactFile ABC News (Australia)
-  tech:  CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, D3.js, Mapbox
-  role: Frontend / Datavis Developer (Implementation)
+- name: Reackathon
+  id: reackathon
+  link: https://reackathon.8bitrockr.com
+  company: 8 Bit Rockstars | Powering NFQ Group
+  tech: React JS, Sass, Webpack
+  topic: React Hackathon Landing Page
+  role: Design & Implementation
+  source: https://github.com/kristinbaumann/reackathon
   description:
-  - Visualisation and explanation of research results about homelessness in Australia
-  - Showing the geographical and demographic distribution and increasing factors
-  - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
-  cover: header_mac_compress.png
+  - Landing Page for the first React Hackathon in Vietnam
+  - Fast development using React Landing Page Components from <a href='https://github.com/dennybritz/neal-react'>neal-react</a>
+  - Created fully responsive design
+  cover: desktop_start_mac_square.png
   pictures:
-    - url: header_mac_cut_compress.png
-      caption: Hero Image "Without A Home".
-    - url: hexagon1_mac_cut_compress.png
-      caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region.
-    - url: hexagon2_mac_cut_compress.png
-      caption: Popup of a region in the hexagon map.
-    - url: dot1_mac_cut_compress.png
-      caption: Dot density map showing the geographical distribution of homeless people.
-    - url: text_mac_cut_compress.png
-      caption: Data Story Telling.
-  videos:
-    - mp4: video_homelessness_512k.mp4
-      caption: Explanations of the maps and visualisations on the website
-      source_text: ABC FactCheck (John Barren)
-      source_link: http://www.abc.net.au/news/2016-02-10/fact-file:-an-interactive-snapshot-of-australia's/7156044
-  visible: zes
-
-- name: Green Grid
-  id: greengrid
-  type: company-projects
-  important: true
-  link: http://static-greengrid.visualise.today/stage/webapp/
-  company: Small Multiples
-  client: NSW Government Architect's Office (Australia)
-  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, Mapbox
-  role: Frontend Developer (Implementation)
-  description:
-  - Mobile web application allowing users to plan their pedestrian way through Sydney by crossing parks and green spaces
-  - "Goal: help Sydneysiders to improve their quality of life by walking through park areas instead of taking the big main roads"
-  - User selects start and end location, then receives way suggestions with parks on the route
-  - Includes a map with information like tree canopy, play grounds and fitness stations
-  cover: gg1_compress.png
-  pictures:
-    - url: gg1_compress.png
-      caption: User selects start and end location with auto suggestions.
-    - url: gg2_compress.png
-      caption: Initial route suggestion.
-    - url: gg3_compress.png
-      caption: User can add and remove parks from route to change detour duration.
-    - url: gg4_compress.png
-      caption: Walking route with directions, map and info like distance, steps and CO<sub>2</sub> savings.
-    - url: gg5_compress.png
-      caption: Walking directions.
-    - url: gg6_compress.png
-      caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
-  visible: yes
-
-- name: Bachelor Thesis
-  id: thesis
-  type: other-projects
-  important: false
-  buttonText: Read thesis
-  link: /assets/files/thesis.pdf
-  tech: Matlab & Math, Math, Math
-  topic: Research Project
-  title: "Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"
-  responsibility: Research, Data Processing, Algorithm Development, UI Design, Implementation, Evaluation
-  description:
-  - Bachelor Thesis written during my time as research assistant at the Research Campus STIMULATE & Department of Simulaton and Graphics at University Magdeburg, Germany
-  - Academic research on the visualization of cerebral vessels with focus on the vessel walls
-  - "Result: Interactive 3D visualization of a major component of the cerebral circulation to evaluate vessel radius and vessel wall thickness "
-  - "Purpose: Improvement of the diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)"
-  - "Background: recently enhanced imaging method Optical Coherence Tomography allows acquisition of the brain vessels, first project with this data visualised in 3D with meaningful parameters"
-  - "Steps: <ol><li>Data Processing from OCT images</li><li>Building of a 3D model of the Circle of Willis (Major component of the cerebral circulation)</li><li>Color-coded mapping of evaluation parameters on model</li><li>Evaluation</li></ol>"
-  cover: gui_mac_compressed.png
-  pictures:
-    - url: gui_mac_cut2_compressed.png
-      caption: VesselWallExplorer GUI with 3D vessel visualisation & associated OCT slice.
-    - url: brain2_compressed.png
-      caption: Anatomy overview of the Circle of Willis (main part of the cerebral circulation).
-    - url: meshes2_compressed.png
-      caption: 3D visualisation of the Circle of Willis.
-    - url: mesh_cut2_compressed.png
-      caption: Color coding of evaluation parameters on the 3D vessel model.
-    - url: oct2_compressed.png
-      caption: Optical Coherence Tomography slice with highlighted inner and outer vessel wall.
-  visible: yes
-
-- name: The Sleep Factor
-  id: sleep
-  type: company-projects
-  important: true
-  link: https://www.theguardian.com/philips-healthier-brighter-future/2015/nov/23/the-sleep-factor-setting-the-clock-for-performance
-  company: Small Multiples
-  client: The Guardian & Philips
-  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
-  role: Frontend / Datavis Developer (Implementation)
-  description:
-  - Two interactive applications that provide information and tips for a better sleeping behaviour
-  - "Visualisations as part of the article \"The Sleep Factor: Setting the Clock for Performance\" by The Guardian"
-  - "Visualisation 1: Evaluation of the restfulness of sleep by duration, time distribution (sleep during day or night) and completed sleep cycles"
-  - "Visualisation 2: Clock showing the body temperature and the melatonin and cortisol level per hour and the consequences for a good sleep"
-  cover: guardian_calc_perfect_processed.png
-  pictures:
-    - url: guardian_calc_question_processed.png
-      caption: "Vis 1: Start the sleep evaluation"
-    - url: guardian_calc_perfect_small_processed.png
-      caption: "Vis 1: Positive result of the sleep evaluation"
-    - url: guardian_calc_bad_processed.png
-      caption: "Vis 1: Negative result of the sleep evaluation"
-    - url: guardian_clock_processed.png
-      caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
+    - url: desktop_start_mac_rectangle.png
+      caption: Fullscreen jumbotron as eye catcher at the top
+    - url: mobile_about.png
+      caption: More information about the event with text, countdown component and image slider
   visible: yes
 
 - name: EveryStay
   id: everystay
-  type: company-projects
-  important: true
   link: https://www.everystay.com/
   company: 8 Bit Rockstars | Powering NFQ Group
   tech: React JS (Universal Rendering), Redux, NodeJS, Sass, Bootstrap, Webpack, Karma, Mocha
@@ -158,24 +49,121 @@ projectsList:
       caption: Let's book a house for the next holiday
   visible: yes
 
-- name: Reackathon
-  id: reackathon
-  type: other-projects
-  important: false
-  link: https://reackathon.8bitrockr.com
-  company: 8 Bit Rockstars | Powering NFQ Group
-  tech: React JS, Sass, Webpack
-  topic: React Hackathon Landing Page
-  role: Design & Implementation
-  source: https://github.com/kristinbaumann/reackathon
+- name: The Sleep Factor
+  id: sleep
+  link: https://www.theguardian.com/philips-healthier-brighter-future/2015/nov/23/the-sleep-factor-setting-the-clock-for-performance
+  company: Small Multiples
+  client: The Guardian & Philips
+  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
+  role: Frontend / Datavis Developer (Implementation)
   description:
-  - Landing Page for the first React Hackathon in Vietnam
-  - Fast development using React Landing Page Components from <a href='https://github.com/dennybritz/neal-react'>neal-react</a>
-  - Created fully responsive design
-  cover: desktop_start_mac_square.png
+  - Two interactive applications that provide information and tips for a better sleeping behaviour
+  - "Visualisations as part of the article \"The Sleep Factor: Setting the Clock for Performance\" by The Guardian"
+  - "Visualisation 1: Evaluation of the restfulness of sleep by duration, time distribution (sleep during day or night) and completed sleep cycles"
+  - "Visualisation 2: Clock showing the body temperature and the melatonin and cortisol level per hour and the consequences for a good sleep"
+  cover: guardian_calc_perfect_processed.png
   pictures:
-    - url: desktop_start_mac_rectangle.png
-      caption: Fullscreen jumbotron as eye catcher at the top
-    - url: mobile_about.png
-      caption: More information about the event with text, countdown component and image slider
+    - url: guardian_calc_question_processed.png
+      caption: "Vis 1: Start the sleep evaluation"
+    - url: guardian_calc_perfect_small_processed.png
+      caption: "Vis 1: Positive result of the sleep evaluation"
+    - url: guardian_calc_bad_processed.png
+      caption: "Vis 1: Negative result of the sleep evaluation"
+    - url: guardian_clock_processed.png
+      caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
   visible: yes
+
+- name: Bachelor Thesis
+  id: thesis
+  buttonText: Read thesis
+  link: /assets/files/thesis.pdf
+  tech: Matlab & Math, Math, Math
+  topic: Research Project
+  title: "Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"
+  responsibility: Research, Data Processing, Algorithm Development, UI Design, Implementation, Evaluation
+  description:
+  - Bachelor Thesis written during my time as research assistant at the Research Campus STIMULATE & Department of Simulaton and Graphics at University Magdeburg, Germany
+  - Academic research on the visualization of cerebral vessels with focus on the vessel walls
+  - "Result: Interactive 3D visualization of a major component of the cerebral circulation to evaluate vessel radius and vessel wall thickness "
+  - "Purpose: Improvement of the diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)"
+  - "Background: recently enhanced imaging method Optical Coherence Tomography allows acquisition of the brain vessels, first project with this data visualised in 3D with meaningful parameters"
+  - "Steps: <ol><li>Data Processing from OCT images</li><li>Building of a 3D model of the Circle of Willis (Major component of the cerebral circulation)</li><li>Color-coded mapping of evaluation parameters on model</li><li>Evaluation</li></ol>"
+  cover: gui_mac_compressed.png
+  pictures:
+    - url: gui_mac_cut2_compressed.png
+      caption: VesselWallExplorer GUI with 3D vessel visualisation & associated OCT slice.
+    - url: brain2_compressed.png
+      caption: Anatomy overview of the Circle of Willis (main part of the cerebral circulation).
+    - url: meshes2_compressed.png
+      caption: 3D visualisation of the Circle of Willis.
+    - url: mesh_cut2_compressed.png
+      caption: Color coding of evaluation parameters on the 3D vessel model.
+    - url: oct2_compressed.png
+      caption: Optical Coherence Tomography slice with highlighted inner and outer vessel wall.
+  visible: yes
+
+- name: Green Grid
+  id: greengrid
+  link: http://static-greengrid.visualise.today/stage/webapp/
+  company: Small Multiples
+  client: NSW Government Architect's Office (Australia)
+  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, Mapbox
+  role: Frontend Developer (Implementation)
+  description:
+  - Mobile web application allowing users to plan their pedestrian way through Sydney by crossing parks and green spaces
+  - "Goal: help Sydneysiders to improve their quality of life by walking through park areas instead of taking the big main roads"
+  - User selects start and end location, then receives way suggestions with parks on the route
+  - Includes a map with information like tree canopy, play grounds and fitness stations
+  cover: gg1_compress.png
+  pictures:
+    - url: gg1_compress.png
+      caption: User selects start and end location with auto suggestions.
+    - url: gg2_compress.png
+      caption: Initial route suggestion.
+    - url: gg3_compress.png
+      caption: User can add and remove parks from route to change detour duration.
+    - url: gg4_compress.png
+      caption: Walking route with directions, map and info like distance, steps and CO<sub>2</sub> savings.
+    - url: gg5_compress.png
+      caption: Walking directions.
+    - url: gg6_compress.png
+      caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
+  visible: yes
+
+
+
+- name: Homelessness in Australia
+  id: homelessness
+  link: http://www.abc.net.au/interactives/homeless/
+  company: Small Multiples
+  client: FactFile ABC News (Australia)
+  tech:  CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, D3.js, Mapbox
+  role: Frontend / Datavis Developer (Implementation)
+  description:
+  - Visualisation and explanation of research results about homelessness in Australia
+  - Showing the geographical and demographic distribution and increasing factors
+  - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
+  cover: header_mac_compress.png
+  pictures:
+    - url: header_mac_cut_compress.png
+      caption: Hero Image "Without A Home".
+    - url: hexagon1_mac_cut_compress.png
+      caption: Hexagon map showing increase (yellow) or decrease (blue) of homelessness per region.
+    - url: hexagon2_mac_cut_compress.png
+      caption: Popup of a region in the hexagon map.
+    - url: dot1_mac_cut_compress.png
+      caption: Dot density map showing the geographical distribution of homeless people.
+    - url: text_mac_cut_compress.png
+      caption: Data Story Telling.
+  videos:
+    - mp4: video_homelessness_512k.mp4
+      caption: Explanations of the maps and visualisations on the website
+      source_text: ABC FactCheck (John Barren)
+      source_link: http://www.abc.net.au/news/2016-02-10/fact-file:-an-interactive-snapshot-of-australia's/7156044
+  visible: yes
+
+
+
+
+
+
