@@ -1,4 +1,21 @@
 projectsList:
+- name: App Store Image Generator
+  id: app-store-image-generator
+  link: https://github.com/kristinbaumann/app-store-image-generator
+  tech: React JS, Webpack, Sketch
+  topic: React  ❤  Sketch
+  source: https://github.com/kristinbaumann/app-store-image-generator
+  description:
+  - New app screenshots? Don't update all app images manually! Update all app images for all locales in an instant by generating them in Sketch automatically!
+  cover: generatedFilesMacWithPhones@2x.png
+  pictures:
+    - url: generatedFilesMacWithPhonesRectangle@2x.png
+      caption: Automatic generation of localised app store images in Sketch with react-sketchapp
+    - url: generatedFilesMacRectangle@2x.png
+      caption: Sketch file generated from React components
+    - url: generatedFilesPhonesRectangle@2x.png
+      caption: For iTunes Connect and Google Play Store
+
 - name: Reackathon
   id: reackathon
   link: https://reackathon.8bitrockr.com
@@ -125,8 +142,6 @@ projectsList:
     - url: gg6_compress.png
       caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
 
-
-
 - name: Homelessness in Australia
   id: homelessness
   link: http://www.abc.net.au/interactives/homeless/
@@ -138,7 +153,7 @@ projectsList:
   - Visualisation and explanation of research results about homelessness in Australia
   - Showing the geographical and demographic distribution and increasing factors
   - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
-  cover: hexagon1_mac_cut_compress.png
+  cover: hexagon1_mac_compress.png
   pictures:
     - url: header_mac_cut_compress.png
       caption: Hero Image "Without A Home".
