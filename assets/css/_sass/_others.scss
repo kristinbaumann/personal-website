@@ -361,15 +361,23 @@ a:not(.no-hyphens) {
     }
 }
 
-/** Masonry **/
+/** Portfolio **/
+#listProjects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .grid-item {
     width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
     max-height: 500px;
     background: $gray-lightest no-repeat center center;
     background-size: contain;
     margin: 20px;
     transition: box-shadow 0.25s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    position: relative;
 
     > img {
         width: 100%;

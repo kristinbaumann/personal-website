@@ -1,15 +1,4 @@
 $(document).ready(function() {
-    // add typing animation for home page
-    // var $typingElement = $('#welcomeContainer .container');
-    // $typingElement.typingAnimation(function() {
-    //     setTimeout(function() {
-    //         $typingElement.addClass('color-white');
-    //         var $section = $('#welcome');
-    //         $section.find('.section-backgroundImage').removeClass('opacity-0');
-    //         $section.find('.section-gradient').removeClass('opacity-0');
-    //         $('#welcomeContainer .trigger').removeClass('hide');
-    //     }, 1000);
-    // });
 
     // bind event to trigger of Welcome section
     var layoutContent = document.querySelector('article');
@@ -54,63 +43,6 @@ $(document).ready(function() {
         $nextSection.find('*[data-aload]').each(function(i, ele) {
             aload(ele);
         });
-
-        if (sectionId === 'portfolio') {
-            NProgress.start();
-            $section.imagesLoaded(function(ele) {
-                NProgress.done();
-            });
-
-            var mapProjects = {};
-            $('.filter-projects button').each(function(i, ele) {
-                var filter = $(this).data('filter');
-                if (filter !== 'all') {
-                    mapProjects[filter] = $('#listProjects > a.' + filter);
-                }
-            });
-
-            var flagCom = true;
-            var flagPet = true;
-            var flagOther = true;
-            var $projects = $('#listProjects');
-            $projects.masonry({
-                transitionDuration: '0.5s',
-                itemSelector: '.grid-item',
-                columnWidth: '.grid-item',
-                percentPosition: true
-            });
-            $projects.imagesLoaded().progress(function() {
-                $projects.masonry("layout");
-            });
-
-            // filter projects
-            $('.filter-projects button').click(function() {
-                if ($(this).hasClass('button-primary')) {
-                    return;
-                }
-                $(this).siblings().removeClass('button-primary');
-                $(this).addClass('button-primary');
-
-                var filter = $(this).data('filter');
-                if (filter === 'all') {
-                    for (var key_filter in mapProjects) {
-                        if (mapProjects.hasOwnProperty(key_filter)) {
-                            if (mapProjects[key_filter].length > 0 && $('#listProjects a.' + key_filter).length === 0) {
-                                $projects.append(mapProjects[key_filter]);
-                                $projects.masonry('appended', mapProjects[key_filter]);
-                            }
-                        }
-                    }
-                } else {
-                    $projects.masonry('remove', $('#listProjects a:not(.' + filter + ')'));
-                    if (mapProjects[filter].length > 0 && $('#listProjects a.' + filter).length === 0) {
-                        $projects.append(mapProjects[filter]);
-                        $projects.masonry('appended', mapProjects[filter]);
-                    }
-                }
-                $projects.masonry('layout');
-            });
-        }
     }
 
     // scroll to top after reload/go back

@@ -17,7 +17,6 @@ projectsList:
       caption: Fullscreen jumbotron as eye catcher at the top
     - url: mobile_about.png
       caption: More information about the event with text, countdown component and image slider
-  visible: yes
 
 - name: EveryStay
   id: everystay
@@ -47,7 +46,6 @@ projectsList:
       caption: Searching and filtering on mobile
     - url: mobile_request.png
       caption: Let's book a house for the next holiday
-  visible: yes
 
 - name: The Sleep Factor
   id: sleep
@@ -71,7 +69,6 @@ projectsList:
       caption: "Vis 1: Negative result of the sleep evaluation"
     - url: guardian_clock_processed.png
       caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
-  visible: yes
 
 - name: Bachelor Thesis
   id: thesis
@@ -100,7 +97,6 @@ projectsList:
       caption: Color coding of evaluation parameters on the 3D vessel model.
     - url: oct2_compressed.png
       caption: Optical Coherence Tomography slice with highlighted inner and outer vessel wall.
-  visible: yes
 
 - name: Green Grid
   id: greengrid
@@ -128,7 +124,6 @@ projectsList:
       caption: Walking directions.
     - url: gg6_compress.png
       caption: Map showing the walking route, the park coverage, tree canopy, playgrounds, fitness stations, ...
-  visible: yes
 
 
 
@@ -143,7 +138,7 @@ projectsList:
   - Visualisation and explanation of research results about homelessness in Australia
   - Showing the geographical and demographic distribution and increasing factors
   - Single Page Web Application with a hexagon and a dot density map and more charts (built with D3.js and Mapbox)
-  cover: header_mac_compress.png
+  cover: hexagon1_mac_cut_compress.png
   pictures:
     - url: header_mac_cut_compress.png
       caption: Hero Image "Without A Home".
@@ -160,7 +155,6 @@ projectsList:
       caption: Explanations of the maps and visualisations on the website
       source_text: ABC FactCheck (John Barren)
       source_link: http://www.abc.net.au/news/2016-02-10/fact-file:-an-interactive-snapshot-of-australia's/7156044
-  visible: yes
 
 
 

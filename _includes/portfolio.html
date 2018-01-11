@@ -13,7 +13,7 @@
                 <div id="listProjects">
                     {% for project in projects %}
                     <a tabindex=0 href="#project-{{project.id}}" class="grid-item">
-                        <img src="/assets/img/projects/{{project.id}}/{{ project.cover }}" class="card-shadow" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
+                        <img class="grid-item-image" src="/assets/img/projects/{{project.id}}/{{ project.cover }}" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                         <div class="grid-item-cover">
                             <div class="grid-item-cover-bg"></div>
                             <div class="grid-item-cover-content-container">
