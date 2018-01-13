@@ -12,26 +12,6 @@ body {
 [data-aload] {
     background-image: none !important;
 }
-/** typing animation **/
-.typingAnimation {
-    display: none;
-}
-
-.cursor-typing {
-    &:after {
-        content: "|";
-        font-size: 1.3em;
-    }
-}
-
-.cursor-typed {
-    &:after {
-        width: 100%;
-        content: "|";
-        font-size: 1.3em;
-        @include animation_blink();
-    }
-}
 
 iframe {
     border: 1px solid $gray;

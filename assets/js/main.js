@@ -1,49 +1,4 @@
 $(document).ready(function() {
-    // plugins
-    $.fn.typingAnimation = function(callback) {
-        if (this.length === 0) {
-            return;
-        }
-        $('.cursor-typed').removeClass('cursor-typed');
-        $ele = this;
-        var str = $ele.html(),
-            delayTime = $ele.data('delay') || 0,
-            i = 0,
-            isTag,
-            text;
-        str = str.replace(/\s+/g, ' '); // trim all spaces
-        $ele.empty();
-        $ele.removeClass('hide');
-        $ele.show();
-        $ele.addClass('cursor-typed');
-
-        // wait a bit for loading effect
-        setTimeout(function() {
-            $ele.removeClass('cursor-typed');
-            type();
-        }, delayTime);
-
-        function type() {
-            text = str.slice(0, ++i);
-            if (text === str) { // done loop
-                while ($ele.children().length) {
-                    $ele = $ele.children().last();
-                }
-                $ele.addClass('cursor-typed');
-                if ($.isFunction(callback)) {
-                    callback();
-                }
-                return;
-            }
-            $ele.html(text);
-            var char = text.slice(-1);
-            if (char === '<') isTag = true;
-            if (char === '>') isTag = false;
-            if (isTag) return type();
-            setTimeout(type, 80);
-        }
-    };
-
     // http://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
     // Opera 8.0+
     var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
