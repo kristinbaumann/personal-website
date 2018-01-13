@@ -21,8 +21,8 @@ projectsList:
 - name: App Store Image Generator
   id: app-store-image-generator
   link: https://github.com/kristinbaumann/app-store-image-generator
-  tech: eact JS (with react-sketchapp), Sketch
-  topic: React  ❤  Sketch
+  tech: React JS (with react-sketchapp), Sketch
+  topic: Automatisation
   source: https://github.com/kristinbaumann/app-store-image-generator
   description:
   - New app screenshots? Don't update all app images manually! Update all app images for all locales in an instant by generating them in Sketch automatically!
@@ -35,11 +35,26 @@ projectsList:
     - url: generatedFilesPhonesRectangle@2x.png
       caption: For iTunes Connect and Google Play Store
 
-- name: Reackathon
+- name: React Sketchapp Starter Kit
+  id: react-sketchapp-starter-kit
+  link: https://github.com/kristinbaumann/react-sketchapp-starter-kit
+  tech: React JS (with react-sketchapp), Sketch
+  topic: Tool
+  source: https://github.com/kristinbaumann/react-sketchapp-starter-kit
+  description:
+  - Initial setup for a React sketch.app project (render React components into sketch)
+  - Used as base for the App Store Image Generator and Berlin Network Map project (also shown in the portfolio)
+  cover: logo.png
+  pictures:
+    - url: sketch_window.png
+      caption: Render React components into Sketch
+   
+
+- name: Landing Page for React Hackathon
   id: reackathon
   company: 8 Bit Rockstars | Powering NFQ Group
   tech: React JS, Sass, Webpack
-  topic: React Hackathon Landing Page
+  topic: Responsive Website
   role: Design & Implementation
   source: https://github.com/kristinbaumann/reackathon
   description:
@@ -59,7 +74,7 @@ projectsList:
   company: 8 Bit Rockstars | Powering NFQ Group
   tech: React JS (Universal Rendering), Redux, NodeJS, Sass, Bootstrap, Webpack, Karma, Mocha
   role: Frontend Tech Lead
-  topic: Vacation Rental Listing & Booking Website
+  topic: Responsive Single Page Application
   description:
   - Vacation rental listing and booking website
   - User can search for a location & filter the results
@@ -81,29 +96,6 @@ projectsList:
       caption: Searching and filtering on mobile
     - url: mobile_request.png
       caption: Let's book a house for the next holiday
-
-- name: The Sleep Factor
-  id: sleep
-  link: https://www.theguardian.com/philips-healthier-brighter-future/2015/nov/23/the-sleep-factor-setting-the-clock-for-performance
-  company: Small Multiples
-  client: The Guardian & Philips
-  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
-  role: Frontend / Datavis Developer (Implementation)
-  description:
-  - Two interactive applications that provide information and tips for a better sleeping behaviour
-  - "Visualisations as part of the article \"The Sleep Factor: Setting the Clock for Performance\" by The Guardian"
-  - "Visualisation 1: Evaluation of the restfulness of sleep by duration, time distribution (sleep during day or night) and completed sleep cycles"
-  - "Visualisation 2: Clock showing the body temperature and the melatonin and cortisol level per hour and the consequences for a good sleep"
-  cover: guardian_calc_perfect_processed.png
-  pictures:
-    - url: guardian_calc_question_processed.png
-      caption: "Vis 1: Start the sleep evaluation"
-    - url: guardian_calc_perfect_small_processed.png
-      caption: "Vis 1: Positive result of the sleep evaluation"
-    - url: guardian_calc_bad_processed.png
-      caption: "Vis 1: Negative result of the sleep evaluation"
-    - url: guardian_clock_processed.png
-      caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
 
 - name: Bachelor Thesis
   id: thesis
@@ -133,11 +125,36 @@ projectsList:
     - url: oct2_compressed.png
       caption: Optical Coherence Tomography slice with highlighted inner and outer vessel wall.
 
+- name: The Sleep Factor
+  id: sleep
+  link: https://www.theguardian.com/philips-healthier-brighter-future/2015/nov/23/the-sleep-factor-setting-the-clock-for-performance
+  company: Small Multiples
+  client: The Guardian & Philips
+  topic: Data Visualisation
+  tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp
+  role: Frontend / Datavis Developer (Implementation)
+  description:
+  - Two interactive applications that provide information and tips for a better sleeping behaviour
+  - "Visualisations as part of the article \"The Sleep Factor: Setting the Clock for Performance\" by The Guardian"
+  - "Visualisation 1: Evaluation of the restfulness of sleep by duration, time distribution (sleep during day or night) and completed sleep cycles"
+  - "Visualisation 2: Clock showing the body temperature and the melatonin and cortisol level per hour and the consequences for a good sleep"
+  cover: guardian_calc_perfect_processed.png
+  pictures:
+    - url: guardian_calc_question_processed.png
+      caption: "Vis 1: Start the sleep evaluation"
+    - url: guardian_calc_perfect_small_processed.png
+      caption: "Vis 1: Positive result of the sleep evaluation"
+    - url: guardian_calc_bad_processed.png
+      caption: "Vis 1: Negative result of the sleep evaluation"
+    - url: guardian_clock_processed.png
+      caption: "Vis 2: Clock showing body temperature and melatonin and cortisol level per hour"
+
 - name: Green Grid
   id: greengrid
   link: http://static-greengrid.visualise.today/stage/webapp/
   company: Small Multiples
   client: NSW Government Architect's Office (Australia)
+  topic: Data Visualisation & Mobile Website
   tech: CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, Mapbox
   role: Frontend Developer (Implementation)
   description:
@@ -165,6 +182,7 @@ projectsList:
   link: http://www.abc.net.au/interactives/homeless/
   company: Small Multiples
   client: FactFile ABC News (Australia)
+  topic: Data Visualisation & Responsive Website
   tech:  CoffeeScript, Backbone, Underscore, Jade/Pug, Stylus, Gulp, D3.js, Mapbox
   role: Frontend / Datavis Developer (Implementation)
   description:
