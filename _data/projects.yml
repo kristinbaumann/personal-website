@@ -1,8 +1,27 @@
 projectsList:
+- name: Walking the Berlin S- & U-Bahn Network
+  id: berlin-network-map
+  link: https://medium.com/@kristin_baumann/walking-the-berlin-s-u-bahn-network-ec2c0b2642fd
+  tech: React JS (with react-sketchapp) & Sketch for visualisation, NodeJS for data cleaning
+  topic: Data Visualisation
+  description:
+  - Personal data vis project, inspired by commuting through Berlin
+  - Map highlights the time it takes to walk between the stations of Berlin’s vast S- & U-Bahn network
+  - Distances calculated with the Google Maps Matrix API
+  cover: walk_berlin_s_u_bahn_network_2_square.png
+  pictures:
+    - url: walk_berlin_s_u_bahn_network_2_rectangle.png
+      caption: todo
+    - url: walk_berlin_s_u_bahn_network_2_closeup.png
+      caption: Close-up view of the lines with the walking distance numbers
+    - url: walk_berlin_s_u_bahn_network_2_chart.png
+      caption: Horizontal bar chart showing the total walking distance per line
+    
+
 - name: App Store Image Generator
   id: app-store-image-generator
   link: https://github.com/kristinbaumann/app-store-image-generator
-  tech: React JS, Webpack, Sketch
+  tech: eact JS (with react-sketchapp), Sketch
   topic: React  ❤  Sketch
   source: https://github.com/kristinbaumann/app-store-image-generator
   description:
@@ -18,7 +37,6 @@ projectsList:
 
 - name: Reackathon
   id: reackathon
-  link: https://reackathon.8bitrockr.com
   company: 8 Bit Rockstars | Powering NFQ Group
   tech: React JS, Sass, Webpack
   topic: React Hackathon Landing Page
