@@ -68,7 +68,7 @@ $(document).ready(function() {
             var content = $("#blog-posts-container");
             $.each(response.records, function(k, item) {
               output += '<li class="block" data-aload>';
-              output += '<a class="post-link" href="'+item.fields.link+'" target="_blank">';
+              output += '<a class="post-link" href="'+item.fields.link+'" target="_blank" rel="noopener">';
               output += '<div class="postArticle-wrapper">';
               output += '<article class="postArticle postArticle--short">';
               

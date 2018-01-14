@@ -12,7 +12,7 @@
                             <div class="year u-table">
                                 <div class="u-tableCell u-verticalAlignMiddle">
                                     {% if work.company %}
-                                    <h4><a href="{{ work.link }}" target="_blank">{{ work.company }}</a></h4>
+                                    <h4><a href="{{ work.link }}" target="_blank" rel="noopener">{{ work.company }}</a></h4>
                                     {% else %}
                                     <span class="heading-replacement"></span>
                                     {% endif %}
@@ -44,7 +44,7 @@
                         <li class="timeline-mobile-item">
                             <h4>{{ work.position }}</h4>
                             {% if work.company %}
-                            <h4><a href="{{ work.link }}" target="_blank">@ {{ work.company }}</a></h4>{% endif %}
+                            <h4><a href="{{ work.link }}" target="_blank" rel="noopener">@ {{ work.company }}</a></h4>{% endif %}
 
                             <p>in {{ work.location }}</p>
                             <p>{{ work.time }}</p>

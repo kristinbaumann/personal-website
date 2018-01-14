@@ -48,7 +48,7 @@
                         {% endif %}
                         <div class="content-container">
                             {% if project.link %}
-                            <h2 tabindex=0><a href="{{project.link}}" target="_blank">{{project.name}}</a></h2>
+                            <h2 tabindex=0><a href="{{project.link}}" target="_blank" rel="noopener">{{project.name}}</a></h2>
                             {% else %}
                             <h2 tabindex=0>{{project.name}}</h2>
                             {% endif %}
@@ -92,7 +92,7 @@
                             {% if project.source %}
                             <div class="sub full-width">
                                 <span class="sub-title">Source code:</span>
-                                <a href="{{project.source}}" target="_blank">{{project.source}}</a>
+                                <a href="{{project.source}}" target="_blank" rel="noopener">{{project.source}}</a>
                             </div>{% endif %}
 
                             {% for desc in project.description %}
@@ -100,27 +100,10 @@
                               <li>{{desc}}</li>
                             </ul>
                             {% endfor %}
-
-                            {% if project.blog %}
-                            <p>For more information, please read this blog: <a href="project.blog" target="_blank">{{project.blog}}</a></p>
-                            {% endif %}
-
-                            {% for video in project.videos %}
-                            <hr>
-                            <video class="video_{{project.id}}" controls>
-                              <source src="/assets/img/projects/{{project.id}}/{{video.mp4}}" type="video/mp4">
-                              <source src="/assets/img/projects/{{project.id}}/{{video.ogv}}" type="video/ogv">
-                              <source src="/assets/img/projects/{{project.id}}/{{video.webm}}" type="video/webm">
-                              Your browser does not support the video tag.
-                            </video>
-                            <p class="video_caption">{{ video.caption }}</p>
-                            <p class="video_caption">Source: <a href="{{video.source_link}}" target="_blank">{{ video.source_text }}</a></p>
-                            <hr>
-                            {% endfor %}
                           </div>
 
                           {% if project.link %}
-                          <a tabindex=0 href="{{project.link}}" target="_blank" class="button project-try-button">
+                          <a tabindex=0 href="{{project.link}}" target="_blank" rel="noopener" class="button project-try-button">
                             {% if project.buttonText %}
                               {{ project.buttonText }}
                             {% else %}
