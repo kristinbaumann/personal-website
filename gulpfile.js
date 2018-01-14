@@ -4,14 +4,7 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-clean-css'),
     rename = require('gulp-rename'),
-    // concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
-    // uncss = require('gulp-uncss'),
-    imageResize = require('gulp-image-resize'),
-    imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant'),
-    parallel = require("concurrent-transform"),
-    os = require("os"),
     cp = require('child_process');
 
 /**
@@ -56,8 +49,6 @@ gulp.task('styles', function() {
     return gulp.src('assets/css/main.scss')
         .pipe(sass({ outputStyle: 'compressed' }))
         .pipe(autoprefixer({ browsers: ['last 2 versions', 'Firefox ESR', 'safari 5', 'ie 9', 'opera 12.1'] }))
-        // .pipe(gulp.dest('assets/css'))
-        // .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
         .pipe(gulp.dest('_includes'));
 });
@@ -67,53 +58,11 @@ gulp.task('styles', function() {
  */
 gulp.task('scripts', function() {
     return gulp.src(['assets/js/*.js'])
-        // .pipe(concat('scripts.js'))
-        // .pipe(gulp.dest('assets/js'))
-        // .pipe(rename('scripts.min.js'))
         .pipe(uglify())
         .pipe(rename({
             suffix: '.min'
         }))
         .pipe(gulp.dest('assets/js/min'));
-});
-
-/**
- * Resize post hero images and turn them into thumbnails
- */
-gulp.task("resizeImages", function() {
-    // need to install: apt-get install graphicsmagick
-    gulp.src("assets/img/hero/*.{jpg,png}")
-        .pipe(parallel(
-            imageResize({ width: 1080 }),
-            os.cpus().length
-        ))
-        .pipe(gulp.dest("assets/img/hero"));
-    gulp.src("assets/img/hero/*.{jpg,png}")
-        .pipe(parallel(
-            imageResize({ width: 350 }),
-            os.cpus().length
-        ))
-        .pipe(gulp.dest("assets/img/thumbnail"));
-    gulp.src("assets/img/projects/*.{jpg,png}")
-        .pipe(parallel(
-            imageResize({ width: 1080, height: 1080}),
-            os.cpus().length
-        ))
-        .pipe(gulp.dest("assets/img/projects"));
-});
-
-/**
- * Optimize images
- * note: need to install imagemagick. Ex on Linux or MacOS: brew install imagemagick
- */
-gulp.task("optimizeImages",  function() {
-    gulp.src("assets/img/**")
-        .pipe(parallel(imagemin({
-            progressive: true,
-            svgoPlugins: [{ removeViewBox: false }],
-            use: [pngquant()]
-        })))
-        .pipe(gulp.dest("assets/img"));
 });
 
 /**
@@ -126,17 +75,12 @@ gulp.task("optimizeImages",  function() {
 gulp.task('default', ['styles', 'scripts', 'browser-sync'], function() {
     gulp.watch('assets/js/*.js', ['scripts']);
     gulp.watch('assets/css/**/*.scss', ['styles']);
-    gulp.watch('assets/img/hero/*.{jpg,png}', ['resizeImages']);
     gulp.watch(['*.html',
-        '_posts/**',
         '_data/**',
         '_layouts/**',
         '_includes/**',
         'assets/img/**',
         'assets/js/min/**',
-        'demo/*/**',
-        'about/**',
-        'cv/**'
     ], ['jekyll-build']);
     gulp.watch("_site/index.html").on('change', browserSync.reload);
 });

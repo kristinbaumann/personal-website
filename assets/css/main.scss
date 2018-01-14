@@ -19,39 +19,25 @@ body {
 @import "_sass/animations";
 @import "_sass/mixins";
 
-// Typography & images
+// Typography
 @import "_sass/typography";
-@import "_sass/images";
 
 // Core
 @import "_sass/scaffolding";
 @import "_sass/grid";
 
 // Components
-@import "_sass/nav";
 @import "_sass/hero";
 @import "_sass/content";
-@import "_sass/modal";
 @import "_sass/form";
 
 // Utility classes
 @import "_sass/utilities";
 @import "_sass/responsive-utilities";
 
-// code hightlight
-@import "_sass/syntax";
-@import "_sass/gist";
-
-// icon
-@import "_sass/icomoon";
-
-// sidebar
-@import "_sass/perfect-scrollbar";
-@import "_sass/sidebar";
 
 // css for libs
 @import "_sass/libs";
 
 // Site Styles
-@import "_sass/post";
 @import "_sass/others";

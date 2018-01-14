@@ -4,37 +4,10 @@
             <div class="col-sm-12">
                 <div class="blockGroup">
                     <div class="section-title">
-                        <h2>Blog</h2>
+                        <h2>Blog Posts</h2>
                         <hr>
                     </div>
-                    <ul class="blockGroup-list">
-                        {% for post in site.posts %}
-                        <li class="block">
-                            <div class="postArticle-wrapper card-shadow">
-                                <article class="postArticle postArticle--short">
-                                    {% if post.image.hero %}
-                                    <a href="{{ post.url }}" target="_blank">
-                                        <div class="postArticle-image desaturate" data-aload style="background-image:url('{{ post.image.hero }}')">
-                                        </div>
-                                    </a>
-                                    {% else %}
-                                    <a href="{{ post.url }}" target="_blank">
-                                        <div class="postArticle-image" data-aload style="background-image:url('{{site.baseurl}} assets/img/icons/logo-150.png')">
-                                        </div>
-                                    </a>
-                                    {% endif %}
-                                    <a class="postArticle-title" href="{{ post.url }}" target="_blank">{{ post.title }}</a>
-                                </article>
-                                <div class="block-tag">
-                                    {% if post.excerpt %} {{ post.excerpt }} {% endif %}
-                                </div>
-                                <div class="block-postMeta">
-                                    <span class="block-postMeta-left"><span class="uppercase">{{ post.date | date_to_string }}</span> in <span class="uppercase">{{ post.categories }}</span></span>
-                                    <span class="block-postMeta-right"><a href="{{ post.url }}">Read more...</a></span>
-                                </div>
-                            </div>
-                        </li>
-                        {% endfor %}
+                    <ul class="blockGroup-list" id="blog-posts-container">
                     </ul>
                 </div>
             </div>

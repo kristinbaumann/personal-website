@@ -1,11 +1,5 @@
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:           /:categories/:title/
-
 # Analytics and webmaster tools stuff goes here
-google_analytics:    UA-70975044-1 #UA-73537086-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+google_analytics:    UA-70975044-1 
 
 # Setup
 timezone:            europe/berlin
@@ -20,13 +14,6 @@ baseurl:             /
 baseurl_js:          /assets/js/
 avatar:              /assets/img/Baumann_touched_square.jpg
 icon:                /assets/img/icons/logo-150.png
-disqus:              kristin-baumann
-
-future:              true
-highlighter:         rouge
-markdown:            kramdown
-kramdown:
-  input:             GFM  # GitHub Flavored Markdown
 
 author:
   name:              Kristin Baumann
@@ -41,11 +28,3 @@ author:
 # Server
 exclude:             [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "haml", "Gemfile", "Gemfile.lock", "gulpfile.js"]
 port:                4001
-
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "default"

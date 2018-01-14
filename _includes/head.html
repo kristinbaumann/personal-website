@@ -1,7 +1,6 @@
 <head>
   <link type="text/plain" rel="author" href="{{ site.url_public }}/humans.txt" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
+ 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -16,14 +15,6 @@
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url_public }}">
-
-  {% if page.next.url %}
-    <link rel="next" href="{{ page.next.url | replace:'index.html','' | prepend: site.url_public }}" title="{{ page.next.title }}">
-  {% endif %}
-
-  {% if page.previous.url %}
-    <link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.url_public }}" title="{{ page.previous.title }}">
-  {% endif %}
 
   <!-- Twitter card -->
   <meta name="twitter:site" content="@{{ site.author.twitter }}">
@@ -66,13 +57,7 @@
   <!-- <meta property="fb:admins" content="{{ site.fb_admins }}">
   <meta property="fb:app_id" content="{{ site.fb_appid }}"> -->
 
-  <title>
-    {% if page.url == "/" %}
-      {{ site.name }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.name }}
-    {% endif %}
-  </title>
+  <title>{{ site.name }}</title>
 
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#FFFFFF"/>
@@ -85,17 +70,11 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}assets/img/icons/logo-150.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/img/icons/favicon.ico">
 
-  <!-- CSS -->
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css"> -->
-
   <!-- Fonts -->
   <!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
-  {% if page.url == "/" %}
-    <link rel="stylesheet" href="../assets/css/font-awesome/font-awesome.min.css">
-  {% else %}
-    <link rel="stylesheet" href="../../assets/css/font-awesome/font-awesome.min.css">
-  {% endif %}
+  <link rel="stylesheet" href="../assets/css/font-awesome/font-awesome.min.css">
 
   <noscript>
     <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
@@ -112,11 +91,8 @@
     }
     .menu{opacity:0;}
 
-    {% if page.url == "/" %}
-      {% include main.css %}
-    {% else %}
-      {% include main.css %}
-    {% endif %}
+    {% include main.css %}
+   
   </style>
 
   <!-- modernizer -->

@@ -19,7 +19,7 @@
 // Blocks
 .section--postsWrapper {
     width: 100%;
-    background: $frontpage-body-bg;
+    background: #f2f2f2;
     padding-top: 0;
     position: relative;
     clear: both;
@@ -46,11 +46,9 @@
     padding: 0;
 }
 
-// Inspired by Squareup.com
 .blockGroup-list {
     list-style: none;
     padding: 0;
-    // margin-top: -3*$leading;
     margin-left: -10px;
     margin-right: -10px;
     display: -webkit-box;
@@ -75,22 +73,14 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+        transition: .2s;
         @media (max-width: $screen-xs-max) {
             width: 100%;
         }
     }
-    // li:nth-child(1).block {
-    //   width: 100%;
-    //   .postArticle-image {
-    //     padding-top: 30%;
-    //     @media (max-width: $screen-xs-max) {
-    //       padding-top: 50%;
-    //     }
-    //   }
-    //   .postArticle-title {
-    //     font-size: $font-S;
-    //   }
-    // }
+    .block:hover{
+        opacity: .8;
+    }
     li.block {
         width: 50%;
         .postArticle-image {
@@ -98,7 +88,7 @@
         }
         .postArticle-title {
             font-size: $font-S;
-            color: $my_green;
+            color: $green;
             font-weight: 700;
         }
         @media (max-width: $screen-xs-max) {
@@ -116,6 +106,9 @@
         background: $white;
         width: 100%;
         padding-bottom: 2*$leading;
+    }
+    .post-link{
+        width: 100%;
     }
     .postArticle a {
         color: $black;
@@ -166,60 +159,6 @@
 .uppercase{
   text-transform: uppercase;
 }
-.desaturate {
-    opacity: 0.8;
-    filter: contrast(1.5) grayscale(100%);
-    &:hover {
-        filter: none;
-    }
-}
-
-.block:hover .desaturate {
-    filter: none;
-}
-
-// Newsletter subscription area
-.section--subscribe {
-    width: 100%;
-    background: $white;
-    padding: $leading 0 $leading * 1.5;
-    position: relative;
-    z-index: $zIndex-4--posts-wrapper;
-    h3 {
-        margin-top: $leading;
-    }
-}
-
-.newsletterForm-wrapper {
-    padding: $leading 0;
-}
-
-// Footer
-.section--footer {
-    width: 100%;
-    background: $my_dark-gray;
-    color: $white;
-    position: relative;
-    z-index: $zIndex-4--posts-wrapper;
-    font-size: $font-S;
-    line-height: 1.5rem;
-    text-align: center;
-    padding: 0 15px;
-    border-top: 1px solid $gray-lighter;
-    //line-height: 40px;
-    &.footer-transparent {
-        background: transparent;
-        color: white;
-        margin-top: -40px;
-        border-top: 0;
-    }
-    .heart-beating {
-        display: inline-block;
-        width: 1.333rem;
-        color: $red;
-        @include animation_scale_font();
-    }
-}
 
 // Sections
 //// Post content area
@@ -245,47 +184,23 @@
     }
 }
 
-.content-author {
-    border-top: 1px solid $gray-lighter;
-    margin-top: 2*$leading;
-    padding-top: 1*$leading;
-}
-
-.content-comments {
-    margin-top: 2*$leading;
-}
-
-//// Post footer area
-footer.postFooter {
+// Footer
+.section--footer {
+    width: 100%;
+    background: $my_dark-gray;
+    color: $white;
+    position: relative;
+    z-index: $zIndex-4--posts-wrapper;
+    font-size: $font-S;
+    line-height: 1.5rem;
     text-align: center;
-    min-height: 40px;
-    .section--prePost {
-        width: 100%;
-        top: 0;
-        position: relative;
-        height: 11 * $leading;
-        .section-title {
-            a {
-                background: transparent;
-                color: rgba($white, 0.9);
-                &:hover {
-                    color: rgba($white, 1);
-                }
-                h2 {
-                    margin: 0;
-                    padding: 0;
-                    display: inline-block;
-                }
-            }
-        }
-        .section-backgroundImage {
-            height: 11 * $leading;
-            img {
-                min-height: 11 * $leading;
-                position: relative !important;
-                top: 0;
-            }
-        }
+    padding: 0 15px;
+    border-top: 1px solid $gray-lighter;
+    &.footer-transparent {
+        background: transparent;
+        color: white;
+        margin-top: -40px;
+        border-top: 0;
     }
 }
 

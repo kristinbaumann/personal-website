@@ -1,24 +1,6 @@
 //
 // Form
 // --------------------------------------------------
-.textInput {
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    padding: 0 15px;
-    height: 35px;
-    width: 100%;
-    font-size: 14px;
-    outline: none;
-    background: $white;
-    appearance: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    border-radius: 4px;
-}
-
-.textInput--large {
-    height: 45px;
-    font-size: 16px;
-}
-
 .button {
     display: inline-block;
     text-align: center;
@@ -60,4 +42,3 @@
     }
 }
 
-.button--large {}
