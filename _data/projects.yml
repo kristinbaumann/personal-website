@@ -201,14 +201,3 @@ projectsList:
       caption: Dot density map showing the geographical distribution of homeless people.
     - url: text_mac_cut_compress.png
       caption: Data Story Telling.
-  videos:
-    - mp4: video_homelessness_512k.mp4
-      caption: Explanations of the maps and visualisations on the website
-      source_text: ABC FactCheck (John Barren)
-      source_link: http://www.abc.net.au/news/2016-02-10/fact-file:-an-interactive-snapshot-of-australia's/7156044
-
-
-
-
-
-

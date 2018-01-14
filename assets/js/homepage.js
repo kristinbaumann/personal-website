@@ -97,12 +97,6 @@ $(document).ready(function() {
     }
   }
 
-  // scroll to top after reload/go back
-  window.onbeforeunload = function() {
-    document.body.style.opacity = 0;
-    window.scrollTo(0, 0);
-  };
-
   var arrSections = []; // array of unloaded section ID
   $("section").each(function(i, ele) {
     if (i > 0) {
@@ -132,7 +126,6 @@ $(document).ready(function() {
     ga("send", "event", "Portfolio", "open", remodalId);
     if (!listSwiper[remodalId]) {
       new Swiper($(this).children(".swiper-container")[0], {
-        // autoplay: 5000,
         preloadImages: false,
         lazyLoading: true,
         pagination: ".swiper-pagination",
@@ -146,20 +139,5 @@ $(document).ready(function() {
       });
       listSwiper[remodalId] = true;
     }
-    // load youtube iframe
-    $(this)
-      .find("*[data-aload]")
-      .each(function(i, ele) {
-        aload(ele);
-      });
-  });
-  // stop playing video after closing popup
-  $(document).on("closed", ".remodal", function(e) {
-    $("iframe").each(function() {
-      this.contentWindow.postMessage(
-        '{"event":"command","func":"' + "stopVideo" + '","args":""}',
-        "*"
-      );
-    });
   });
 });
