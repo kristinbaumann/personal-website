@@ -73,8 +73,16 @@ $(document).ready(function() {
         linkFont.href = 'https://fonts.googleapis.com/css?family=' + fontName + ':100,400';
         document.getElementsByTagName('head')[0].appendChild(linkFont);
     }
+    function loadFontAwesome(){
+        var linkFont = document.createElement('link');
+        linkFont.rel = 'stylesheet';
+        linkFont.type = 'text/css';
+        linkFont.href = "../assets/css/font-awesome/font-awesome.min.css";
+        document.getElementsByTagName('head')[0].appendChild(linkFont);
+    }
     loadFont('Lato');
     loadFont('Roboto Slab');
+    loadFontAwesome();
 
     $(function() {
         // loading indicator

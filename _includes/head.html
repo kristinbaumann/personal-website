@@ -33,27 +33,6 @@
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:locale" content="{{ site.locale }}">
 
-  {% if page.date %}
-    <meta property="article:modified_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}">
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    <meta property="article:author" content="https://www.facebook.com/{{ site.author.facebook }}">
-    {% for post in site.related_posts limit:3 %}
-      <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.url_public }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if page.categories %}
-    {% for category in page.categories limit:1 %}
-    <meta property="article:section" content="{{ category }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if page.tags %}
-    {% for tag in page.tags %}
-    <meta property="article:tag" content="{{ tag }}">
-    {% endfor %}
-  {% endif %}
-
   <!-- <meta property="fb:admins" content="{{ site.fb_admins }}">
   <meta property="fb:app_id" content="{{ site.fb_appid }}"> -->
 
@@ -69,16 +48,6 @@
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}assets/img/icons/logo-150.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/img/icons/favicon.ico">
-
-  <!-- Fonts -->
-  <!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'> -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
-  <link rel="stylesheet" href="../assets/css/font-awesome/font-awesome.min.css">
-
-  <noscript>
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
-  </noscript>
 
   <!-- inline critical CSS  -->
   <style>

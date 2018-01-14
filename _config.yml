@@ -9,7 +9,7 @@ title:               Personal Website of Kristin Baumann
 tagline:             Frontend Developer - DataVis Lover - Travel Addict
 description:         Frontend Developer - DataVis Lover - Travel Addict
 url:
-url_public:          http://www.kristin-baumann.com
+url_public:          https://www.kristin-baumann.com
 baseurl:             /
 baseurl_js:          /assets/js/
 avatar:              /assets/img/Baumann_touched_square.jpg

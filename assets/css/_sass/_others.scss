@@ -581,15 +581,6 @@ a:not(.no-hyphens) {
     }
 }
 // about detail
-
-table.table-aboutme {
-    td {
-        border: 0;
-
-        .time {}
-    }
-}
-
 #experience {
     padding-top: 0; //  3.5rem;
     @media (max-width: $screen-sm-min) {
@@ -775,37 +766,7 @@ table.table-aboutme {
     display: none;
 }
 
-.brandLogo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 2;
-  background-image: url('/assets/img/others/logo-white.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  padding: 0;
-  text-indent: -100em;
-  overflow: hidden;
-}
-
-.brandLogo--small {
-  width: 44px;
-  height: 44px;
-}
-
-.gist{
-  table{
-    td{
-      border: none;
-    }
-  }
-}
-
-
-
 /* Trigger Button */
-
 button.trigger {
     position: fixed;
     bottom: 40px;
@@ -825,10 +786,6 @@ button.trigger {
     cursor: pointer;
     @include animation_move();
     transition: opacity 0.3s 0.5s;
-}
-
-.modify button.trigger {
-    display: none;
 }
 
 button.trigger::before {
