@@ -57,6 +57,44 @@ $(document).ready(function() {
     $nextSection.find("*[data-aload]").each(function(i, ele) {
       aload(ele);
     });
+
+    if(nextSectionId === "blogs"){
+      // load blog posts from medium
+      $.get(
+        "https://api.airtable.com/v0/appm7MQHBK4FkvqN5/Blog%20Posts?view=Main%20View&api_key=keyGpHTfuOEbckgCI",
+        function(response, status, error) {
+          if (response && response.records) {
+            var output = "";
+            var content = $("#blog-posts-container");
+            $.each(response.records, function(k, item) {
+              output += '<li class="block" data-aload>';
+              output += '<a class="post-link" href="'+item.fields.link+'" target="_blank">';
+              output += '<div class="postArticle-wrapper">';
+              output += '<article class="postArticle postArticle--short">';
+              
+              output += '<div class="postArticle-image" style="background-image:url('+item.fields.imageLink+'); background-position: '+item.fields.imageBackgroundPosition+';">';
+              output += '</div>';
+              output += '<span class="postArticle-title">'+item.fields.title+'</span>';
+              
+              output += "</article>";
+              
+              output += '<div class="block-tag">'+ item.fields.subtitle +'</div>';
+              output += '<div class="block-postMeta">';
+              output += '<span class="block-postMeta-left uppercase">'+item.fields.date+'</span>';
+              output += '<span class="block-postMeta-right">Read more...</span>';
+              output += '</div>';
+              
+              output += "</div>";
+              output += '</a>';
+              output += "</li>";
+            });
+            content.html(output);
+          } else {
+            console.log("Error when pulling posts data", status, error);
+          }
+        }
+      );
+    }
   }
 
   // scroll to top after reload/go back
@@ -123,43 +161,5 @@ $(document).ready(function() {
         "*"
       );
     });
-  });
-
-  // load blog posts from medium
-  $(function() {
-    $.get(
-      "https://api.airtable.com/v0/appm7MQHBK4FkvqN5/Blog%20Posts?view=Main%20View&api_key=keyGpHTfuOEbckgCI",
-      function(response, status, error) {
-        if (response && response.records) {
-          var output = "";
-          var content = $("#blog-posts-container");
-          $.each(response.records, function(k, item) {
-            output += '<li class="block">';
-            output += '<a class="post-link" href="'+item.fields.link+'" target="_blank">';
-            output += '<div class="postArticle-wrapper">';
-            output += '<article class="postArticle postArticle--short">';
-            
-            output += '<div class="postArticle-image" style="background-image:url('+item.fields.imageLink+'); background-position: '+item.fields.imageBackgroundPosition+';">';
-            output += '</div>';
-            output += '<span class="postArticle-title">'+item.fields.title+'</span>';
-            
-            output += "</article>";
-            
-            output += '<div class="block-tag">'+ item.fields.subtitle +'</div>';
-            output += '<div class="block-postMeta">';
-            output += '<span class="block-postMeta-left uppercase">'+item.fields.date+'</span>';
-            output += '<span class="block-postMeta-right">Read more...</span>';
-            output += '</div>';
-            
-            output += "</div>";
-            output += '</a>';
-            output += "</li>";
-          });
-          content.html(output);
-        } else {
-          console.log("Error when pulling posts data", status, error);
-        }
-      }
-    );
   });
 });
