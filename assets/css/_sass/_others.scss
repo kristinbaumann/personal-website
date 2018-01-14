@@ -494,7 +494,7 @@ a:not(.no-hyphens) {
             li {
                 text-align: left;
                 font-size: $font-XS1;
-                line-height: $font-S;
+                line-height: $font-M;
             }
 
             video {
@@ -622,6 +622,11 @@ a:not(.no-hyphens) {
 
                 a {
                     color: $green;
+                    transition: .2s;
+                }
+
+                a:hover{
+                    color: $link-hover-color;
                 }
             }
 

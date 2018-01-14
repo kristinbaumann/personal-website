@@ -11,7 +11,7 @@ projectsList:
   cover: walk_berlin_s_u_bahn_network_2_square.png
   pictures:
     - url: walk_berlin_s_u_bahn_network_2_rectangle.png
-      caption: todo
+      caption: null
     - url: walk_berlin_s_u_bahn_network_2_closeup.png
       caption: Close-up view of the lines with the walking distance numbers
     - url: walk_berlin_s_u_bahn_network_2_chart.png

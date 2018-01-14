@@ -95,11 +95,11 @@
                                 <a href="{{project.source}}" target="_blank" rel="noopener">{{project.source}}</a>
                             </div>{% endif %}
 
-                            {% for desc in project.description %}
                             <ul>
+                            {% for desc in project.description %}
                               <li>{{desc}}</li>
-                            </ul>
                             {% endfor %}
+                            </ul>
                           </div>
 
                           {% if project.link %}
