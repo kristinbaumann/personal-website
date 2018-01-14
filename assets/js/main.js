@@ -85,9 +85,6 @@ $(document).ready(function() {
     loadFontAwesome();
 
     $(function() {
-        // loading indicator
-        NProgress.done();
-
         // show content after document ready
         document.body.style.opacity = 1;
 
