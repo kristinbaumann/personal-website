@@ -576,6 +576,7 @@ a:not(.no-hyphens) {
         .aboutme_item {
             text-align: justify;
             display: block;
+            line-height: 24px;
             padding: 5px 0;
         }
     }
@@ -619,6 +620,7 @@ a:not(.no-hyphens) {
                 margin-top: 10px;
                 color: $green;
                 min-height: 27px;
+                font-size: 18px;
 
                 a {
                     color: $green;
