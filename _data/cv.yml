@@ -73,19 +73,18 @@ works:
   technologies:
   - Java
 
-
-education:
-- school: Otto-von-Guericke University
-  location: Magdeburg (Germany)
-  degree: Bachelor of Science in Computational Visualistics
-  time: Oct 2012 - Apr 2016
+- company: Otto-von-Guericke University
   link: http://www.inf.ovgu.de/inf/en/Study/Study+Courses/Bachelor/Computational+Visualistics.html
-  technologies: Matlab, Java, C++, MySQL, Scrum
+  location: Magdeburg (Germany)
+  position: Bachelor of Science in Computational Visualistics
+  time: Oct 2012 - Apr 2016
   description:
   - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
   - "Courses (excerpt): Mathematics, Algorithms and Data Structures, Databases, Software Engineering, Project Management, Computer Graphics, (Medical) Visualization"
   - "Final Score: 1,2 (very good)"
   - "Scholarship: Friedrich Naumann Foundation for Freedom"
+  technologies:
+  -  Matlab, Java, C++, MySQL, Scrum
 
 skills:
 - type: Programming
