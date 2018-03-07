@@ -70,7 +70,7 @@ $(document).ready(function() {
         var linkFont = document.createElement('link');
         linkFont.rel = 'stylesheet';
         linkFont.type = 'text/css';
-        linkFont.href = 'https://fonts.googleapis.com/css?family=' + fontName + ':100,400';
+        linkFont.href = 'https://fonts.googleapis.com/css?family=' + fontName + ':400,700,900';
         document.getElementsByTagName('head')[0].appendChild(linkFont);
     }
     function loadFontAwesome(){

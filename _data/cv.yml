@@ -1,8 +1,8 @@
 aboutme:
-- Hi, I am a <strong>Senior Frontend Developer</strong> with 4+ years practical experience in creating web applications.
-- I successfully studied <strong>Computational Visualistics</strong>, which provided me with a profound computer science background and let me discover my passion for any kind of visual presentation, like building <strong>beautiful modern web applications</strong> or code complex <strong>data visualisations</strong>.
-- I am a <strong>highly ambitious</strong> person, which motivates me to constantly <strong>improve my skills</strong>. While I am currently deep diving into the JavaScript UI Library <strong>React</strong> from tech side, I am also broadening my horizon by working in the field of <strong>design and user experience</strong>.
-- I love travelling around the world, so I worked abroad in Australia and Vietnam. I am currently <strong>living in Berlin, Germany</strong>.
+- Hi, I am a <strong>Senior Frontend Developer</strong> with 5+ years practical experience in creating web applications.
+- My Computational Visualistics studies provided me with a <strong>profound computer science background</strong> and let me discover my passion for anything visual in our digital world. Thus I like to build <strong>beautiful modern web applications</strong> or code complex <strong>data visualisations</strong>.
+- In terms of tech I am specialised in <strong>React JS</strong> about which I share my knowledge as a <strong>speaker at conferences</strong>. Nevertheless my interests go beyond coding, as I like to shape digital products by <strong>developing concepts</strong>, <strong>designing interfaces</strong> and <strong>testing with users</strong>. 
+- I am currently living <strong>in Berlin, Germany</strong>.
 
 works:
 - company: HomeToGo GmbH
@@ -10,6 +10,12 @@ works:
   location: Berlin (Germany)
   position: Product Design & Prototyping Manager
   time: May 2017 - present
+  description:
+  - Building prototypes to assess the feasibility and define the style and interaction of new product ideas
+  - Conducting UX research in order to test and improve prototypes and the live product
+  - Applying design thinking to shape processes including the close collaboration of designers, developers and product managers
+  technologies:
+  - ReactJS, HTML5, CSS3, Sketch, Invision
 
 - company: 8 Bit Rockstars | Powering NFQ Group
   link: https://www.nfq.asia/
@@ -18,7 +24,7 @@ works:
   time: June 2016 - January 2017
   description:
   - Realisation of startup projects as frontend tech lead
-  - Implementation of universal / isomorphic React web application
+  - Implementation of universal / isomorphic React web applications
   technologies:
   - ReactJS, HTML5, CSS3, ES6, SASS, Webpack, Scrum
 

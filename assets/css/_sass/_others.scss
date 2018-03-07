@@ -576,8 +576,12 @@ a:not(.no-hyphens) {
         .aboutme_item {
             text-align: justify;
             display: block;
-            line-height: 24px;
+            line-height: 26px;
             padding: 5px 0;
+            
+            strong {
+                font-weight: 900;
+            }
         }
     }
 }
