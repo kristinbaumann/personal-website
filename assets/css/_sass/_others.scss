@@ -216,7 +216,7 @@ a:not(.no-hyphens) {
 .section-backgroundImage .welcome-img {
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: url("/assets/img/Baumann_big.jpg") no-repeat center center;
     background-size: cover;
 }
