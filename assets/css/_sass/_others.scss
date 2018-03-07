@@ -751,6 +751,11 @@ a:not(.no-hyphens) {
                         color: $green;
                         font-weight: regular;
                     }
+
+                    .list-detail-sub{
+                        list-style-type: disc;
+                        padding-left: 17px;
+                    }
                 }
             }
 
