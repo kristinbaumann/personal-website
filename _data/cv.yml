@@ -95,23 +95,25 @@ works:
 skills:
 - type: Programming
   details:
-  - 4+ years experience in developing web applications
-  - Advanced Experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
-  - Proficient Experience in JavaScript Frameworks <strong>React</strong> & <strong>React Native</strong>
+  - 5+ years practical experience in developing web applications
+  - Advanced experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
+  - Proficient experience in JavaScript Frameworks <strong>React</strong>
   - Familiar with <strong>ECMAScript 6</strong> & <strong>Node.js</strong>
-  - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
-  - Understanding of CSS Preprocessors (SASS, LESS, Stylus)
   - Experience in designing and developing data visualisations with <strong>D3.js</strong>, <strong>Leaflet</strong> & <strong>Mapbox API</strong>
+  - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
+  - Understanding of CSS Preprocessors (SASS, LESS)
   - Understanding of <strong>Java</strong>, <strong>Matlab</strong>, <strong>C++</strong>, <strong>MySQL</strong> & <strong>PHP</strong>
   - Familiar with frontend unit tests with <strong>Mocha</strong> & <strong>Karma</strong>
-  - Basic understanding of frontend build tools <strong>Webpack</strong> & <strong>Gulp</strong>
+  - Understanding of frontend build tools <strong>Webpack</strong> & <strong>Gulp</strong>
   - Familiar with OOP, REST, HTTP, MVC
 
-- type: Software Development
+- type: Software & Product Development
   details:
-  - Advanced knowledge of <strong>UI / UX design</strong> & general design principles
+  - Advanced knowledge of <strong>UI / UX design</strong>, general design principles and Gestalt principles
+  - Extensive experience with prototyping to test the feasibility and define the style and interaction of new product ideas
+  - Proficient in UX research and conducting usability tests
   - Familiar with <strong>responsive web development</strong>, mobile optimisation & cross-browser compatibility
-  - Experience with agile software development <strong>SCRUM</strong>
+  - Experience with agile software development
   - Understanding of version control system <strong>GIT</strong>
 
 - type: Speaking Experience
@@ -124,7 +126,7 @@ skills:
 
 - type: Soft Skills
   details:
-  - High level of self-motivation & ambition
+  - High level of proactivity, self-motivation & ambition
   - Very good communication & presentation skills
+  - Strong collaboration skills across disciplines with designers, developers and product managers
   - Team player with leadership qualities
-  
