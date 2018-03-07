@@ -161,16 +161,11 @@ a:not(.no-hyphens) {
 }
 
 .author-avatar {
-    width: 90%;
+    width: 80%;
+    margin-top: 8px;
     height: auto;
     border-radius: 50%;
     border: 2px solid $my_dark-gray;
-    @media (max-width: $screen-sm-min) {
-        width: 60%;
-    }
-    @media (max-width: $screen-xs-min) {
-        width: 100%;
-    }
 }
 
 .hide-on-mobile {
@@ -211,9 +206,6 @@ a:not(.no-hyphens) {
     }
 }
 /** homepage **/
-.home-page .row{
-    margin-right: -10p
-}
 .section-backgroundImage .welcome-img {
     position: fixed;
     width: 100%;
@@ -544,6 +536,11 @@ a:not(.no-hyphens) {
     background-color: $white;
     color: $my_dark-gray;
 
+    .section-title{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     h2 {
         text-align: center;
         font-weight: bold;
@@ -569,16 +566,13 @@ a:not(.no-hyphens) {
 
     .about-me-text {
         font-family: $lato;
-        @media (max-width: $screen-sm-min) {
-            margin-top: 20px;
-        }
 
         .aboutme_item {
             text-align: justify;
             display: block;
             line-height: 26px;
             padding: 5px 0;
-            
+
             strong {
                 font-weight: 900;
             }
