@@ -165,8 +165,15 @@ a:not(.no-hyphens) {
     margin-top: 8px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid $my_dark-gray;
+    border: 1px solid $my_dark-gray;
+    transition: .4s;
+
+    &:hover{
+        box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    }
 }
+
+
 
 .hide-on-mobile {
     @media (max-width: $screen-xs-max) {
