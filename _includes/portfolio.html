@@ -12,6 +12,12 @@
                
                 <div id="listProjects">
                     {% for project in projects %}
+                    
+                    {% if project.linkIndex %}
+                        {% assign linkIndex = project.linkIndex %}
+                    {% else %}
+                        {% assign linkIndex = "noopener" %}
+                    {% endif %}
                     <a tabindex=0 href="#project-{{project.id}}" class="grid-item">
                         <img class="grid-item-image" src="/assets/img/projects/{{project.id}}/{{ project.cover }}" data-aload="/assets/img/projects/{{project.id}}/{{ project.cover }}" alt="{{ project.name }}" />
                         <div class="grid-item-cover">
@@ -48,7 +54,7 @@
                         {% endif %}
                         <div class="content-container">
                             {% if project.link %}
-                            <h2 tabindex=0><a href="{{project.link}}" target="_blank" rel="{{project.linkIndex}}">{{project.name}}</a></h2>
+                            <h2 tabindex=0><a href="{{project.link}}" target="_blank" rel="{{linkIndex}}">{{project.name}}</a></h2>
                             {% else %}
                             <h2 tabindex=0>{{project.name}}</h2>
                             {% endif %}
@@ -103,7 +109,7 @@
                           </div>
 
                           {% if project.link %}
-                          <a tabindex=0 href="{{project.link}}" target="_blank" rel="{{project.linkIndex}}" class="button project-try-button">
+                          <a tabindex=0 href="{{project.link}}" target="_blank" rel="{{linkIndex}}" class="button project-try-button">
                             {% if project.buttonText %}
                               {{ project.buttonText }}
                             {% else %}
