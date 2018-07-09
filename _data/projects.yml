@@ -101,6 +101,7 @@ projectsList:
   id: thesis
   buttonText: Read thesis
   link: /assets/files/thesis.pdf
+  linkIndex: noindex
   tech: Matlab & Math, Math, Math
   topic: Research Project
   title: "Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"
