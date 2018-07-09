@@ -10,10 +10,6 @@
   <!-- Optimized for search engines -->
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  {% if page.robots %}
-    <meta name="robots" content="{{ page.robots }}">
-  {% endif %}
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url_public }}">
 
   <!-- Twitter card -->
