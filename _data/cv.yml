@@ -5,11 +5,17 @@ aboutme:
 - I am currently living <strong>in Berlin, Germany</strong>.
 
 works:
+- company: Mein Grundeinkommen e.V.
+  link: https://www.mein-grundeinkommen.de/
+  location: Berlin (Germany)
+  position: Tech Lead & Product Manager
+  time: September 2018 - present
+
 - company: HomeToGo GmbH
-  link: http://www.hometogo.de/
+  link: https://www.hometogo.de/
   location: Berlin (Germany)
   position: Product Design & Prototyping Manager
-  time: May 2017 - present
+  time: May 2017 - August 2018
   description:
   - Building prototypes to assess the feasibility and define the style and interaction of new product ideas
   - Conducting UX research in order to test and improve prototypes and the live product
