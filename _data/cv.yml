@@ -1,139 +1,140 @@
 aboutme:
-- Hi, I am a <strong>Senior Frontend Developer</strong> with 5+ years practical experience in creating web applications.
-- My Computational Visualistics studies provided me with a <strong>profound computer science background</strong> and let me discover my passion for anything visual in our digital world. Thus I like to build <strong>beautiful modern web applications</strong> or code complex <strong>data visualisations</strong>.
-- In terms of tech I am specialised in <strong>React JS</strong> about which I share my knowledge as a <strong>speaker at conferences</strong>. Nevertheless my interests go beyond coding, as I like to shape digital products by <strong>developing concepts</strong>, <strong>designing interfaces</strong> and <strong>testing with users</strong>. 
-- I am currently living <strong>in Berlin, Germany</strong>.
+  - Hi, I am a <strong>Senior Frontend Developer</strong> with 5+ years practical experience in creating web applications.
+  - My Computational Visualistics studies provided me with a <strong>profound computer science background</strong> and let me discover my passion for anything visual in our digital world. Thus I like to build <strong>beautiful modern web applications</strong> or code complex <strong>data visualisations</strong>.
+  - In terms of tech I am specialised in <strong>React JS</strong> about which I share my knowledge as a <strong>speaker at conferences</strong>. Nevertheless my interests go beyond coding, as I like to shape digital products by <strong>developing concepts</strong>, <strong>designing interfaces</strong> and <strong>testing with users</strong>.
+  - I am currently living <strong>in Berlin, Germany</strong>.
 
 works:
-- company: Mein Grundeinkommen e.V.
-  link: https://www.mein-grundeinkommen.de/
-  location: Berlin (Germany)
-  position: Tech Lead & Product Manager
-  time: September 2018 - present
+  - company: Mein Grundeinkommen e.V.
+    link: https://www.mein-grundeinkommen.de/
+    location: Berlin (Germany)
+    position: Tech Lead & Product Manager
+    time: September 2018 - present
 
-- company: HomeToGo GmbH
-  link: https://www.hometogo.de/
-  location: Berlin (Germany)
-  position: Product Design & Prototyping Manager
-  time: May 2017 - August 2018
-  description:
-  - Building prototypes to assess the feasibility and define the style and interaction of new product ideas
-  - Conducting UX research in order to test and improve prototypes and the live product
-  - Applying design thinking to shape processes including the close collaboration of designers, developers and product managers
-  technologies:
-  - ReactJS, HTML5, CSS3, Sketch, Invision
+  - company: HomeToGo GmbH
+    link: https://www.hometogo.de/
+    location: Berlin (Germany)
+    position: Product Design & Prototyping Manager
+    time: May 2017 - August 2018
+    description:
+      - Building prototypes to assess the feasibility and define the style and interaction of new product ideas
+      - Conducting UX research in order to test and improve prototypes and the live product
+      - Applying design thinking to shape processes including the close collaboration of designers, developers and product managers
+    technologies:
+      - ReactJS, HTML5, CSS3, Sketch, Invision
 
-- company: 8 Bit Rockstars | Powering NFQ Group
-  link: https://www.nfq.asia/
-  location: Ho Chi Minh City (Vietnam)
-  position: Senior Frontend Developer
-  time: June 2016 - January 2017
-  description:
-  - Realisation of startup projects as frontend tech lead
-  - Implementation of universal / isomorphic React web applications
-  technologies:
-  - ReactJS, HTML5, CSS3, ES6, SASS, Webpack, Scrum
+  - company: 8 Bit Rockstars | Powering NFQ Group
+    link: https://www.nfq.asia/
+    location: Ho Chi Minh City (Vietnam)
+    position: Senior Frontend Developer
+    time: June 2016 - January 2017
+    description:
+      - Realisation of startup projects as frontend tech lead
+      - Implementation of universal / isomorphic React web applications
+    technologies:
+      - ReactJS, HTML5, CSS3, ES6, SASS, Webpack, Scrum
 
-- company: Small Multiples
-  link: https://smallmultiples.com.au/
-  location: Sydney (Australia)
-  position: Data Visualisation Developer
-  time: Sept 2015 - Jan 2016
-  description:
-  - Implementation of Single Page Web Applications with feature-rich data visualisations
-  - Attention to mobile optimisation and cross-browser compatibility
-  technologies:
-  - JavaScript, D3.js, CoffeeScript, ReactJS, React Native, Leaflet, Mapbox, Gulp
+  - company: Small Multiples
+    link: https://smallmultiples.com.au/
+    location: Sydney (Australia)
+    position: Data Visualisation Developer
+    time: Sept 2015 - Jan 2016
+    description:
+      - Implementation of Single Page Web Applications with feature-rich data visualisations
+      - Attention to mobile optimisation and cross-browser compatibility
+    technologies:
+      - JavaScript, D3.js, CoffeeScript, ReactJS, React Native, Leaflet, Mapbox, Gulp
 
-- company: Research Campus STIMULATE
-  link: https://www.forschungscampus-stimulate.de/en/start/index.html
-  location: Magdeburg (Germany)
-  position: Research Assistant
-  time: Feb 2015 - May 2016
-  description:
-  - Academic research on the visualization of cerebral vessels with focus on the vessel walls, for the improvement of diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)
-  - "Research results summarized in my Bachelor Thesis: \"Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall\""
-  technologies:
-  - Matlab
+  - company: Research Campus STIMULATE
+    link: https://www.forschungscampus-stimulate.de/en/start/index.html
+    location: Magdeburg (Germany)
+    position: Research Assistant
+    time: Feb 2015 - May 2016
+    description:
+      - Academic research on the visualization of cerebral vessels with focus on the vessel walls, for the improvement of diagnosis and risk analysis of cerebrovascular diseases (e.g. aneurysms or stroke)
+      - 'Research results summarized in my Bachelor Thesis: "Multiple Linked Views for the Exploration of Optical Coherence Tomographic Image Data to Evaluate the Cerebral Artery Wall"'
+    technologies:
+      - Matlab
 
-- location: Magdeburg (Germany)
-  position: Freelancer (Web Development)
-  time: Apr 2013 - June 2015
-  description:
-  - Planning, designing and implementation of web sites and online shops
-  - Requirements engineering in close collaboration with clients
-  technologies:
-  - HTML5, CSS3, JavaScript
+  - location: Magdeburg (Germany)
+    position: Freelancer (Web Development)
+    time: Apr 2013 - June 2015
+    description:
+      - Planning, designing and implementation of web sites and online shops
+      - Requirements engineering in close collaboration with clients
+    technologies:
+      - HTML5, CSS3, JavaScript
 
-- company: Marmalade GmbH
-  link: http://www.marmalade.de/
-  location: Magdeburg (Germany)
-  position: Student Trainee (Web Development)
-  time: Sept 2013 - Mar 2015
-  description:
-  - Development of static websites and enhancement of web shop systems (Oxid, Magento)
-  technologies:
-  - HTML5, CSS3, JavaScript, PHP, Symfony
+  - company: Marmalade GmbH
+    link: http://www.marmalade.de/
+    location: Magdeburg (Germany)
+    position: Student Trainee (Web Development)
+    time: Sept 2013 - Mar 2015
+    description:
+      - Development of static websites and enhancement of web shop systems (Oxid, Magento)
+    technologies:
+      - HTML5, CSS3, JavaScript, PHP, Symfony
 
-- company: Otto-von-Guericke University
-  link: http://www.inf.ovgu.de/inf/en/
-  location: Magdeburg (Germany)
-  position: Graduate Teaching Assistant
-  time: Oct 2013 - Feb 2014
-  description:
-  - Tutor for “Introduction to Computer Science” lecture
-  technologies:
-  - Java
+  - company: Otto-von-Guericke University
+    link: http://www.inf.ovgu.de/inf/en/
+    location: Magdeburg (Germany)
+    position: Graduate Teaching Assistant
+    time: Oct 2013 - Feb 2014
+    description:
+      - Tutor for “Introduction to Computer Science” lecture
+    technologies:
+      - Java
 
-- company: Otto-von-Guericke University
-  link: http://www.inf.ovgu.de/inf/en/Study/Study+Courses/Bachelor/Computational+Visualistics.html
-  location: Magdeburg (Germany)
-  position: Bachelor of Science in Computational Visualistics
-  time: Oct 2012 - Apr 2016
-  description:
-  - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
-  - "Courses (excerpt): Mathematics, Algorithms and Data Structures, Databases, Software Engineering, Project Management, Computer Graphics, (Medical) Visualization"
-  - "Final Score: 1,2 (very good)"
-  - "Scholarship: Friedrich Naumann Foundation for Freedom"
-  technologies:
-  -  Matlab, Java, C++, MySQL, Scrum
+  - company: Otto-von-Guericke University
+    link: http://www.inf.ovgu.de/inf/en/Study/Study+Courses/Bachelor/Computational+Visualistics.html
+    location: Magdeburg (Germany)
+    position: Bachelor of Science in Computational Visualistics
+    time: Oct 2012 - Apr 2016
+    description:
+      - Interdisciplinary Computer Science course with special focus on computer graphics and visualization in the application area medicine
+      - "Courses (excerpt): Mathematics, Algorithms and Data Structures, Databases, Software Engineering, Project Management, Computer Graphics, (Medical) Visualization"
+      - "Final Score: 1,2 (very good)"
+      - "Scholarship: Friedrich Naumann Foundation for Freedom"
+    technologies:
+      - Matlab, Java, C++, MySQL, Scrum
 
 skills:
-- type: Programming
-  details:
-  - 5+ years practical experience in developing web applications
-  - Advanced experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
-  - Proficient experience in JavaScript Frameworks <strong>React</strong>
-  - Familiar with <strong>ECMAScript 6</strong> & <strong>Node.js</strong>
-  - Experience in designing and developing data visualisations with <strong>D3.js</strong>, <strong>Leaflet</strong> & <strong>Mapbox API</strong>
-  - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
-  - Understanding of CSS Preprocessors (SASS, LESS)
-  - Understanding of <strong>Java</strong>, <strong>Matlab</strong>, <strong>C++</strong>, <strong>MySQL</strong> & <strong>PHP</strong>
-  - Familiar with frontend unit tests with <strong>Mocha</strong> & <strong>Karma</strong>
-  - Understanding of frontend build tools <strong>Webpack</strong> & <strong>Gulp</strong>
-  - Familiar with OOP, REST, HTTP, MVC
+  - type: Programming
+    details:
+      - 5+ years practical experience in developing web applications
+      - Advanced experience in <strong>HTML5</strong>, <strong>CSS3</strong> & <strong>JavaScript</strong>
+      - Proficient experience in JavaScript Frameworks <strong>React</strong>
+      - Familiar with <strong>ECMAScript 6</strong> & <strong>Node.js</strong>
+      - Experience in designing and developing data visualisations with <strong>D3.js</strong>, <strong>Leaflet</strong> & <strong>Mapbox API</strong>
+      - Knowledge of CSS Frameworks <strong>Bootstrap</strong> & <strong>Foundation</strong>
+      - Understanding of CSS Preprocessors (SASS, LESS)
+      - Understanding of <strong>Java</strong>, <strong>Matlab</strong>, <strong>C++</strong>, <strong>MySQL</strong> & <strong>PHP</strong>
+      - Familiar with frontend unit tests with <strong>Mocha</strong> & <strong>Karma</strong>
+      - Understanding of frontend build tools <strong>Webpack</strong> & <strong>Gulp</strong>
+      - Familiar with OOP, REST, HTTP, MVC
 
-- type: Software & Product Development
-  details:
-  - Advanced knowledge of <strong>UI / UX design</strong>, general design principles and Gestalt principles
-  - Extensive experience with prototyping to test the feasibility and define the style and interaction of new product ideas
-  - Proficient in UX research and conducting usability tests
-  - Familiar with <strong>responsive web development</strong>, mobile optimisation & cross-browser compatibility
-  - Experience with agile software development
-  - Understanding of version control system <strong>GIT</strong>
+  - type: Software & Product Development
+    details:
+      - Advanced knowledge of <strong>UI / UX design</strong>, general design principles and Gestalt principles
+      - Extensive experience with prototyping to test the feasibility and define the style and interaction of new product ideas
+      - Proficient in UX research and conducting usability tests
+      - Familiar with <strong>responsive web development</strong>, mobile optimisation & cross-browser compatibility
+      - Experience with agile software development
+      - Understanding of version control system <strong>GIT</strong>
 
-- type: Speaking Experience
-  details:
-  - "<strong>React.NotAConf Sofia</strong> - Talk \"Designing with React\" in April 2018 <ul class=\"list-detail-sub\"><li>See <a href=\"http://react-not-a-conf.com/#ts-schedule\" target=\"_blank\">Talk Schedule</a></li></ul>"
-  - "<strong>React Day Berlin</strong> - Talk \"Designing with React\" in December 2017 <ul class=\"list-detail-sub\"><li>See <a href=\"https://reactday.berlin/\" target=\"_blank\">Talk Schedule</a>, <a href=\"https://speakerdeck.com/kristinbaumann/designing-with-react\" target=\"_blank\">Slides</a> and <a href=\"https://www.youtube.com/watch?v=ixIuMs3aDCI&t=920s\" target=\"_blank\">Video</a></li></ul>"
-  - "<strong>Code Motion Berlin</strong> - Talk \"Dip your toe in React Programming\" in October 2017 <ul class=\"list-detail-sub\"><li>See <a href=\"https://berlin2017.codemotionworld.com/talk-detail/?detail=6255\" target=\"_blank\">Talk Schedule</a>, <a href=\"https://speakerdeck.com/kristinbaumann/dip-your-toe-in-react-programming\" target=\"_blank\">Slides</a> and <a href=\"https://voicerepublic.com/talks/dip-your-toe-in-react-programming\" target=\"_blank\">Recording</a></li></ul>"
-  - "<strong>enterJS</strong> - Talk \"Isomorphes JavaScript mit ReactJS – warum und wie?\" in June 2017 <ul class=\"list-detail-sub\"><li>See <a href=\"https://www.enterjs.de/abstracts#einfuhrung-in-react\" target=\"_blank\">Talk Schedule</a> and <a href=\"https://speakerdeck.com/kristinbaumann/isomorphic-javascript-with-reactjs\" target=\"_blank\">Slides</a></li></ul>"
-  - "<strong>enterJS</strong> - Full-day workshop \"Einführung in React\" in June 2017 <ul class=\"list-detail-sub\"><li>See <a href=\"https://www.enterjs.de/abstracts#einfuhrung-in-react\" target=\"_blank\">Talk Schedule</a>, <a href=\"https://medium.com/@kristin_baumann/my-full-day-react-workshop-b30aa5199908\" target=\"_blank\">Blog Post</a> and <a href=\"http://reactworkshop.kristin-baumann.com/\">Material</a></li></ul>"
-  - "<strong>code.talks</strong> - Talk \"Using Isomorphic JavaScript with ReactJS in your next Project\" in April 2017  <ul class=\"list-detail-sub\"><li>See <a href=\"https://commerce.codetalks.de/de/2017/speaker/kristin-baumann\" target=\"_blank\">Talk Schedule</a> and <a href=\"https://speakerdeck.com/kristinbaumann/isomorphic-javascript-with-reactjs\" target=\"_blank\">Slides</a></li></ul>"
+  - type: Speaking Experience
+    details:
+      - '<strong>Meetup "Involving engineers in the UX process" by Woman Techmakers Berlin</strong> - Talk "A designer, a developer and a half-baked product walk into a bar..." in November 2018 <ul class="list-detail-sub"><li>See <a href="https://speakerdeck.com/kristinbaumann/a-designer-a-developer-and-a-half-baked-product-walk-into-a-bar-dot-dot-dot" target="_blank">Slides</a> </li></ul>'
+      - '<strong>React.NotAConf Sofia</strong> - Talk "Designing with React" in April 2018 <ul class="list-detail-sub"><li>See <a href="http://react-not-a-conf.com/#ts-schedule" target="_blank">Talk Schedule</a></li></ul>'
+      - '<strong>React Day Berlin</strong> - Talk "Designing with React" in December 2017 <ul class="list-detail-sub"><li>See <a href="https://reactday.berlin/" target="_blank">Talk Schedule</a>, <a href="https://speakerdeck.com/kristinbaumann/designing-with-react" target="_blank">Slides</a> and <a href="https://www.youtube.com/watch?v=ixIuMs3aDCI&t=920s" target="_blank">Video</a></li></ul>'
+      - '<strong>Code Motion Berlin</strong> - Talk "Dip your toe in React Programming" in October 2017 <ul class="list-detail-sub"><li>See <a href="https://berlin2017.codemotionworld.com/talk-detail/?detail=6255" target="_blank">Talk Schedule</a>, <a href="https://speakerdeck.com/kristinbaumann/dip-your-toe-in-react-programming" target="_blank">Slides</a> and <a href="https://voicerepublic.com/talks/dip-your-toe-in-react-programming" target="_blank">Recording</a></li></ul>'
+      - '<strong>enterJS</strong> - Talk "Isomorphes JavaScript mit ReactJS – warum und wie?" in June 2017 <ul class="list-detail-sub"><li>See <a href="https://www.enterjs.de/abstracts#einfuhrung-in-react" target="_blank">Talk Schedule</a> and <a href="https://speakerdeck.com/kristinbaumann/isomorphic-javascript-with-reactjs" target="_blank">Slides</a></li></ul>'
+      - '<strong>enterJS</strong> - Full-day workshop "Einführung in React" in June 2017 <ul class="list-detail-sub"><li>See <a href="https://www.enterjs.de/abstracts#einfuhrung-in-react" target="_blank">Talk Schedule</a>, <a href="https://medium.com/@kristin_baumann/my-full-day-react-workshop-b30aa5199908" target="_blank">Blog Post</a> and <a href="http://reactworkshop.kristin-baumann.com/">Material</a></li></ul>'
+      - '<strong>code.talks</strong> - Talk "Using Isomorphic JavaScript with ReactJS in your next Project" in April 2017  <ul class="list-detail-sub"><li>See <a href="https://commerce.codetalks.de/de/2017/speaker/kristin-baumann" target="_blank">Talk Schedule</a> and <a href="https://speakerdeck.com/kristinbaumann/isomorphic-javascript-with-reactjs" target="_blank">Slides</a></li></ul>'
 
-- type: Soft Skills
-  details:
-  - High level of proactivity, self-motivation & ambition
-  - Very good communication & presentation skills
-  - Strong collaboration skills across disciplines with designers, developers and product managers
-  - Team player with leadership qualities
+  - type: Soft Skills
+    details:
+      - High level of proactivity, self-motivation & ambition
+      - Very good communication & presentation skills
+      - Strong collaboration skills across disciplines with designers, developers and product managers
+      - Team player with leadership qualities
