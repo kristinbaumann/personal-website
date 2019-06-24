@@ -8,8 +8,20 @@ works:
   - company: Mein Grundeinkommen e.V.
     link: https://www.mein-grundeinkommen.de/
     location: Berlin (Germany)
-    position: Tech Lead & Product Manager
+    position: Product Manager & Data Analyst
     time: September 2018 - present
+
+  - company: Frontastic GmbH
+    link: https://www.frontastic.cloud/
+    location: Remote
+    position: UI / UX / Frontend Engineer
+    time: March 2019 - May 2019
+
+  - company: Ultra Tendency
+    link: https://ultratendency.com/
+    location: Berlin (Germany)
+    position: Frontend Developer
+    time: December 2018 - January 2019
 
   - company: HomeToGo GmbH
     link: https://www.hometogo.de/
